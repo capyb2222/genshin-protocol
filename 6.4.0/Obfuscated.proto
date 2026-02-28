@@ -4,18 +4,6 @@
 
 syntax = "proto3";
 
-import "google/protobuf/descriptor.proto";
-
-message YsCustom {
-	optional bool is_masked = 1;
-	optional string value_mask = 2;
-	optional string value_unmask = 3;
-}
-
-extend google.protobuf.FieldOptions {
-	optional YsCustom ys_custom = 58000;
-}
-
 // CmdID: 27666
 message GFHDHLOBAAA {
 	map<uint32, uint32> INCONIHDEGC = 10;
