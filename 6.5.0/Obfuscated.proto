@@ -942,9 +942,9 @@ message NGOLBMAFHOG {
 	uint32 NJHAJALPOIO = 14;
 	bool MJHCFNGIELM = 5;
 	oneof NPOODEEMOCJ {
+		DIKAAIJALKF music_info = 9;
 		GMCPFOBLIGO balloon_info = 15;
 		GJJNGNBCEDK fall_info = 7;
-		DIKAAIJALKF music_info = 9;
 	}
 }
 
@@ -1526,8 +1526,8 @@ message GHECLDKGDPP {
 	oneof GKNOLALDBBD {
 		LLDBBOAHGCM sync_ping = 15;
 		NJMANKBACNI sync_snap_shot = 10;
-		NEMDKGLJFLC sync_action = 8;
 		HLDINPALIIG sync_create_connect = 7;
+		NEMDKGLJFLC sync_action = 8;
 		DEEBDPJKOGI sync_finish_game = 1;
 	}
 }
@@ -2691,12 +2691,12 @@ message DAKCDDLNAHD {
 message IKIHDMODHEF {
 	uint32 GPHADGKBNHD = 11;
 	oneof OLFCJGHGCFA {
-		GJDFCDDCNGH active_gadget = 7;
-		OLFCFPKEPLM active_monster_group = 5;
-		OMLGMDLLEFK active_monster_wave = 1;
-		HOJAKNFDHOG deactive_gadget = 15;
 		NHAFLNLPCNL deactive_monster_wave_current_group = 2014;
 		BDJOCFOBOPF change_gadget_state = 10;
+		OMLGMDLLEFK active_monster_wave = 1;
+		HOJAKNFDHOG deactive_gadget = 15;
+		GJDFCDDCNGH active_gadget = 7;
+		OLFCFPKEPLM active_monster_group = 5;
 	}
 }
 
@@ -3194,8 +3194,8 @@ message PFAMBHEGFJG {
 	uint32 GHNFFAFEFDE = 1;
 	uint32 JGMDKHNLGKA = 3;
 	oneof GKNOLALDBBD {
-		HOECKFIHHHI send_signal = 7;
 		PFLGMCLCAEG trigger_attack_event = 8;
+		HOECKFIHHHI send_signal = 7;
 	}
 }
 
@@ -4125,25 +4125,25 @@ message OEDNBLBIPAJ {
 	repeated GLMNJLICGFM NMIGNMKOPBP = 2;
 	MJPMNMGDLAK DDFGDEIGMGK = 5;
 	oneof OLFCJGHGCFA {
-		CAMKOLDKDGN edit_obj = 12;
-		LNHAGOKPIAO instruction_node_config = 14;
-		GBGNALHIGCM tilemap = 16;
-		POLNBPCDFNJ attach_archetype = 21;
-		ECNDIMOBOEO instruction_graph = 13;
-		KKGIHPJIMIJ chip_custom_trial_data = 25;
-		LLFIFLPHCBK tag = 26;
 		BEJPEFNOJIP dummy_point = 18;
-		MOLHCHMBFLG chip_template = 24;
-		MJPONIPLBFF suite = 27;
-		NACLBHNBKBO custom_ui_node = 19;
-		KKCCBPIBPBF struct = 22;
-		FABNONPFJIP config_prefab = 15;
-		JKMNLEJIINP pcg_instance = 29;
-		DDHLKCLEDNK camera_data = 17;
+		ECNDIMOBOEO instruction_graph = 13;
 		NGMIGKPCNKI count_down = 20;
-		OOAAPNONLNG pcg_template = 28;
-		PIHCMNFPPBP absolute_route = 23;
+		CAMKOLDKDGN edit_obj = 12;
+		MOLHCHMBFLG chip_template = 24;
+		JKMNLEJIINP pcg_instance = 29;
 		KGDNLAMACOL prefab = 11;
+		MJPONIPLBFF suite = 27;
+		POLNBPCDFNJ attach_archetype = 21;
+		GBGNALHIGCM tilemap = 16;
+		KKGIHPJIMIJ chip_custom_trial_data = 25;
+		PIHCMNFPPBP absolute_route = 23;
+		DDHLKCLEDNK camera_data = 17;
+		FABNONPFJIP config_prefab = 15;
+		LNHAGOKPIAO instruction_node_config = 14;
+		LLFIFLPHCBK tag = 26;
+		OOAAPNONLNG pcg_template = 28;
+		KKCCBPIBPBF struct = 22;
+		NACLBHNBKBO custom_ui_node = 19;
 	}
 }
 
@@ -4283,8 +4283,8 @@ message BEGKHMBLOKG {
 message KHKLGPOEKLL {
 	int32 GCCOAGJKCJK = 1;
 	oneof NPOODEEMOCJ {
-		EDOLDIABBAF normal_track = 11;
 		DMANFFKHAKJ effect_track = 12;
+		EDOLDIABBAF normal_track = 11;
 	}
 }
 
@@ -4362,8 +4362,8 @@ message EMEPPCOPFGM {
 	FAGGOCNOFPM MDCJHKGHBOL = 1;
 	bool JJGJGFDMHHH = 2;
 	oneof OMFDGHPJFOI {
-		ADEHKMPCMDP config_server_param_dictionary = 101;
 		CHEMHJKIOLH config_struct_id = 100;
+		ADEHKMPCMDP config_server_param_dictionary = 101;
 	}
 }
 
@@ -4640,7 +4640,7 @@ message EAFJGMHOCEJ {
 
 enum CPKEFIEGADA {
 	CPKEFIEGADA_NONE = 0;
-	CPKEFIEGADA_PIN_VISIBILITY_CONTROLLER_V_2 = 1;
+	CPKEFIEGADA_PIN_VISIBILITY_CONTROLLER_v2 = 1;
 }
 
 // CmdID: 24395
@@ -5077,36 +5077,36 @@ message LEDOJOKOCCB {
 	JHKHLFNPMEO AJDNGKHLIJE = 2;
 	bool BIEJGEIAHFI = 1;
 	oneof NPOODEEMOCJ {
-		AGBDAKAONAP option_comp = 27;
-		MOGBNFBIBAM effect_comp = 16;
 		DFGIDCPLKDG count_down_comp = 26;
-		PLLCICGPCPE enmity_comp = 31;
+		AGBDAKAONAP option_comp = 27;
 		KOEFNIFJCGB sub_switch_comp = 43;
-		JEHMIAFDFIH sound_effect_comp = 34;
-		EOEIMPOPKOI stuff_bag_comp = 38;
-		GMCKIJFPCCA drop_gather_comp = 40;
-		IHMNPPJOKLO light_group_comp = 41;
-		LGLHOIFBNOG level_state_machine_comp = 36;
+		MOGBNFBIBAM effect_comp = 16;
+		PLLCICGPCPE enmity_comp = 31;
 		MGHFJNIEPIP nameplate_comp = 32;
-		MIBHHHPPLON collision_comp = 18;
-		LKFBCAJPGHO avatar_disturber_comp = 25;
-		MDCCJFODOJC camera_comp = 23;
-		LEPMJIJFAKJ hitbox_comp = 28;
-		BIEPPBNIJOO bullet_move_comp = 21;
-		AFCOBCKNLMF move_comp = 14;
 		BPLIMKBKNMO talk_comp = 33;
-		PHDPMBGHKCJ equip_stuff_bag_comp = 39;
-		JMCDJJPGGJO hit_detection_comp = 22;
+		LGLHOIFBNOG level_state_machine_comp = 36;
+		AFCOBCKNLMF move_comp = 14;
+		GMCKIJFPCCA drop_gather_comp = 40;
 		FDPFGBCDJBH follow_move_comp = 19;
-		BEDAJAOFICA role_status_comp = 24;
-		OLHCONDCBEO custom_skill_comp = 29;
-		JEKLABGJFOJ monster_ai_comp = 44;
-		CMAPHDOFPLA minimap_mark_comp = 37;
 		NBOMOBKKCJI custom_value_comp = 11;
-		CHFGBMFJJLE client_trigger_comp = 15;
-		POJFLJECNPG timer_comp = 13;
+		BIEPPBNIJOO bullet_move_comp = 21;
+		CMAPHDOFPLA minimap_mark_comp = 37;
+		MIBHHHPPLON collision_comp = 18;
+		BEDAJAOFICA role_status_comp = 24;
+		EOEIMPOPKOI stuff_bag_comp = 38;
 		MNMOLGBPPGF scan_entity_comp = 42;
+		OLHCONDCBEO custom_skill_comp = 29;
+		POJFLJECNPG timer_comp = 13;
+		LEPMJIJFAKJ hitbox_comp = 28;
+		CHFGBMFJJLE client_trigger_comp = 15;
+		JEKLABGJFOJ monster_ai_comp = 44;
+		JEHMIAFDFIH sound_effect_comp = 34;
+		JMCDJJPGGJO hit_detection_comp = 22;
+		LKFBCAJPGHO avatar_disturber_comp = 25;
 		DKAPENFLPPA monster_patrol_comp = 35;
+		MDCCJFODOJC camera_comp = 23;
+		IHMNPPJOKLO light_group_comp = 41;
+		PHDPMBGHKCJ equip_stuff_bag_comp = 39;
 	}
 }
 
@@ -5645,10 +5645,10 @@ message PKIBFKHCCPG {
 	uint64 HLAAOLNMCPC = 4;
 	uint64 AEHFJCPKEKI = 6;
 	oneof NPOODEEMOCJ {
-		OKCAGFGJGED rotate_mover_info = 12;
 		JOIBBFHEPFC fixed_mover_info = 14;
-		GELDOKFAKNK route_mover_info = 13;
 		KDEANLIOFCL vector_mover_info = 11;
+		OKCAGFGJGED rotate_mover_info = 12;
+		GELDOKFAKNK route_mover_info = 13;
 	}
 }
 
@@ -6476,9 +6476,9 @@ message AMJLCJEBOMI {
 message JHALFMJJICD {
 	KCIALNFFGOD LOFDFMGDPDA = 1;
 	oneof NPOODEEMOCJ {
+		LCCDODIDEAH base_prop = 51;
 		OEINNPMIILF custom = 52;
 		PPOAAKIPJHI role_status = 53;
-		LCCDODIDEAH base_prop = 51;
 	}
 }
 
@@ -6683,8 +6683,8 @@ message GGLIJCEIGNG {
 
 // CmdID: 8325
 message CAMCJOFMLPA {
-	int32 MBKKKANIBAK = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 29623) + 3964", (ys_custom).value_unmask = "(val - 3964) ^ 29623"];
-	uint32 MPLGDGFNFIL = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 18565) ^ 59003", (ys_custom).value_unmask = "(val ^ 59003) + 18565"];
+	int32 MBKKKANIBAK = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 3964) ^ 29623", (ys_custom).value_unmask = "(val ^ 29623) + 3964"];
+	uint32 MPLGDGFNFIL = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 59003) + 18565", (ys_custom).value_unmask = "(val - 18565) ^ 59003"];
 }
 
 // CmdID: 20114
@@ -7340,57 +7340,57 @@ message IPOCFLFPHOA {
 	int32 JJBBMDIMHAJ = 1;
 	int32 ECACPILKILB = 2;
 	oneof NPOODEEMOCJ {
+		BEGKHMBLOKG intrinsic_comp = 13;
+		FBPCIKNDPDJ window_frame_container_single_comp = 37;
+		OHCLCBEDBJF window_frame_container_main_comp = 36;
+		PAGMDAIADAF image_comp = 31;
+		EMEJILFHAEJ window_frame_back_ground_comp = 35;
+		KLJPOIANGNG custom_button_feature_comp = 44;
+		APAKJEDNAFF screen_effect_comp = 48;
+		GLIJKMMJEOM window_frame_value_comp = 34;
+		FPBCBIDOLDG window_frame_toggle_container_visibility_comp = 59;
+		AKIOBFBBBJO option_selector_comp = 23;
+		DPFOKLDLACB classic_mode_skill_button_comp = 29;
+		GKJFGEGEHJG timer_comp = 21;
+		CGONEEIGNDK joypad_navigation_comp = 30;
+		LAFEIPEOEKA effect_comp = 32;
+		CPJEGANBPNB graphic_cast_region_comp = 45;
+		PPIGBGKNNFK skill_setting_comp = 15;
+		ILLFABAPAAD score_board_comp = 22;
+		PIEFDDNHCKO option_selector_item_lib_comp = 26;
+		IHPIOIIEFCI item_slot_comp = 28;
+		PGALEHEGKCL window_frame_tab_interact_comp = 41;
+		BLDEBMMPLEA mask_comp = 46;
+		JJLCPONBAFH window_frame_special_container_visibility_comp = 54;
+		PAMEPMKAPDN special_number_comp = 61;
+		CGBHLOIKJLA popup_window_comp = 18;
+		NKPGGCOLCCB text_sprite_frame_comp = 38;
+		LMLPOBIDFHL custom_button_style_comp = 43;
+		CMPJDHFHDNH progress_bar_comp = 20;
+		MBAGNMJLLJH minimap_setting_comp = 27;
+		EPJMHBGNOFG window_frame_tab_item_list_comp = 40;
+		GBKEJBEIOGE window_frame_tab_style_list_comp = 47;
+		BIMOCPIBPJP progress_bar_feature_comp = 58;
+		EDDJGBLHMDK window_frame_outer_comp = 33;
+		KGKIGPCIAGC window_frame_tab_style_comp = 42;
 		LLJKFOMCJAC window_frame_special_list_listener_comp = 53;
-		KKLJILIBMMG window_frame_drag_text_frame_comp = 56;
 		KAPDDDEKDDM window_frame_toggle_widget_visibility_comp = 60;
 		CKDBEONBPNO transform_comp = 11;
-		GKJFGEGEHJG timer_comp = 21;
-		LAFEIPEOEKA effect_comp = 32;
-		FBPCIKNDPDJ window_frame_container_single_comp = 37;
-		CGBHLOIKJLA popup_window_comp = 18;
-		EDDJGBLHMDK window_frame_outer_comp = 33;
-		DBLMFIBBMIA window_frame_special_widget_visibility_comp = 55;
-		GAJKCPPHOAF option_selector_item_comp = 24;
-		NKPGGCOLCCB text_sprite_frame_comp = 38;
-		KLJPOIANGNG custom_button_feature_comp = 44;
-		IEMPJMBKAIM window_frame_drag_list_base_comp = 49;
-		KLFGKFMFEOI custom_toggle_feature_comp = 51;
-		AKIOBFBBBJO option_selector_comp = 23;
-		JJLCPONBAFH window_frame_special_container_visibility_comp = 54;
-		APAKJEDNAFF screen_effect_comp = 48;
-		EMEJILFHAEJ window_frame_back_ground_comp = 35;
-		IDJLIIHDOJN active_control_comp = 14;
-		DPFOKLDLACB classic_mode_skill_button_comp = 29;
-		BEGKHMBLOKG intrinsic_comp = 13;
 		BDFEEMMJJGE basic_info_comp = 12;
-		ILLFABAPAAD score_board_comp = 22;
-		CGONEEIGNDK joypad_navigation_comp = 30;
-		LMLPOBIDFHL custom_button_style_comp = 43;
-		GBKEJBEIOGE window_frame_tab_style_list_comp = 47;
-		KGKIGPCIAGC window_frame_tab_style_comp = 42;
-		FFOKPOCMBKO window_frame_container_close_button_comp = 52;
-		FJHCCHHAFMO progress_bar_style_comp = 57;
-		PPIGBGKNNFK skill_setting_comp = 15;
-		BIMOCPIBPJP progress_bar_feature_comp = 58;
-		CPJEGANBPNB graphic_cast_region_comp = 45;
-		PAMEPMKAPDN special_number_comp = 61;
-		MBAGNMJLLJH minimap_setting_comp = 27;
-		GLIJKMMJEOM window_frame_value_comp = 34;
-		ADBFIFCCJJH faction_setting_comp = 16;
-		BLDEBMMPLEA mask_comp = 46;
-		EOBJKMMIKLB skill_button_comp = 17;
-		PAGMDAIADAF image_comp = 31;
 		NCIAMPBBOLK text_frame_comp = 19;
-		IGHHNJBHMMC window_frame_tab_base_comp = 39;
-		EPJMHBGNOFG window_frame_tab_item_list_comp = 40;
-		OHCLCBEDBJF window_frame_container_main_comp = 36;
-		PIEFDDNHCKO option_selector_item_lib_comp = 26;
-		FPBCBIDOLDG window_frame_toggle_container_visibility_comp = 59;
-		CMPJDHFHDNH progress_bar_comp = 20;
-		IHPIOIIEFCI item_slot_comp = 28;
+		KKLJILIBMMG window_frame_drag_text_frame_comp = 56;
+		DBLMFIBBMIA window_frame_special_widget_visibility_comp = 55;
+		IEMPJMBKAIM window_frame_drag_list_base_comp = 49;
 		COBKIEHACAN option_selector_unkown_item_comp = 25;
-		PGALEHEGKCL window_frame_tab_interact_comp = 41;
+		IGHHNJBHMMC window_frame_tab_base_comp = 39;
+		GAJKCPPHOAF option_selector_item_comp = 24;
+		ADBFIFCCJJH faction_setting_comp = 16;
+		EOBJKMMIKLB skill_button_comp = 17;
 		EEFJOIHHIFP custom_toggle_style_comp = 50;
+		IDJLIIHDOJN active_control_comp = 14;
+		KLFGKFMFEOI custom_toggle_feature_comp = 51;
+		FJHCCHHAFMO progress_bar_style_comp = 57;
+		FFOKPOCMBKO window_frame_container_close_button_comp = 52;
 	}
 }
 
@@ -8205,13 +8205,13 @@ message ABJKDCMDNCP {
 	ADHDJMFPAJP KBACEEIHPAL = 1;
 	bool CMCNFFLBKJJ = 2;
 	oneof MCHLAIAOPPL {
-		FKINGDHDDME config_make_struct = 104;
-		FGEAKEJCGLM config_set_struct_member = 106;
-		MJHKHALCBOE config_pin_visibility_controller_v_2 = 107;
 		IKEBPGKLJHB config_signal_event = 102;
 		PJDCPNODFPD config_pin_visibility_controller = 100;
-		BANPFAFAMPM config_function = 103;
 		CJGOMLEJNFJ config_fire_signal = 101;
+		BANPFAFAMPM config_function = 103;
+		FKINGDHDDME config_make_struct = 104;
+		FGEAKEJCGLM config_set_struct_member = 106;
+		MJHKHALCBOE config_pin_visibility_controller_v2 = 107;
 		IPHPMJFEJHP config_break_struct = 105;
 	}
 }
@@ -8896,8 +8896,8 @@ message MHOCFCPBHFD {
 	uint32 KIABDMGCJLJ = 2;
 	int32 EHCABCMANDN = 1;
 	oneof NPOODEEMOCJ {
-		BJLABAIFEGD track = 11;
 		JMCNEGAJFMH clip = 12;
+		BJLABAIFEGD track = 11;
 	}
 }
 
@@ -9702,8 +9702,8 @@ message GCIOKDLDGLB {
 	uint32 FAFIMBAGDKG = 1;
 	uint32 KKBAOOGPOLP = 14;
 	oneof NPOODEEMOCJ {
-		LBCCHNEAACM battle = 636;
 		GKMBAMDNGHF shop = 1755;
+		LBCCHNEAACM battle = 636;
 		LJPFFLAKIHC event = 761;
 	}
 }
@@ -11131,25 +11131,25 @@ message BNKFDHCMMCM {
 message ELJKKDLEHLC {
 	AIKJKAEDDKB DFLNJOJPDGA = 1;
 	oneof NPOODEEMOCJ {
-		BMALFIMPCPL default_born_property = 14;
 		HLFFOLGLDGJ bind_param_property = 26;
+		CAJLMDAILAA combat_property = 17;
 		OJPNJJILPOO client_optimization_param_property = 30;
-		EAJGBJAKDLK army_property = 16;
-		AHLKKAJOEGA attach_point_property = 21;
-		PKCKMIBAELG monster_defined_state_property = 31;
-		HHBGEKOGDFP entity_tag_property = 27;
-		FCNEFCPFANN collision_property = 15;
-		MDEIFFFPEJP blueprint_reference_property = 13;
-		FAPALGFCCAH default_defined_state_property = 12;
+		FMGACEMJMII vision_param_property = 22;
+		AHJNAIJFGAA ugc_monster_ai_property = 19;
+		PBEDPOOLPNL default_tier_config_property = 25;
 		OKBPGAACGKN mode_visibility_property = 18;
 		MHEECNDDOIE deployment_property = 11;
+		BMALFIMPCPL default_born_property = 14;
+		AHLKKAJOEGA attach_point_property = 21;
+		MDEIFFFPEJP blueprint_reference_property = 13;
+		FAPALGFCCAH default_defined_state_property = 12;
+		HHBGEKOGDFP entity_tag_property = 27;
+		EAJGBJAKDLK army_property = 16;
 		GECMDPIIEDN multi_model_accessory_property = 24;
-		POIPOPJADJP sound_effect_property = 29;
-		PBEDPOOLPNL default_tier_config_property = 25;
-		FMGACEMJMII vision_param_property = 22;
-		CAJLMDAILAA combat_property = 17;
-		AHJNAIJFGAA ugc_monster_ai_property = 19;
 		NBJFFGMMNPM enmity_property = 23;
+		FCNEFCPFANN collision_property = 15;
+		PKCKMIBAELG monster_defined_state_property = 31;
+		POIPOPJADJP sound_effect_property = 29;
 	}
 }
 
@@ -12040,10 +12040,10 @@ message LGNEGPKGCCL {
 	JHDLIAFCEEF KAFBLIGOJLA = 1;
 	uint32 AMGBBIFOIGG = 18;
 	oneof JHBKMINFGHJ {
-		CEAEDKHEGMA monster = 11;
 		HKHBGBHHCJG gadget = 13;
 		NDOKKPDONPB avatar = 10;
 		MIFJJHOMHNJ npc = 12;
+		CEAEDKHEGMA monster = 11;
 	}
 }
 
@@ -12159,11 +12159,11 @@ message DBILKOMALFD {
 message EEEOAMGDNFO {
 	uint32 BIMKGDAKKDA = 13;
 	oneof NPOODEEMOCJ {
-		KJOANPPBKCC seek_furniture_gallery_info = 1413;
-		EAGDKBCAOLI racing_gallery_info = 840;
+		GCNKPIAEKCE balloon_gallery_info = 55;
 		PPNEEHPKMHK stake_play_info = 1946;
 		JIEMBJHFEAF explosion_info = 1711;
-		GCNKPIAEKCE balloon_gallery_info = 55;
+		KJOANPPBKCC seek_furniture_gallery_info = 1413;
+		EAGDKBCAOLI racing_gallery_info = 840;
 	}
 }
 
@@ -12428,8 +12428,8 @@ message JAKEKNNLBKF {
 	oneof NPOODEEMOCJ {
 		HJNGGACEOJK beyond_bullet_move_parabola = 12;
 		LHLKFAOAIGK beyond_bullet_move_follow = 13;
-		BKJOFICLLBC beyond_bullet_move_surround = 14;
 		MHHHMMIMHAO beyond_bullet_move_vector = 11;
+		BKJOFICLLBC beyond_bullet_move_surround = 14;
 	}
 }
 
@@ -13379,8 +13379,8 @@ message OOKDNOLIHHN {
 message AAIBHGNEFIK {
 	GMAHMIHHKIF KGEIDEIGKFM = 1;
 	oneof NPOODEEMOCJ {
-		GJPJCAKIKNE none_data = 11;
 		KPCBJOGCHAE by_time_data = 12;
+		GJPJCAKIKNE none_data = 11;
 		LDONGKNPNLI by_speed_data = 13;
 	}
 }
@@ -14137,10 +14137,10 @@ message LNGOKIEMLLJ {
 	AKBOMEKEBOM HLIMPLEBONA = 3;
 	int32 BEEMBFBPGDO = 1;
 	oneof NPOODEEMOCJ {
-		GAMJFKCHNCN beyond_avatar_disturber_eject = 13;
-		ENMPIJMILEA beyond_avatar_disturber_traveller = 11;
 		KFFPHODCAJM beyond_avatar_disturber_field = 12;
 		CFDMDLCOCMP beyond_avatar_disturber_drag = 14;
+		ENMPIJMILEA beyond_avatar_disturber_traveller = 11;
+		GAMJFKCHNCN beyond_avatar_disturber_eject = 13;
 	}
 }
 
@@ -14176,8 +14176,8 @@ message DBCKKELAOHH {
 	fixed32 BAJNDIGBNCP = 11;
 	fixed32 KCDALKMKLAG = 8;
 	oneof NPOODEEMOCJ {
-		LHBMJFAPLJK player = 690;
 		DGEMHKFLLKF npc = 1560;
+		LHBMJFAPLJK player = 690;
 	}
 }
 
@@ -14565,12 +14565,12 @@ message NMKPGGOIABI {
 	JNGMODJAJPG GEHLIBOCCGD = 1;
 	JMCOLECBFLE EHJODHMKPAG = 2;
 	oneof KKGICCPJEGJ {
-		uint32 add_comp_type = 11;
 		MGAMJICKCEA reset_param_data = 16;
-		uint32 remove_comp_type = 12;
-		PGCAAIDPCOL modify_param_data = 13;
+		uint32 add_comp_type = 11;
 		LJLJHGNLNKA add_param_data = 14;
 		BCFMPKIFBJH remove_param_data = 15;
+		uint32 remove_comp_type = 12;
+		PGCAAIDPCOL modify_param_data = 13;
 	}
 }
 
@@ -14756,57 +14756,57 @@ message KOAFCKIGDFD {
 	int32 JJBBMDIMHAJ = 501;
 	int32 ECACPILKILB = 502;
 	oneof NPOODEEMOCJ {
-		PNINNMGGIJA window_frame_value_comp = 34;
-		NDEMBBNPPEM window_frame_special_container_visibility_comp = 54;
-		KFLOLIEHAOO custom_button_feature_comp = 44;
-		CBCLKBKHGMP option_selector_comp = 23;
-		IAKJJMBJDHA option_selector_item_comp = 24;
-		HGDLLKOFODD joypad_navigation_comp = 30;
-		GPJKJEDLHEG window_frame_tab_base_comp = 39;
-		BGDNNNAAHGD transform_comp = 11;
-		OEBLGHPCAIO progress_bar_comp = 20;
-		PKGNBCJCKHK graphic_cast_region_comp = 45;
-		MABLMCPKMJH window_frame_toggle_container_visibility_comp = 59;
-		BGHNOABOMCG window_frame_container_main_comp = 36;
-		KEOMOGPKONG intrinsic_comp = 13;
-		NALPABLDEFP active_control_comp = 14;
-		DJHAKFBIAEC window_frame_tab_item_list_comp = 40;
-		DGHDEMMFBNI minimap_setting_comp = 27;
-		NIONILKNBCN screen_effect_comp = 48;
-		MANBIDAOLAI popup_window_comp = 18;
-		GIPJMNHAPDG progress_bar_style_comp = 57;
-		PCEPEBEAECF window_frame_tab_interact_comp = 41;
-		BDIPEHINIKC custom_button_style_comp = 43;
-		FKFBLOPCBBP progress_bar_feature_comp = 58;
-		OIEGOLDMNMJ custom_toggle_feature_comp = 51;
-		HKGAEHDNDHO option_selector_item_lib_comp = 26;
 		DHAHEGCEOHD window_frame_drag_list_base_comp = 49;
-		IHKEPABBAAG window_frame_toggle_widget_visibility_comp = 60;
-		FBIHMKLBHJE mask_comp = 46;
-		BGDILEIPHIM text_frame_comp = 19;
-		KIBOBPLCHEO window_frame_tab_style_list_comp = 47;
-		OADCLPPMKAN text_sprite_frame_comp = 38;
-		DEAGOCKCOHO window_frame_back_ground_comp = 35;
-		MCAKCHDKJOJ effect_comp = 32;
-		MNABIHOPAKN window_frame_drag_text_frame_comp = 56;
-		HJANEKCNOAE window_frame_tab_style_comp = 42;
-		CPMJDCAHPBD window_frame_special_widget_visibility_comp = 55;
-		HPEPOHNMIJD basic_info_comp = 12;
-		DIHPDBNNHMK window_frame_special_list_listener_comp = 53;
-		OMEKAECNDHP window_frame_container_close_button_comp = 52;
-		BBHGGFBPCHO item_slot_comp = 28;
-		LLKPMFOOKOG window_frame_container_single_comp = 37;
-		MMMPEBDGBHC faction_setting_comp = 16;
+		BGDNNNAAHGD transform_comp = 11;
 		HOLGDJBCNPN skill_button_comp = 17;
-		OMKKKNAAHDC timer_comp = 21;
-		DBEHBPPCAFP classic_mode_skill_button_comp = 29;
-		OFOPHPNIOKN window_frame_outer_comp = 33;
-		DFGHOKLEFGA score_board_comp = 22;
-		LMJEFPIJAMK option_selector_unkown_item_comp = 25;
-		CDPPCNPEBLP custom_toggle_style_comp = 50;
+		CPMJDCAHPBD window_frame_special_widget_visibility_comp = 55;
 		BLKBLHMDLNA special_number_comp = 61;
+		KEOMOGPKONG intrinsic_comp = 13;
 		NGBBNNEFIBC image_comp = 31;
+		GIPJMNHAPDG progress_bar_style_comp = 57;
+		IHKEPABBAAG window_frame_toggle_widget_visibility_comp = 60;
+		HPEPOHNMIJD basic_info_comp = 12;
+		IAKJJMBJDHA option_selector_item_comp = 24;
+		OADCLPPMKAN text_sprite_frame_comp = 38;
+		BBHGGFBPCHO item_slot_comp = 28;
+		NALPABLDEFP active_control_comp = 14;
+		MCAKCHDKJOJ effect_comp = 32;
+		DEAGOCKCOHO window_frame_back_ground_comp = 35;
+		BDIPEHINIKC custom_button_style_comp = 43;
+		PKGNBCJCKHK graphic_cast_region_comp = 45;
+		KIBOBPLCHEO window_frame_tab_style_list_comp = 47;
 		PAENPGMJMOG skill_setting_comp = 15;
+		GPJKJEDLHEG window_frame_tab_base_comp = 39;
+		NIONILKNBCN screen_effect_comp = 48;
+		FKFBLOPCBBP progress_bar_feature_comp = 58;
+		OFOPHPNIOKN window_frame_outer_comp = 33;
+		HJANEKCNOAE window_frame_tab_style_comp = 42;
+		OMKKKNAAHDC timer_comp = 21;
+		KFLOLIEHAOO custom_button_feature_comp = 44;
+		HKGAEHDNDHO option_selector_item_lib_comp = 26;
+		LMJEFPIJAMK option_selector_unkown_item_comp = 25;
+		BGHNOABOMCG window_frame_container_main_comp = 36;
+		BGDILEIPHIM text_frame_comp = 19;
+		HGDLLKOFODD joypad_navigation_comp = 30;
+		DJHAKFBIAEC window_frame_tab_item_list_comp = 40;
+		CDPPCNPEBLP custom_toggle_style_comp = 50;
+		OIEGOLDMNMJ custom_toggle_feature_comp = 51;
+		DGHDEMMFBNI minimap_setting_comp = 27;
+		MMMPEBDGBHC faction_setting_comp = 16;
+		OMEKAECNDHP window_frame_container_close_button_comp = 52;
+		OEBLGHPCAIO progress_bar_comp = 20;
+		DFGHOKLEFGA score_board_comp = 22;
+		PCEPEBEAECF window_frame_tab_interact_comp = 41;
+		DIHPDBNNHMK window_frame_special_list_listener_comp = 53;
+		NDEMBBNPPEM window_frame_special_container_visibility_comp = 54;
+		PNINNMGGIJA window_frame_value_comp = 34;
+		LLKPMFOOKOG window_frame_container_single_comp = 37;
+		FBIHMKLBHJE mask_comp = 46;
+		CBCLKBKHGMP option_selector_comp = 23;
+		DBEHBPPCAFP classic_mode_skill_button_comp = 29;
+		MANBIDAOLAI popup_window_comp = 18;
+		MNABIHOPAKN window_frame_drag_text_frame_comp = 56;
+		MABLMCPKMJH window_frame_toggle_container_visibility_comp = 59;
 	}
 }
 
@@ -14888,12 +14888,12 @@ message AEHFEHJGOKB {
 message OCNCKCLIPEO {
 	EKGGGOJLFLH NBMCEPLBFNI = 1;
 	oneof OLFCJGHGCFA {
-		bytes object_value = 17;
 		string string_value = 15;
 		int32 int_value = 13;
+		float float_value = 14;
+		bytes object_value = 17;
 		bool bool_value = 11;
 		uint32 uint_value = 12;
-		float float_value = 14;
 		uint32 enum_value = 16;
 	}
 }
@@ -15105,9 +15105,9 @@ message DFDFFDBOEBA {
 
 message MJJMKILADJJ {
 	oneof OLFCJGHGCFA {
-		string str_param = 15;
 		uint32 int_param = 6;
 		float flt_param = 2;
+		string str_param = 15;
 	}
 }
 
@@ -15216,8 +15216,8 @@ message FLAHFICECHG {
 message GFONPPMOJEC {
 	message MAILGMBEPMG {
 		oneof NPOODEEMOCJ {
-			uint64 formal_avatar_guid = 1;
 			uint32 mist_trial_avatar_id = 2;
+			uint64 formal_avatar_guid = 1;
 		}
 	}
 	repeated MAILGMBEPMG FFACGOPBOGE = 8;
@@ -16018,9 +16018,9 @@ message ECCNIOFEKAM {
 	int32 BEEMBFBPGDO = 1;
 	int32 MPPNKKCOKFD = 502;
 	oneof NPOODEEMOCJ {
+		EFICIIHEPJP beyond_avatar_disturber_traveller = 11;
 		BLBAPEFAEJG beyond_avatar_disturber_drag = 14;
 		MAPHPFAOIPD beyond_avatar_disturber_field = 12;
-		EFICIIHEPJP beyond_avatar_disturber_traveller = 11;
 		AEKFLMKCKNA beyond_avatar_disturber_eject = 13;
 	}
 }
@@ -16061,28 +16061,28 @@ message HKHBGBHHCJG {
 	uint32 GPHADGKBNHD = 3;
 	uint32 BIMKGDAKKDA = 2;
 	oneof AAFHLPFACNF {
-		NMEHKGJHBCN fish_pool_info = 59;
-		NIHKPOBGDAA offering_info = 44;
-		OFMMCIEHFJC blossom_chest = 41;
-		MJJNMDLAJPJ boss_chest = 20;
-		JJBPMLEBJFM general_reward = 43;
-		KIJPDKBAPDL mp_play_reward = 42;
-		KLHMOHFGAEP weather = 17;
-		JNDKCINFLHA shell_info = 47;
-		GGPHJEJLDNE screen_info = 48;
-		MEHGGAHMKOF roguelike_gadget_info = 61;
-		KODAHGFGNLG foundation_info = 45;
-		HONNKAGNIBF vehicle_info = 46;
-		OBKCODHBFME custom_gadget_tree_info = 60;
-		HFLBGJPGCKB statue_gadget = 19;
-		MJNKJPHMAJM ability_gadget = 18;
-		NEMOFDLLKCN deshret_obelisk_gadget_info = 63;
-		IAEMCJADCIE coin_collect_operator_info = 64;
-		LAOPPACHJNI trifle_gadget = 67;
-		GBJJLMEICLK gather_gadget = 13;
 		JMCEJJDEGLL worktop = 14;
+		JNDKCINFLHA shell_info = 47;
 		KOADEPKPPAL client_gadget = 15;
+		OBKCODHBFME custom_gadget_tree_info = 60;
+		MJNKJPHMAJM ability_gadget = 18;
+		HONNKAGNIBF vehicle_info = 46;
+		GBJJLMEICLK gather_gadget = 13;
+		OFMMCIEHFJC blossom_chest = 41;
+		GGPHJEJLDNE screen_info = 48;
+		HFLBGJPGCKB statue_gadget = 19;
+		KLHMOHFGAEP weather = 17;
+		MJJNMDLAJPJ boss_chest = 20;
 		IJDCCLEIJPA night_crow_gadget_info = 62;
+		JJBPMLEBJFM general_reward = 43;
+		LAOPPACHJNI trifle_gadget = 67;
+		KIJPDKBAPDL mp_play_reward = 42;
+		IAEMCJADCIE coin_collect_operator_info = 64;
+		NEMOFDLLKCN deshret_obelisk_gadget_info = 63;
+		KODAHGFGNLG foundation_info = 45;
+		NMEHKGJHBCN fish_pool_info = 59;
+		MEHGGAHMKOF roguelike_gadget_info = 61;
+		NIHKPOBGDAA offering_info = 44;
 	}
 }
 
@@ -16247,58 +16247,58 @@ message KKIFOLNAOAK {
 	int32 OEJKFBGMDDH = 1;
 	int32 ECACPILKILB = 2;
 	oneof NPOODEEMOCJ {
+		JOFBENNOKCD window_frame_style_list = 48;
+		MPOJGCHONLG ele_group = 46;
 		KFJNEHDNBJJ classic_mode_skill_button_setting = 29;
-		ECPCMMAIICC window_frame_tab_style = 42;
 		HPOGEJCJADD skill_setting = 11;
-		LFPKGKABHAE effect_setting = 32;
+		INCBABOFCAN timer = 21;
+		LCHIAJAJAKI option_selector_unknown_item = 25;
+		BLNHDMCCDIF window_frame_tab_item_list = 40;
+		GEKGNAOEAMH screen_effect_setting = 49;
+		AMNFMMPDPGP custom_toggle_style = 51;
+		ECPCMMAIICC window_frame_tab_style = 42;
+		EOPIIIOPJIH window_frame_special_widget_visibility = 56;
+		BDKCHEFKKIP window_frame_tab_base = 39;
+		EBMCCDHCCKM window_frame_special_list_listener = 54;
+		MGCPBIGPHCI window_frame_drag_list_base = 50;
+		MLOMJFKHMFD layout_apply_duty_setting = 17;
+		MGILGACIFLA window_frame_drag_text_frame = 57;
+		LHFFGBHAOME window_frame_toggle_widget_visibility = 61;
+		NFGJGAEAHPH text_frame = 19;
+		BEPEJAANFOF progress_bar_style = 58;
+		BHHADDLJJIN option_seletor_item = 24;
+		IAOIJHNBGJH window_frame_special_container_visibility = 55;
+		BDEJGOMFMBD custom_toggle_feature = 52;
+		FEEMDFDEILO option_selector = 23;
+		KLIOFDNGPIA score_board = 22;
+		AHNNPOFJJPJ minimap_setting = 27;
+		OGCLCDOADPK item_slot_setting = 28;
+		LIJJKKJLCOP window_frame_tab_interact = 41;
+		OCKHMPPEHKI progress_bar = 20;
+		CJNAHLHAKEG option_selector_item_lib = 26;
+		HHCOCAAEOPA custom_button_style = 43;
+		IDHNDEKBLHN mask = 47;
+		JFDBLBIHDFH window_frame_toggle_container_visibility = 60;
+		OBMGBINBBIA text_sprite_frame = 38;
+		EGJDJLNJEDB window_frame_page_main = 36;
+		KONLOLFBFHF special_number = 62;
+		AFAADKDJECO skill_button_setting = 16;
+		LNCEPCOEJAI faction_setting = 12;
 		FKKGCJFKKJG window_frame_outer = 33;
 		JAHCLGCHDOL window_frame_back_ground = 35;
-		HHCOCAAEOPA custom_button_style = 43;
-		OHMFJOPFFLK window_frame_page_close_button = 53;
-		OGCLCDOADPK item_slot_setting = 28;
-		LHFFGBHAOME window_frame_toggle_widget_visibility = 61;
-		IMPONAIECNA joypad_navigation_setting = 30;
-		OBMGBINBBIA text_sprite_frame = 38;
-		BLNHDMCCDIF window_frame_tab_item_list = 40;
-		NFGJGAEAHPH text_frame = 19;
-		LCHIAJAJAKI option_selector_unknown_item = 25;
-		FPNOPIAGOCK graphic_cast_region = 45;
-		MPOJGCHONLG ele_group = 46;
-		JOFBENNOKCD window_frame_style_list = 48;
-		AHNNPOFJJPJ minimap_setting = 27;
-		AMNFMMPDPGP custom_toggle_style = 51;
-		KOBLNCFPAFO image_setting = 31;
-		INCBABOFCAN timer = 21;
-		IAOIJHNBGJH window_frame_special_container_visibility = 55;
-		GGKBAOCKNFE progress_bar_feature = 59;
-		BEPEJAANFOF progress_bar_style = 58;
-		EGJDJLNJEDB window_frame_page_main = 36;
-		AFAADKDJECO skill_button_setting = 16;
-		BHHADDLJJIN option_seletor_item = 24;
-		EBMCCDHCCKM window_frame_special_list_listener = 54;
-		NOLBAMOALJM active_control_setting = 14;
-		MLOMJFKHMFD layout_apply_duty_setting = 17;
 		NBAHOOOCDMC popup_window = 18;
-		OCKHMPPEHKI progress_bar = 20;
-		LIJJKKJLCOP window_frame_tab_interact = 41;
-		FEEMDFDEILO option_selector = 23;
-		IDHNDEKBLHN mask = 47;
-		PEIFOGIDDJL transform_setting = 13;
-		GEKGNAOEAMH screen_effect_setting = 49;
-		EOPIIIOPJIH window_frame_special_widget_visibility = 56;
-		JFDBLBIHDFH window_frame_toggle_container_visibility = 60;
-		BDKCHEFKKIP window_frame_tab_base = 39;
-		KLIOFDNGPIA score_board = 22;
-		MGILGACIFLA window_frame_drag_text_frame = 57;
-		KONLOLFBFHF special_number = 62;
-		LNCEPCOEJAI faction_setting = 12;
-		FIPLLDGEIJH window_frame_value = 34;
+		GGKBAOCKNFE progress_bar_feature = 59;
+		KOBLNCFPAFO image_setting = 31;
+		OHMFJOPFFLK window_frame_page_close_button = 53;
+		NOLBAMOALJM active_control_setting = 14;
 		FELGMHNMCIJ window_frame_page_single = 37;
-		AFNPPFPOAHJ custom_button_feature = 44;
-		MGCPBIGPHCI window_frame_drag_list_base = 50;
-		BDEJGOMFMBD custom_toggle_feature = 52;
+		FPNOPIAGOCK graphic_cast_region = 45;
+		IMPONAIECNA joypad_navigation_setting = 30;
+		LFPKGKABHAE effect_setting = 32;
+		PEIFOGIDDJL transform_setting = 13;
+		FIPLLDGEIJH window_frame_value = 34;
 		FDCONAGOHDM group_control_trans_setting = 15;
-		CJNAHLHAKEG option_selector_item_lib = 26;
+		AFNPPFPOAHJ custom_button_feature = 44;
 	}
 }
 
@@ -16435,10 +16435,10 @@ message PKJPBOIPKKL {
 message IEFIHKBPKOG {
 	OBMCAKEKBDB HOLGOPEGMCL = 1;
 	oneof NPOODEEMOCJ {
-		KGNGPNEAKON beyond_bullet_move_parabola = 12;
-		FBPKJKAOFED beyond_bullet_move_follow = 13;
-		KGCHMBAECMH beyond_bullet_move_surround = 14;
 		AGGNDBDANLJ beyond_bullet_move_vector = 11;
+		KGNGPNEAKON beyond_bullet_move_parabola = 12;
+		KGCHMBAECMH beyond_bullet_move_surround = 14;
+		FBPKJKAOFED beyond_bullet_move_follow = 13;
 	}
 }
 
@@ -16669,10 +16669,10 @@ message KFPJKAGLGKL {
 // CmdID: 3106
 message PIBKHPPEJJC {
 	oneof NPOODEEMOCJ {
-		bool is_show_animation = 2013;
-		uint32 bgm_id = 1767;
 		bool is_show_brief_card_event_case = 55;
+		uint32 bgm_id = 1767;
 		uint32 red_point = 1103;
+		bool is_show_animation = 2013;
 		bool is_show_detail_build = 1683;
 	}
 }
@@ -16829,13 +16829,13 @@ message IFFEKGAPKOP {
 	message ECBGGMLEDGC {
 		oneof KCOIOJGMJHB {
 			EIBFEJJHEML new_member = 481;
-			EIBFEJJHEML new_captain = 53;
-			EIBFEJJHEML new_member_info = 441;
-			LKCAIAAEDIN dungeon_info = 1253;
-			CBBKEELKMEF init_info = 1549;
-			INIKAPCJCLP member_leave_info = 187;
-			bool is_in_new_beyond_room = 909;
 			JJNGFHLGGNC new_config_info = 230;
+			LKCAIAAEDIN dungeon_info = 1253;
+			INIKAPCJCLP member_leave_info = 187;
+			EIBFEJJHEML new_member_info = 441;
+			CBBKEELKMEF init_info = 1549;
+			bool is_in_new_beyond_room = 909;
+			EIBFEJJHEML new_captain = 53;
 		}
 	}
 	repeated ECBGGMLEDGC HBAOBKKKANG = 13;
@@ -17900,12 +17900,12 @@ message KJGDFBCDEGA {
 	uint32 JKODGIHANCL = 11;
 	oneof NPOODEEMOCJ {
 		MDCNKNBBKAK hire_level_upgrade_buff_info = 433;
-		MKJHDDNCAPI add_total_revenue_after_actions_exec_buff_info = 1165;
-		GBCMCJKMGHE revenue_bonus_buff_info = 436;
 		HBFEEHAMCDC upgrade_to_bonus_facility_revenue_buff_info = 1400;
 		JOEJBHOGCOK expand_to_reduce_upgrade_cost_buff_info = 1870;
 		FEKDCANPKHL action_points_no_cost_buff_info = 1983;
+		GBCMCJKMGHE revenue_bonus_buff_info = 436;
 		CLEJFCCLCML no_quest_ap_cost_after_quest_finish_buff_info = 1779;
+		MKJHDDNCAPI add_total_revenue_after_actions_exec_buff_info = 1165;
 	}
 }
 
@@ -18865,8 +18865,8 @@ message JHBGKKOANAC {
 	uint32 KNIEFONMHGO = 10;
 	oneof BJALIICAKGB {
 		GAOMIJLHKMN third_stage_info = 4;
-		JNEGLPIGPMC first_stage_info = 3;
 		ABHCGIKCJOC second_stage_info = 12;
+		JNEGLPIGPMC first_stage_info = 3;
 	}
 }
 
@@ -19399,8 +19399,8 @@ message KENCCJOFDIA {
 	KCIALNFFGOD LOFDFMGDPDA = 1;
 	oneof NPOODEEMOCJ {
 		CNPKHAMBKMI role_status = 53;
-		OGCDNHLLFIN custom = 52;
 		CCFAELHOBJG base_prop = 51;
+		OGCDNHLLFIN custom = 52;
 	}
 }
 
@@ -19891,46 +19891,46 @@ message FCCOBFJILNM {
 	JHKHLFNPMEO AJDNGKHLIJE = 1;
 	bool BPGGDBELJGA = 2;
 	oneof NPOODEEMOCJ {
-		GFMLBPEOAJH talk_comp = 39;
-		FIMOBACFABM combat_comp = 28;
-		CCHDFPDKODK role_status_comp = 24;
-		IBONLKFHEJK count_down_comp = 26;
-		KPNFOJLBCDH sound_effect_comp = 40;
-		ODOOGFHIGAH enmity_comp = 37;
-		CLLOMLNKFMA bullet_move_comp = 21;
-		HFIOPNPHBDG tag_comp = 36;
-		MFFINOGGNBP equip_stuff_bag_comp = 45;
-		AFHPGHJBGHG client_trigger_comp = 15;
-		AOKOCJFBLAC option_comp = 27;
-		FKOMLLBMLCC minimap_mark_comp = 43;
-		MJGHOLDJKNP pop_up_comp = 51;
-		OOHEMJKPAEI camera_comp = 23;
-		GBJMFFFFDHM intee_comp = 34;
-		PCHEBHDEBCI hitbox_comp = 29;
-		MCALGKEJKFP move_comp = 14;
-		MCLAHALDKPA born_point_comp = 17;
-		MPJLAGHFGCD state_machine_comp = 42;
 		ALBFGHCOABC stuff_bag_comp = 44;
-		AOFDLOIDGAF attach_point_comp = 32;
-		LKEBIDBLLGG light_group_comp = 49;
-		MPLPKLHDMMA collision_comp = 18;
-		BLPONBHHHEH hit_detection_comp = 22;
-		MPDDOFKODEA scan_entity_comp = 50;
-		JNACAGJDJFN monster_ai_comp = 53;
-		EMOCCOOKOGM custom_value_comp = 11;
 		PBHFMFBOLNI timer_comp = 13;
-		ODGHIEIFJLF effect_comp = 16;
-		AEPDGBCLJOO mp_action_comp = 35;
-		OEGGKCCPLMG nameplate_comp = 38;
-		KIFLOEBBIOD obstacle_comp = 52;
-		PFJAMLJNBOB shop_comp = 46;
-		DMLENLEONIO drop_stuff_comp = 48;
-		CLPMIHFMAFL monster_patrol_comp = 41;
 		PMJAFDFECCC follow_move_comp = 19;
-		CEDGAGOJDIE bullet_pattern_comp = 30;
+		GFMLBPEOAJH talk_comp = 39;
 		NCLCKGBGFCK drop_gather_comp = 47;
-		LKFPEBEPMCP avatar_disturber_comp = 25;
+		CLLOMLNKFMA bullet_move_comp = 21;
+		ODOOGFHIGAH enmity_comp = 37;
+		FIMOBACFABM combat_comp = 28;
+		PCHEBHDEBCI hitbox_comp = 29;
+		MFFINOGGNBP equip_stuff_bag_comp = 45;
+		JNACAGJDJFN monster_ai_comp = 53;
+		PFJAMLJNBOB shop_comp = 46;
+		LKEBIDBLLGG light_group_comp = 49;
+		AOFDLOIDGAF attach_point_comp = 32;
+		OEGGKCCPLMG nameplate_comp = 38;
+		CLPMIHFMAFL monster_patrol_comp = 41;
+		AEPDGBCLJOO mp_action_comp = 35;
+		EMOCCOOKOGM custom_value_comp = 11;
+		HFIOPNPHBDG tag_comp = 36;
+		IBONLKFHEJK count_down_comp = 26;
+		AOKOCJFBLAC option_comp = 27;
+		MPJLAGHFGCD state_machine_comp = 42;
+		MPDDOFKODEA scan_entity_comp = 50;
+		CEDGAGOJDIE bullet_pattern_comp = 30;
 		FNLBMAAKBHM custom_skill_comp = 33;
+		KIFLOEBBIOD obstacle_comp = 52;
+		DMLENLEONIO drop_stuff_comp = 48;
+		CCHDFPDKODK role_status_comp = 24;
+		ODGHIEIFJLF effect_comp = 16;
+		FKOMLLBMLCC minimap_mark_comp = 43;
+		BLPONBHHHEH hit_detection_comp = 22;
+		MCLAHALDKPA born_point_comp = 17;
+		MPLPKLHDMMA collision_comp = 18;
+		OOHEMJKPAEI camera_comp = 23;
+		KPNFOJLBCDH sound_effect_comp = 40;
+		MJGHOLDJKNP pop_up_comp = 51;
+		MCALGKEJKFP move_comp = 14;
+		LKFPEBEPMCP avatar_disturber_comp = 25;
+		AFHPGHJBGHG client_trigger_comp = 15;
+		GBJMFFFFDHM intee_comp = 34;
 	}
 }
 
@@ -20261,8 +20261,8 @@ message IMDBPDKHNCD {
 	LDIOIPHMGED EEKNJGFCOKM = 2;
 	uint32 AJFIILAJODK = 1;
 	oneof CKJAMNLDBHO {
-		ECOODHCFIHD ref_kv_pair = 101;
 		PECCOBECELM ref_struct_id = 100;
+		ECOODHCFIHD ref_kv_pair = 101;
 	}
 }
 
@@ -21404,11 +21404,11 @@ message LDNFNGBDOKB {
 message DICOBLLFFOF {
 	oneof AMKLGFFLKKJ {
 		PDLOIANDPBM redraw_op = 905;
-		BOABIFNLCDA confirm_challenge_finish_op = 255;
 		OELMMAMNEGA destroy_op = 1024;
-		LHNEIOIECBM build_op = 1943;
-		DGCJCNAIAAJ upgrade_op = 108;
 		FDNMLLLLAGJ skill_op = 1818;
+		DGCJCNAIAAJ upgrade_op = 108;
+		BOABIFNLCDA confirm_challenge_finish_op = 255;
+		LHNEIOIECBM build_op = 1943;
 		PGKINMFFMLH artifact_op = 1020;
 	}
 }
@@ -22022,10 +22022,10 @@ message HPMHIFELJGE {
 	int32 KOHDIPCHFAO = 1;
 	bool BNBALFNDNMH = 3;
 	oneof NPOODEEMOCJ {
-		FPJMFMLFPFH value_string = 13;
-		EMANIBOGMOG value_int = 11;
-		EBNFOCLPAAI value_float = 12;
 		DOOEBAEODCC value_wild = 14;
+		EMANIBOGMOG value_int = 11;
+		FPJMFMLFPFH value_string = 13;
+		EBNFOCLPAAI value_float = 12;
 	}
 }
 
@@ -22427,9 +22427,9 @@ message AKDAJCGHEGG {
 
 message LBCCHNEAACM {
 	oneof NPOODEEMOCJ {
+		DKINHPOGCIA selection_info = 3;
 		PLGIADDFPDN prepare_info = 4;
 		FIGNPKDKKOK artifact_select_info = 10;
-		DKINHPOGCIA selection_info = 3;
 	}
 }
 
@@ -22561,7 +22561,7 @@ enum OFGMAGBIOHK {
 	OFGMAGBIOHK_CLIENT_PLAY_LAN_V_4_PUSH_BOX_TYPE = 3;
 	OFGMAGBIOHK_CLIENT_PLAY_CATCAFE_LAYOUT_TYPE = 4;
 	OFGMAGBIOHK_CLIENT_PLAY_CATCAFE_CAT_TYPE = 5;
-	OFGMAGBIOHK_CLIENT_PLAY_GREAT_FESTIVAL_V_2_SHEET_RESTORE_TYPE = 6;
+	OFGMAGBIOHK_CLIENT_PLAY_GREAT_FESTIVAL_v2_SHEET_RESTORE_TYPE = 6;
 	OFGMAGBIOHK_CLIENT_PLAY_BIRD_BALL_TYPE = 7;
 	OFGMAGBIOHK_CLIENT_PLAY_FAIRY_TALES_FLYPPY_HAT_TOY_TYPE = 8;
 	OFGMAGBIOHK_CLIENT_PLAY_NAHIDA_BIRTH_FLOAT_TOY_TYPE = 9;
@@ -22573,7 +22573,7 @@ enum OFGMAGBIOHK {
 	OFGMAGBIOHK_CLIENT_PLAY_HOLIDAY_RESORT_ADVENTURE = 16;
 	OFGMAGBIOHK_CLIENT_PLAY_AUTOCHESS_FRUIT_PICK = 17;
 	OFGMAGBIOHK_CLIENT_PLAY_LAN_V_6_DANMAKU = 18;
-	OFGMAGBIOHK_CLIENT_PLAY_PAINTING_REPAIR_V_2 = 19;
+	OFGMAGBIOHK_CLIENT_PLAY_PAINTING_REPAIR_v2 = 19;
 }
 
 message EEBBMNLNGCD {
@@ -22670,10 +22670,10 @@ message DNJPOLNALOK {
 	int32 MBKKKANIBAK = 3;
 	oneof GKNOLALDBBD {
 		DCLHODDDOPP sync_action = 7;
-		CNNEDEOJHCD sync_create_connect = 2;
-		OEIENLACKPI sync_finish_game = 15;
 		APPGFMOBOOL sync_snap_shot = 14;
+		CNNEDEOJHCD sync_create_connect = 2;
 		HOFHAIDKFGA sync_ping = 8;
+		OEIENLACKPI sync_finish_game = 15;
 	}
 }
 
@@ -23098,9 +23098,9 @@ message PEMNKBBOOLH {
 	DJNLAPBCBLG FEIMPNDIEIN = 2;
 	DJNLAPBCBLG CPJIMLFPJJH = 1;
 	oneof NPOODEEMOCJ {
+		BGOGAKKGBFF struct_list_info = 101;
 		HFLIONIFNFF generics_server_param_dictionary_info = 103;
 		BEJMCDLHAPB struct_info = 100;
-		BGOGAKKGBFF struct_list_info = 101;
 		EKMMLGBOOLG server_param_dictionary_info = 102;
 	}
 }
@@ -25703,155 +25703,155 @@ message AFJLEHDNLAH {
 	uint32 AKBINGMGFPM = 1217;
 	uint32 LLKKPCPFONC = 2;
 	oneof NPOODEEMOCJ {
-		CMMBOGCLJCM water_spirit_info = 1372;
-		GGGBJNEACIG fungus_fighter_info = 82;
-		NOGCNGOHDFL potion_info = 502;
-		BDAMBKOBBIK short_video_detail_info = 546;
-		JHJIFHGDBMB gcg_pve_infinite_info = 167;
-		AOJGHKGMIIG catcafe_detail_info = 171;
-		BDGGLKBPPOE island_party_info = 1965;
 		HKFAPCLCCMB monster_chess_detail_info = 409;
-		OHBNLGAPHGD moonfin_trial_info = 1655;
-		FKNBJNJPLHC limited_time_reward_area_banner_info = 1264;
-		CODNDIPAFGE gain_buff_detail_info = 1397;
-		OMDBFBCCBAG lost_samachurl_info = 1847;
-		LNJCFDJOOIN tanuki_travel_activity_info = 233;
-		NBEMBDFFMHH team_chain_info = 1341;
-		DCPIJIDBFPB electrohercules_battle_info = 1008;
-		BFKPMJEMCCH rogue_diary_info = 330;
-		OJHBPGPDAEB tower_challenge_detail_info = 1386;
-		CGEGJOMNKPN effigy_challenge_info = 1720;
-		ICDJFNLDKEL delivery_info = 742;
-		IJGOHEGBPAL gear_info = 1107;
-		BBOLMKONKGP bird_ball_detail_info = 1528;
-		KMJBPCFFOOB sea_lamp_v_3_info = 685;
-		BAOKOPOLIBE salesman_info = 10;
-		BOJMJBPFEFH luna_rite_info = 648;
-		KDOKPGOBLPJ wind_field_info = 1743;
+		PKJJOOOADAL blessing_info = 1581;
+		DIJLAGNILKB find_hilichurl_info = 379;
+		JFCGCGEPBPO luminance_stone_challenge_info = 1152;
+		HBEGCFKEEHA gacha_info = 456;
+		KEDNOGFBLCL fontaine_gather_info = 550;
+		KPDONOEIGMG theme_park_sim_detail_info = 320;
+		NGOHCGCDGAG photo_undersea_info = 1526;
+		CKPHDINKMBH mikawa_flower_detail_info = 1265;
 		CIAMOOBHBKN echo_shell_info = 156;
-		JIMDJPLJPFI ceremony_info = 1587;
-		GEFLJNBHOLL lantern_rite_v_4_info = 1195;
-		EILPLCADIPK holiday_resort_detail_info = 602;
-		KGBEEPMGPBK great_festival_v_2_detail_info = 1884;
-		CHGEPBGLDFE ugc_info = 1713;
+		EOKFIPFIJFF toy_battle_info = 302;
+		KEBEJONGNDA stamina_fight_info = 1873;
+		CODNDIPAFGE gain_buff_detail_info = 1397;
 		IFONJNFDFID lantern_rite_activity_info = 254;
-		EIDCLCJMFAE music_game_info = 1472;
-		AJADLBFGIPO spice_info = 286;
-		HEDFNMFEOAK fishing_joy_detail_info = 64;
-		BDEIFMIKJMC nahida_birth_detail_info = 953;
-		BEACIDKBDAM blessing_v_2_info = 1592;
-		PLOGLHAMPJF cooperate_challenge_detail_info = 1202;
-		NDAJLFIHAPD muqadas_potion_info = 1399;
+		GCLBLLAFNIJ roguelike_dungoen_info = 1499;
+		JGCFHLBOGFF week_active_detail_info = 191;
+		POIIHJPNKAP filmfest_detail_info = 314;
+		AOFCIFEAOIF sumo_info = 1545;
+		LMCOEJKPCNI gcg_pve_puzzle_info = 1381;
+		KMJBPCFFOOB sea_lamp_v_3_info = 685;
+		OHEAOKPODEH rainbow_prince_detail_info = 910;
+		ICDJFNLDKEL delivery_info = 742;
+		GKOKAHJMKPH crucible_info = 7;
+		JNHEBFJIJOK fleur_fair_info = 2026;
+		NBEMBDFFMHH team_chain_info = 1341;
+		CMMBOGCLJCM water_spirit_info = 1372;
+		JPNPLDNGOMF blitz_rush_info = 342;
+		ANKBFDCICCO monster_vs_monster_detail_info = 571;
+		BBOLMKONKGP bird_ball_detail_info = 1528;
+		GEGPEDGOCEJ recharge_disk_detail_info = 1014;
+		BNINFNNCJKI natlan_drill_info = 1059;
+		OJHBPGPDAEB tower_challenge_detail_info = 1386;
+		GGGBJNEACIG fungus_fighter_info = 82;
+		LNJCFDJOOIN tanuki_travel_activity_info = 233;
+		GOIEEEOECPD treasure_map_info = 1456;
+		LBAJGLPAOCM dragon_spine_info = 881;
+		IPGLNMHCPLB lantern_rite_v_6_info = 1486;
+		NDINCIIKNEB flight_info = 1200;
+		OCACFHMEMIH photo_info = 822;
+		GFNBDNAINJN char_amusement_info = 1950;
+		DCPIJIDBFPB electrohercules_battle_info = 1008;
+		AJICKABBMBC ugc_v2_info = 576;
+		INHKOPEHNBL cook_game_detail_info = 952;
+		PABGNIHOFDA aster_info = 488;
+		EILPLCADIPK holiday_resort_detail_info = 602;
+		BOBPOEIJAGI tower_defense_detail_info = 1979;
+		JOCMECBAIEH poetry_festival_detail_info = 1972;
+		LMCPINKMPEH lantern_rite_v_5_detail_info = 671;
+		KGBEEPMGPBK great_festival_v2_detail_info = 1884;
+		JAEBFLDIIBN bomber_dodoco_detail_info = 1216;
+		FLLJLGLFLFP vintage_info = 1238;
+		MJGDPLJOGPE michiae_matsuri_info = 1620;
+		PMBLJIFEOOH challneler_slab_info = 209;
+		FMKJCLIBLDC diversity_battle_detail_info = 272;
+		ELHGJKMOHEN effigy_challenge_v_4_info = 430;
+		EFECIPAFGDN gcg_auto_battle_card_detail_info = 148;
+		OHBNLGAPHGD moonfin_trial_info = 1655;
 		PMEKAMEPMDL gcg_festival_info = 1705;
 		LOCLHNDCGME activity_multi_character_info = 927;
-		LGOMPGKPBNJ dig_info = 949;
-		BNINFNNCJKI natlan_drill_info = 1059;
-		KPDONOEIGMG theme_park_sim_detail_info = 320;
-		KFFMHHNHMPO bartender_info = 1762;
-		FMCJFFNFIIB penumbra_adventure_info = 934;
-		JLMPKJOCMMI fairy_tales_detail_info = 1925;
-		OEGLJJNGHCB sam_lamp_info = 14;
-		JOKMDLNIEED hide_and_seek_info = 596;
-		AFLEGBKMMKK duel_heart_info = 1137;
-		KEDNOGFBLCL fontaine_gather_info = 550;
-		FMNPOGLAALG mist_trial_activity_info = 312;
-		INDABOIDFJH irodori_info = 1091;
-		IGAIBONODLP brick_breaker_info = 1610;
-		DIJLAGNILKB find_hilichurl_info = 379;
-		CHNMAKHJGOG goal_challenge_info = 87;
-		PMBLJIFEOOH challneler_slab_info = 209;
-		OOGEIBADBFO natlan_arena_detail_info = 754;
-		JKGKPEANFDF summer_time_v_2_info = 278;
-		IMNBEMMMCII fleur_fair_v_2_info = 1770;
-		PIDLNGNFKJL natlan_tour_detail_info = 1011;
-		MAICLPBFMGE instable_spray_info = 1547;
-		LMCOEJKPCNI gcg_pve_puzzle_info = 1381;
-		DGIHHFIJGGM sorush_trial_info = 157;
-		PKJJOOOADAL blessing_info = 1581;
-		BMPKPNCEHHI effigy_challenge_v_5_detail_info = 895;
-		ANKBFDCICCO monster_vs_monster_detail_info = 571;
-		NGOHCGCDGAG photo_undersea_info = 1526;
-		FMCPNLMLNEE hide_and_seek_v_4_detail_info = 917;
-		PHMNDPAGCIL coin_collect_info = 74;
-		GCLBLLAFNIJ roguelike_dungoen_info = 1499;
-		GDKGOHMHKEF electrohercules_battle_v_3_detail_info = 801;
-		JGCFHLBOGFF week_active_detail_info = 191;
-		PDMHEODAMBB snow_race_detail_info = 1931;
-		ELHGJKMOHEN effigy_challenge_v_4_info = 430;
 		DCMJOFAEKKB treasure_hunt_v_4_info = 977;
-		LJJINCGFHPH expedition_info = 223;
-		IALLECEKDCE fish_blaster_info = 1924;
-		FLLJLGLFLFP vintage_info = 1238;
-		AOFCIFEAOIF sumo_info = 1545;
-		BOBLOIBEHIC graven_innocence_info = 604;
-		CAGLBKDNCML boltbug_abyss_detail_info = 1105;
-		CJBFHOJEBPJ plant_flower_info = 987;
-		JPKEIGBBGOL ley_line_challenge_detail_info = 562;
-		BOBPOEIJAGI tower_defense_detail_info = 1979;
-		KEBHBOADKBM sandworm_cannon_detail_info = 1985;
-		JPNPLDNGOMF blitz_rush_info = 342;
-		PKFBALKFADN autochess_info = 551;
-		HJMDPHKNCPN buoyant_combat_info = 1439;
-		CKPHDINKMBH mikawa_flower_detail_info = 1265;
-		JFCGCGEPBPO luminance_stone_challenge_info = 1152;
-		GFNBDNAINJN char_amusement_info = 1950;
-		HBEGCFKEEHA gacha_info = 456;
-		NGIDAGADKCF mvm_2_detail_info = 1345;
-		FMKJCLIBLDC diversity_battle_detail_info = 272;
-		KGLJJBKBGEL journey_info = 2045;
-		MOOMMNOGGEG animal_view_info = 1406;
-		JOCMECBAIEH poetry_festival_detail_info = 1972;
-		PFBFBMGHJHI acrobatics_battle_detail_info = 1828;
-		BHEGGGGJGFJ party_detail_info = 1902;
-		JCIGJDICGLL treasure_seelie_info = 1818;
-		DJOKJKPFLIC summer_time_info = 659;
-		PLMDPANMKLM fungus_fighter_v_2_info = 849;
-		DOCKEIKBLFE crystal_link_info = 990;
-		AJICKABBMBC ugc_v_2_info = 576;
-		OCACFHMEMIH photo_info = 822;
-		KEBEJONGNDA stamina_fight_info = 1873;
-		HFEKPPNCENC alchemy_sim_detail_info = 42;
-		AOPKAMNMAOM rock_board_explore_info = 786;
-		CGPDCJFAEPI natlan_race_info = 437;
-		ECHDAHBBCDC trial_avatar_info = 8;
-		POIIHJPNKAP filmfest_detail_info = 314;
-		DHECJPNGGNM ad_shooting_detail_info = 231;
-		GOIEEEOECPD treasure_map_info = 1456;
-		JNHEBFJIJOK fleur_fair_info = 2026;
-		DMLGKIBIEHP collect_underwater_info = 613;
-		OLPCOJEINLK gcg_pve_info = 1328;
-		CFCFOKDDEBE winter_camp_info = 1113;
-		OHEAOKPODEH rainbow_prince_detail_info = 910;
-		BMFHCNKCBIA trade_show_detail_info = 1010;
-		ABIJKLDAIEC arena_challenge_info = 777;
-		MGIJMNOFAEM arena_challenge_v_5_detail_info = 476;
-		ICHBEBPGLAB effigy_info = 1624;
 		BAGNLNMPDGO sea_lamp_info = 1534;
-		LBAJGLPAOCM dragon_spine_info = 881;
-		NNHIEEAKHEK auto_time_stop_detail_info = 1172;
-		LMCPINKMPEH lantern_rite_v_5_detail_info = 671;
-		EOKFIPFIJFF toy_battle_info = 302;
-		PABGNIHOFDA aster_info = 488;
-		BPAPKNACBLK fungus_fighter_v_3_info = 1097;
-		NDINCIIKNEB flight_info = 1200;
-		KDLFMGAOAMB watergun_info = 1783;
-		JAEBFLDIIBN bomber_dodoco_detail_info = 1216;
-		MJGDPLJOGPE michiae_matsuri_info = 1620;
-		KLNOFCMJONI chess_info = 1135;
-		DKNCPANCDOF bubble_drama_detail_info = 1117;
-		EFECIPAFGDN gcg_auto_battle_card_detail_info = 148;
-		GKOKAHJMKPH crucible_info = 7;
-		JCIHPPIFKLP sumeru_adventure_training_detail_info = 1190;
 		PPBBNGEBHKP quick_time_combat_info = 1301;
-		LLCAHDPANMH monster_chess_v_2_detail_info = 1509;
+		KDOKPGOBLPJ wind_field_info = 1743;
+		JHJIFHGDBMB gcg_pve_infinite_info = 167;
+		BOBLOIBEHIC graven_innocence_info = 604;
+		HJMDPHKNCPN buoyant_combat_info = 1439;
+		ABIJKLDAIEC arena_challenge_info = 777;
+		DJOKJKPFLIC summer_time_info = 659;
 		GLBPPCONMNK hachi_info = 747;
+		PFBFBMGHJHI acrobatics_battle_detail_info = 1828;
+		CGPDCJFAEPI natlan_race_info = 437;
+		NGIDAGADKCF mvm_2_detail_info = 1345;
+		OMDBFBCCBAG lost_samachurl_info = 1847;
+		INDABOIDFJH irodori_info = 1091;
+		JIMDJPLJPFI ceremony_info = 1587;
+		KFFMHHNHMPO bartender_info = 1762;
+		KEBHBOADKBM sandworm_cannon_detail_info = 1985;
+		JLMPKJOCMMI fairy_tales_detail_info = 1925;
+		PKFBALKFADN autochess_info = 551;
+		PLMDPANMKLM fungus_fighter_v2_info = 849;
+		CAGLBKDNCML boltbug_abyss_detail_info = 1105;
+		ICHBEBPGLAB effigy_info = 1624;
+		CGEGJOMNKPN effigy_challenge_info = 1720;
+		PHMNDPAGCIL coin_collect_info = 74;
+		CHNMAKHJGOG goal_challenge_info = 87;
+		DKNCPANCDOF bubble_drama_detail_info = 1117;
+		KGLJJBKBGEL journey_info = 2045;
+		IJGOHEGBPAL gear_info = 1107;
+		BDGGLKBPPOE island_party_info = 1965;
+		HFEKPPNCENC alchemy_sim_detail_info = 42;
+		OEGLJJNGHCB sam_lamp_info = 14;
 		COHHNBPPBAG bullet_hell_detail_info = 851;
-		EJLCIEAGFNB bounce_conjuring_info = 271;
-		ILCMCMDPKGA aka_fes_info = 1391;
-		INHKOPEHNBL cook_game_detail_info = 952;
-		IPGLNMHCPLB lantern_rite_v_6_info = 1486;
+		GEFLJNBHOLL lantern_rite_v_4_info = 1195;
+		PLOGLHAMPJF cooperate_challenge_detail_info = 1202;
+		CFCFOKDDEBE winter_camp_info = 1113;
+		BOJMJBPFEFH luna_rite_info = 648;
+		NNHIEEAKHEK auto_time_stop_detail_info = 1172;
+		AJADLBFGIPO spice_info = 286;
+		MOOMMNOGGEG animal_view_info = 1406;
 		PPHHBPPJGFP slime_cannon_detail_info = 414;
-		GEGPEDGOCEJ recharge_disk_detail_info = 1014;
+		IMNBEMMMCII fleur_fair_v2_info = 1770;
+		ILCMCMDPKGA aka_fes_info = 1391;
+		OLPCOJEINLK gcg_pve_info = 1328;
+		FMCJFFNFIIB penumbra_adventure_info = 934;
+		DMLGKIBIEHP collect_underwater_info = 613;
+		EJLCIEAGFNB bounce_conjuring_info = 271;
+		PIDLNGNFKJL natlan_tour_detail_info = 1011;
+		MGIJMNOFAEM arena_challenge_v_5_detail_info = 476;
+		LJJINCGFHPH expedition_info = 223;
+		BPAPKNACBLK fungus_fighter_v_3_info = 1097;
+		AOJGHKGMIIG catcafe_detail_info = 171;
+		FKNBJNJPLHC limited_time_reward_area_banner_info = 1264;
+		ECHDAHBBCDC trial_avatar_info = 8;
+		HEDFNMFEOAK fishing_joy_detail_info = 64;
+		JCIHPPIFKLP sumeru_adventure_training_detail_info = 1190;
+		NDAJLFIHAPD muqadas_potion_info = 1399;
+		CJBFHOJEBPJ plant_flower_info = 987;
+		BMPKPNCEHHI effigy_challenge_v_5_detail_info = 895;
+		FMCPNLMLNEE hide_and_seek_v_4_detail_info = 917;
+		PDMHEODAMBB snow_race_detail_info = 1931;
+		LLCAHDPANMH monster_chess_v2_detail_info = 1509;
+		BFKPMJEMCCH rogue_diary_info = 330;
+		NOGCNGOHDFL potion_info = 502;
+		BDEIFMIKJMC nahida_birth_detail_info = 953;
+		FMNPOGLAALG mist_trial_activity_info = 312;
+		BMFHCNKCBIA trade_show_detail_info = 1010;
+		DGIHHFIJGGM sorush_trial_info = 157;
+		DOCKEIKBLFE crystal_link_info = 990;
+		IALLECEKDCE fish_blaster_info = 1924;
+		EIDCLCJMFAE music_game_info = 1472;
+		AFLEGBKMMKK duel_heart_info = 1137;
+		JKGKPEANFDF summer_time_v2_info = 278;
+		KLNOFCMJONI chess_info = 1135;
+		JOKMDLNIEED hide_and_seek_info = 596;
+		BAOKOPOLIBE salesman_info = 10;
+		BEACIDKBDAM blessing_v2_info = 1592;
+		LGOMPGKPBNJ dig_info = 949;
+		GDKGOHMHKEF electrohercules_battle_v_3_detail_info = 801;
+		BDAMBKOBBIK short_video_detail_info = 546;
+		DHECJPNGGNM ad_shooting_detail_info = 231;
+		JCIGJDICGLL treasure_seelie_info = 1818;
+		BHEGGGGJGFJ party_detail_info = 1902;
+		MAICLPBFMGE instable_spray_info = 1547;
+		AOPKAMNMAOM rock_board_explore_info = 786;
+		KDLFMGAOAMB watergun_info = 1783;
+		CHGEPBGLDFE ugc_info = 1713;
+		IGAIBONODLP brick_breaker_info = 1610;
+		OOGEIBADBFO natlan_arena_detail_info = 754;
+		JPKEIGBBGOL ley_line_challenge_detail_info = 562;
 	}
 }
 
@@ -26143,13 +26143,13 @@ message FJIECECJFOP {
 	uint32 NJJPMOPMGKM = 6;
 	uint32 KGEIDEIGKFM = 15;
 	oneof NPOODEEMOCJ {
+		PGDMAGPPANA reliquary_request = 1627;
+		BLCIHMGIBBB skill_request = 739;
+		BDAPGOLLJNN reliquary_set_request = 258;
+		AGAALCEHEGM element_reliquary_request = 1482;
 		DHALFGMFKKK element_reliquary_set_request = 900;
 		BJAHECLFKEE weapon_request = 87;
 		AMGEKCIEFHC element_weapon_request = 1917;
-		PGDMAGPPANA reliquary_request = 1627;
-		AGAALCEHEGM element_reliquary_request = 1482;
-		BDAPGOLLJNN reliquary_set_request = 258;
-		BLCIHMGIBBB skill_request = 739;
 	}
 }
 
@@ -26762,18 +26762,18 @@ message PNFBLHAOIIG {
 		uint32 mentioned_uid = 4;
 	}
 	oneof AAFHLPFACNF {
-		IKNDCJOCGPO hall_invitation = 571;
-		string text = 960;
-		ABBHFBCLEBL beyond_gacha_gift = 274;
-		KOIKHLCHAPA beyond_team_invitation = 874;
-		JFBKLLONAME beyond_team_application = 31;
 		uint32 icon = 362;
-		CPBBNDOOIMI beyond_collection_new_captain = 1265;
-		NPOHDBGEBHP beyond_room_invitation = 112;
-		GLPBHDIJOPD system_hint = 1757;
+		KOIKHLCHAPA beyond_team_invitation = 874;
+		ABBHFBCLEBL beyond_gacha_gift = 274;
 		NNBIJEBDINO beyond_costume_share_code = 706;
-		JINOJHDLGDC beyond_team_recruitment = 1007;
+		JFBKLLONAME beyond_team_application = 31;
+		GLPBHDIJOPD system_hint = 1757;
+		string text = 960;
 		KBIIFKLCLDL hall_recruiting_invitation = 1342;
+		NPOHDBGEBHP beyond_room_invitation = 112;
+		JINOJHDLGDC beyond_team_recruitment = 1007;
+		IKNDCJOCGPO hall_invitation = 571;
+		CPBBNDOOIMI beyond_collection_new_captain = 1265;
 	}
 }
 
@@ -26802,10 +26802,10 @@ message ILNKAPPGDBM {
 	AKBOMEKEBOM KAFBLIGOJLA = 1;
 	oneof NPOODEEMOCJ {
 		DCPCDFGCEPI beyond_player_template = 23;
-		GCGEDNOLKEA beyond_gadget_template = 22;
-		KEHMFJGEJCM beyond_level_template = 21;
-		JLLDJLNIFIH beyond_monster_template = 25;
 		HCEKBOKFACG beyond_avatar_template = 24;
+		JLLDJLNIFIH beyond_monster_template = 25;
+		KEHMFJGEJCM beyond_level_template = 21;
+		GCGEDNOLKEA beyond_gadget_template = 22;
 	}
 }
 
@@ -27302,71 +27302,71 @@ message MMKAPGLKIGA {
 message NCMIJGCPDGA {
 	int32 DFLNJOJPDGA = 1;
 	oneof NPOODEEMOCJ {
-		GNJIEIJDPKA beyond_monster_ai_param_template_property = 81;
-		HLHLABJMJNH beyond_shield_property = 61;
-		CAIGJBOPACL beyond_timeline_asset_property = 82;
-		KOAFCKIGDFD ui_static_comp = 15;
-		MHMGOGBFFEM duty_edit_client_property_role_status_config = 19;
-		BMJHBGKHKLD beyond_dlcpremium_property = 73;
-		GGJJFCDAADP reference_point = 46;
-		PNJINJAJOHE beyond_chip_template_client_property = 60;
-		BDIFLEJJGOJ basic_info_property = 11;
-		PBDMACHILPI player_edit_client_property_base_info = 12;
-		EEPEKIJNBPK duty_edit_client_property_grow_curve_config = 20;
-		AHMEDMCNPCB monster_ai_basic = 40;
-		HOIMLBIEGIM beyond_enviro_light_property = 74;
-		LAPCNDHMBLL beyond_monster_skill_property = 78;
-		GNIIKFBACHE billboard = 28;
-		NPIPGBPJEMP beyond_duty_custom_skill_config_property = 34;
-		IFOHGMCFNBC beyond_prefab_group_owner_property = 65;
-		IMDHNNIKGPB beyond_chip_tier_trial_data_client_property = 68;
-		AIBPIBJCNLL beyond_environment_property = 75;
-		OIAEOCDBGEA beyond_replace_model_property = 31;
-		JPKFAAIEHJL beyond_dlcfree_property = 72;
-		NLEFOBMHPCH beyond_equip_stuff_type_property = 52;
-		GKMCNLJKMJK monster_ai_threat = 42;
-		ALHOBKLLJGM dummy_avatar = 47;
-		CCJKMOGJPFC monster_ai_skill_list_property = 57;
-		ICFBNDHNCBA beyond_localization_property = 71;
-		AMFAKDPOKKN monster_ai_territory = 44;
-		HHFHDEPCEBH beyond_duty_enmity_config_property = 35;
-		FHLMPIJABBA beyond_equip_stuff_bag_property = 56;
-		FJNAALEEGHP beyond_absolute_route_property = 64;
-		PKKNFEGLHPL beyond_chip_achievement_trial_data_client_property = 69;
-		GCBJKFHLPEH beyond_monster_ai_skill_ref_property = 80;
-		PPAABBHAMAK empty_model = 29;
-		LOBJHHMGKCK monster_ai_sensing = 43;
-		BPOAHJACGKI beyond_skill_energy_client_property = 33;
-		BAPAIOBPEPL duty_edit_client_property_grow_config = 18;
-		DBJPBBBHNCP beyond_remark_property = 22;
-		KIAHCGDNEOK child_model_property = 50;
-		NIEDJEAPGFJ beyond_chip_dlc_trial_data_client_property = 76;
-		PDJHFEKHMLF enmity = 48;
-		HGBPNELGNJD duty_edit_client_property_level_up_config = 17;
-		OBCDGKPKFPE beyond_shop_template_client_property = 58;
-		NFJBODLHIDC beyond_struct_client_property = 59;
-		DMOKCMBLIPO beyond_duty_enbreak_config_property = 36;
-		LIHPNAPEFFB duty_edit_client_property_base_config = 16;
-		IJIHEOGALGE beyond_stuff_bag_client_property = 55;
-		JCIBOBDGDJK timeline = 45;
-		CIAIKDHLFKK beyond_prefab_group_instance_property = 66;
-		JBIGJKOPMCK beyond_local_bullet_property = 32;
-		AJFDLAGHGEE beyond_custom_skill_property = 30;
-		NLLGLMBEDHF beyond_mpaction_property = 23;
-		FNACHBKCDPA beyond_monster_ai_graph_ref_property = 79;
-		NAMPJBNLNLM beyond_scan_entity_sub_tag_template_client_property = 67;
-		DJDCEKFENKK beyond_suite_item_property = 62;
-		PDLIPLLMMJD beyond_stuff_client_property = 49;
-		JCJIMLIEEKG beyond_monster_patrol_param_property = 70;
-		DAJAFHEPJJK beyond_equip_affix_property = 51;
 		ADJAJPIOGPA beyond_currency_client_property = 54;
-		GBJEDONLDDM beyond_skill_property_group_client_property = 83;
-		POAJCDIHKHJ monster_ai_wander = 41;
-		PFCJAHLKGJC beyond_equip_stuff_tag_property = 53;
-		JNLMMEEEICM player_edit_client_property_revive_config = 14;
+		KIAHCGDNEOK child_model_property = 50;
+		NLEFOBMHPCH beyond_equip_stuff_type_property = 52;
+		BDIFLEJJGOJ basic_info_property = 11;
+		FHLMPIJABBA beyond_equip_stuff_bag_property = 56;
+		DAJAFHEPJJK beyond_equip_affix_property = 51;
+		OBCDGKPKFPE beyond_shop_template_client_property = 58;
+		HOIMLBIEGIM beyond_enviro_light_property = 74;
+		CAIGJBOPACL beyond_timeline_asset_property = 82;
 		KAIFDGNENOG beyond_chip_trial_data_property = 63;
-		AFEBGLGMAMN beyond_role_status_client_property = 21;
+		DBJPBBBHNCP beyond_remark_property = 22;
+		ICFBNDHNCBA beyond_localization_property = 71;
 		KODJAIPLPPI beyond_pcggenerator_client_property = 77;
+		GGJJFCDAADP reference_point = 46;
+		FNACHBKCDPA beyond_monster_ai_graph_ref_property = 79;
+		GNJIEIJDPKA beyond_monster_ai_param_template_property = 81;
+		BMJHBGKHKLD beyond_dlcpremium_property = 73;
+		GNIIKFBACHE billboard = 28;
+		KOAFCKIGDFD ui_static_comp = 15;
+		AFEBGLGMAMN beyond_role_status_client_property = 21;
+		AHMEDMCNPCB monster_ai_basic = 40;
+		NFJBODLHIDC beyond_struct_client_property = 59;
+		NPIPGBPJEMP beyond_duty_custom_skill_config_property = 34;
+		JCIBOBDGDJK timeline = 45;
+		CCJKMOGJPFC monster_ai_skill_list_property = 57;
+		FJNAALEEGHP beyond_absolute_route_property = 64;
+		PFCJAHLKGJC beyond_equip_stuff_tag_property = 53;
+		JPKFAAIEHJL beyond_dlcfree_property = 72;
+		AIBPIBJCNLL beyond_environment_property = 75;
+		IJIHEOGALGE beyond_stuff_bag_client_property = 55;
+		BPOAHJACGKI beyond_skill_energy_client_property = 33;
+		CIAIKDHLFKK beyond_prefab_group_instance_property = 66;
+		GKMCNLJKMJK monster_ai_threat = 42;
+		PDLIPLLMMJD beyond_stuff_client_property = 49;
+		JNLMMEEEICM player_edit_client_property_revive_config = 14;
+		PBDMACHILPI player_edit_client_property_base_info = 12;
+		NLLGLMBEDHF beyond_mpaction_property = 23;
+		DMOKCMBLIPO beyond_duty_enbreak_config_property = 36;
+		PNJINJAJOHE beyond_chip_template_client_property = 60;
+		JCJIMLIEEKG beyond_monster_patrol_param_property = 70;
+		NIEDJEAPGFJ beyond_chip_dlc_trial_data_client_property = 76;
+		LIHPNAPEFFB duty_edit_client_property_base_config = 16;
+		LAPCNDHMBLL beyond_monster_skill_property = 78;
+		PDJHFEKHMLF enmity = 48;
+		ALHOBKLLJGM dummy_avatar = 47;
+		DJDCEKFENKK beyond_suite_item_property = 62;
+		GBJEDONLDDM beyond_skill_property_group_client_property = 83;
+		AJFDLAGHGEE beyond_custom_skill_property = 30;
+		GCBJKFHLPEH beyond_monster_ai_skill_ref_property = 80;
+		MHMGOGBFFEM duty_edit_client_property_role_status_config = 19;
+		BAPAIOBPEPL duty_edit_client_property_grow_config = 18;
+		EEPEKIJNBPK duty_edit_client_property_grow_curve_config = 20;
+		HLHLABJMJNH beyond_shield_property = 61;
+		HGBPNELGNJD duty_edit_client_property_level_up_config = 17;
+		POAJCDIHKHJ monster_ai_wander = 41;
+		AMFAKDPOKKN monster_ai_territory = 44;
+		PPAABBHAMAK empty_model = 29;
+		OIAEOCDBGEA beyond_replace_model_property = 31;
+		JBIGJKOPMCK beyond_local_bullet_property = 32;
+		PKKNFEGLHPL beyond_chip_achievement_trial_data_client_property = 69;
+		IFOHGMCFNBC beyond_prefab_group_owner_property = 65;
+		LOBJHHMGKCK monster_ai_sensing = 43;
+		IMDHNNIKGPB beyond_chip_tier_trial_data_client_property = 68;
+		NAMPJBNLNLM beyond_scan_entity_sub_tag_template_client_property = 67;
+		HHFHDEPCEBH beyond_duty_enmity_config_property = 35;
 	}
 }
 
@@ -28081,13 +28081,13 @@ message LECMGCPMEJP {
 message LBEOBJKCMNJ {
 	uint32 HOCLLOJBEGG = 7;
 	oneof IHDBANJAHPC {
+		NKGJMOMKFCK tower_challenge_social_brief = 934;
 		EKIMIACEHBC tower_defense_social_brief = 313;
 		GEEJCAIAPFH effigy_challenge_v_5_brief = 1154;
-		MCLMEJFHGLA diversity_battle_social_brief = 279;
 		AGNNAHKJMPO autochess_record_social_brief = 1844;
 		IJMGDBCNFPJ ad_shooting_social_brief = 1544;
+		MCLMEJFHGLA diversity_battle_social_brief = 279;
 		AKFMDGOCNFD fishing_joy_social_brief = 1826;
-		NKGJMOMKFCK tower_challenge_social_brief = 934;
 	}
 }
 
@@ -28195,14 +28195,14 @@ message EDJKPCNPEOE {
 	int32 ECACPILKILB = 2;
 	int32 FOPFDADBCHB = 1;
 	oneof NPOODEEMOCJ {
-		OEDIHCBHBEK prototype_comp = 14;
-		OPEHINFBINA group_comp = 16;
-		IKMDJGPDMIF persist_comp = 11;
 		LJNFOCFIFOO sync_topo_comp = 12;
-		OFJKOPHFLMK instance_comp = 13;
-		AONGGNNDFJC layout_comp = 15;
-		DNOCIEAJCNP prototype_hierarchy_comp = 17;
 		FNFJOAAKABP ele_group_hierarchy_comp = 18;
+		AONGGNNDFJC layout_comp = 15;
+		OPEHINFBINA group_comp = 16;
+		OFJKOPHFLMK instance_comp = 13;
+		IKMDJGPDMIF persist_comp = 11;
+		DNOCIEAJCNP prototype_hierarchy_comp = 17;
+		OEDIHCBHBEK prototype_comp = 14;
 	}
 }
 
@@ -29227,8 +29227,8 @@ message CPFHGDHHLEE {
 		uint32 JJFKAOPMNLK = 7;
 	}
 	oneof AMKLGFFLKKJ {
-		CCHIHGAJHGH pair_op = 7;
 		DADDGDFFOPM unpair_op = 5;
+		CCHIHGAJHGH pair_op = 7;
 	}
 }
 
@@ -29455,8 +29455,8 @@ message GDNPEKDKOJP {
 message BGDNNNAAHGD {
 	int32 KBAIDBJLPHE = 501;
 	oneof NPOODEEMOCJ {
-		OJCNHNJNPPJ read_transform_comp = 11;
 		BMMAIDOBNMH edit_transform_comp = 12;
+		OJCNHNJNPPJ read_transform_comp = 11;
 	}
 }
 
@@ -29769,8 +29769,8 @@ message KLHMOHFGAEP {
 
 // CmdID: 7024
 message MAFIOKNJENI {
-	int32 MBKKKANIBAK = 3 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 48812) ^ 27936", (ys_custom).value_unmask = "(val ^ 27936) - 48812"];
-	uint32 MPLGDGFNFIL = 9 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 34315) ^ 49009", (ys_custom).value_unmask = "(val ^ 49009) - 34315"];
+	int32 MBKKKANIBAK = 3 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 27936) - 48812", (ys_custom).value_unmask = "(val + 48812) ^ 27936"];
+	uint32 MPLGDGFNFIL = 9 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 49009) - 34315", (ys_custom).value_unmask = "(val + 34315) ^ 49009"];
 }
 
 // CmdID: 7854
@@ -30106,34 +30106,34 @@ message CMIEFNKIEMI {
 	CKEGLLBEMLG ILNOOPPFOCC = 1;
 	oneof NPOODEEMOCJ {
 		HDKHKILAEAB beyond_param_value_vector_3_list = 25;
-		NHDNOGGAACC beyond_param_value_config_reference = 30;
-		MGDGJAAFOIO beyond_param_value_army_list = 34;
-		DJCNFNAKPJG beyond_param_value_config_reference_list = 32;
-		NIBACAICOJP beyond_param_value_bool_list = 19;
-		OCDKBGMLHDK beyond_param_value_enum = 24;
-		JEOCBDIMPOK beyond_param_value_comp_type = 28;
-		MAALGBJACDC beyond_param_value_guid_list = 17;
-		KEIFMGGPKNH beyond_param_value_string_list = 21;
-		FKLLMGFOENF beyond_param_value_army = 27;
-		MNDJHKJJAME beyond_param_value_float_list = 20;
-		OJECAJOAPGP beyond_param_value_vector_3 = 22;
-		DOBCCKCDOJD beyond_param_value_struct_const = 35;
-		PILJCGIEDFH beyond_param_value_dict_const = 37;
-		HIIEGIPAMJJ beyond_param_value_struct_list_const = 36;
-		JCMBEFIAGIO beyond_param_value_entity_list = 23;
-		AGFJFMCHEOE beyond_param_value_int_list = 18;
-		GPEMKODHAGG beyond_param_value_entity_reference_list = 33;
-		EEMNBFODBOD beyond_param_value_bool = 14;
-		EMPOCFLBNNM beyond_param_value_string = 16;
-		AIEFAPFDIMM beyond_param_value_entity_reference = 31;
-		GHMDIBBDLBJ beyond_param_value_category_type = 29;
-		JEENOKKFPAA beyond_param_value_custom_value_snapshot = 38;
-		DPLJHOKJCFN beyond_param_value_guid = 12;
-		HNDPFFFFAFB beyond_param_value_float = 15;
-		HJJKHKMFLEN beyond_param_value_entity = 11;
 		AFLNGKMIFKI beyond_param_value_int = 13;
+		JCMBEFIAGIO beyond_param_value_entity_list = 23;
+		MGDGJAAFOIO beyond_param_value_army_list = 34;
+		EMPOCFLBNNM beyond_param_value_string = 16;
 		BHCNCHDAOKD beyond_param_value_variable = 26;
+		JEENOKKFPAA beyond_param_value_custom_value_snapshot = 38;
 		IAKFEBGNIBJ beyond_param_value_enum_list = 39;
+		KEIFMGGPKNH beyond_param_value_string_list = 21;
+		OCDKBGMLHDK beyond_param_value_enum = 24;
+		NHDNOGGAACC beyond_param_value_config_reference = 30;
+		HNDPFFFFAFB beyond_param_value_float = 15;
+		GHMDIBBDLBJ beyond_param_value_category_type = 29;
+		MNDJHKJJAME beyond_param_value_float_list = 20;
+		HJJKHKMFLEN beyond_param_value_entity = 11;
+		DOBCCKCDOJD beyond_param_value_struct_const = 35;
+		EEMNBFODBOD beyond_param_value_bool = 14;
+		AGFJFMCHEOE beyond_param_value_int_list = 18;
+		FKLLMGFOENF beyond_param_value_army = 27;
+		HIIEGIPAMJJ beyond_param_value_struct_list_const = 36;
+		OJECAJOAPGP beyond_param_value_vector_3 = 22;
+		PILJCGIEDFH beyond_param_value_dict_const = 37;
+		AIEFAPFDIMM beyond_param_value_entity_reference = 31;
+		MAALGBJACDC beyond_param_value_guid_list = 17;
+		DPLJHOKJCFN beyond_param_value_guid = 12;
+		JEOCBDIMPOK beyond_param_value_comp_type = 28;
+		DJCNFNAKPJG beyond_param_value_config_reference_list = 32;
+		GPEMKODHAGG beyond_param_value_entity_reference_list = 33;
+		NIBACAICOJP beyond_param_value_bool_list = 19;
 	}
 }
 
@@ -30837,21 +30837,21 @@ message GNCJHBMMGCL {
 	int32 GCCOAGJKCJK = 1;
 	bool NAOMLGECNPA = 2;
 	oneof NPOODEEMOCJ {
-		FDOLEANLODF cancel_interval = 14;
+		IKLHDDFGMLC combo_jump = 17;
+		AMPCFBPOCHP special_state_do_skill = 23;
+		LAKGOFAEOGL avatar_enter_focus = 18;
+		JGOJEJFNNFI ability_drag_force = 25;
+		AJJNAPKOFIH attach_effect = 11;
+		DDBFDGLDOLG avatar_steer_by_camera = 13;
+		JDJIHFCPLJG branch_jump = 16;
 		LOLCKIBDIMK can_do_skill = 15;
+		CIABBMBPMIE attach_shoot_helper_bydeffect = 20;
+		LBINAKFLKEN modify_cast_speed_ratio = 24;
+		FDOLEANLODF cancel_interval = 14;
+		JPJMMDPBKOO air_branch_jump = 22;
+		PFNPDDFEEAG avatar_levitate = 12;
 		KOKJGEHABKE aim_ui = 19;
 		OAFECKEOBNO monster_steer = 21;
-		JDJIHFCPLJG branch_jump = 16;
-		LBINAKFLKEN modify_cast_speed_ratio = 24;
-		DDBFDGLDOLG avatar_steer_by_camera = 13;
-		AJJNAPKOFIH attach_effect = 11;
-		CIABBMBPMIE attach_shoot_helper_bydeffect = 20;
-		AMPCFBPOCHP special_state_do_skill = 23;
-		IKLHDDFGMLC combo_jump = 17;
-		JGOJEJFNNFI ability_drag_force = 25;
-		PFNPDDFEEAG avatar_levitate = 12;
-		LAKGOFAEOGL avatar_enter_focus = 18;
-		JPJMMDPBKOO air_branch_jump = 22;
 	}
 }
 
@@ -30935,18 +30935,18 @@ message HHGGANNCGIM {
 	DJNLAPBCBLG CPJIMLFPJJH = 1;
 	bool GDCAOMABNFH = 2;
 	oneof NPOODEEMOCJ {
+		CMMALLKELHJ value_int = 102;
+		GMKCMNNPGFO value_list = 109;
+		ALGBBGBLACH value_float = 104;
+		GGDAHHELCOB value_uint = 101;
+		MFAOFLLGJGJ value_string = 105;
+		CFAGMMNHENC value_vector = 107;
+		KPBMBNIFKPG value_enum = 106;
+		DJNOBJOLFPP value_generics = 110;
 		AKFPACGJJJJ value_server_param_kv_pair = 111;
 		NLIOIPKEGED value_bool = 103;
 		AFEDFJAEFFD value_server_param_dictionary = 112;
-		MFAOFLLGJGJ value_string = 105;
-		CMMALLKELHJ value_int = 102;
-		GGDAHHELCOB value_uint = 101;
 		CDJJLLPALIP value_struct = 108;
-		DJNOBJOLFPP value_generics = 110;
-		CFAGMMNHENC value_vector = 107;
-		GMKCMNNPGFO value_list = 109;
-		KPBMBNIFKPG value_enum = 106;
-		ALGBBGBLACH value_float = 104;
 	}
 }
 
@@ -31236,10 +31236,10 @@ message CIHKDGDLJPF {
 	uint32 GIEOGBKKNDA = 14;
 	uint32 BIMKGDAKKDA = 3;
 	oneof JHEHOJBLLOC {
-		HIPMMKIPKMF cylinder_size = 559;
-		NIFIAABGGNE cubic_size = 138;
 		float sphere_radius = 1518;
 		IJCIJLKPFLH polygon_size = 1686;
+		HIPMMKIPKMF cylinder_size = 559;
+		NIFIAABGGNE cubic_size = 138;
 	}
 }
 
@@ -31253,12 +31253,12 @@ message DGHDEMMFBNI {
 message IDJLIIHDOJN {
 	int32 DCAGIOJLLHJ = 1;
 	oneof NPOODEEMOCJ {
-		DAPKBDELMPH player_hp = 11;
-		GANEJKEPKFF none_intrinsic_ui = 15;
-		OIHFFDOOKBJ basic_active_control = 16;
-		BMNLHOPAAID team_and_faction = 13;
 		GOOLFALABHC mini_map = 14;
 		JCLFMPCELFE skill_area = 12;
+		DAPKBDELMPH player_hp = 11;
+		OIHFFDOOKBJ basic_active_control = 16;
+		GANEJKEPKFF none_intrinsic_ui = 15;
+		BMNLHOPAAID team_and_faction = 13;
 	}
 }
 
@@ -31434,26 +31434,26 @@ message BDJKIOFCNNE {
 message BIIOPLEHFHG {
 	NKOBBAGFGGE HOCHNICPJJL = 1;
 	oneof NPOODEEMOCJ {
-		ADEEOFIDJDG beyond_equip_stuff_bag_config_template = 23;
+		CPECMBJLNFK beyond_role_status_config_template = 11;
 		HJDDPIHPDDL beyond_currency_config_template = 21;
-		OKLLNNOGMJA beyond_shield_config_template = 29;
-		DIPLIKCANHB beyond_energy_config_template = 17;
-		DPGHGFGMJPN beyond_equip_stuff_affix_config_template = 26;
-		IOFLFCFOCBD beyond_scan_entity_sub_tag_config_template = 28;
-		IGIEEFCDEPL beyond_equip_stuff_type_config_template = 24;
-		LAODCDAJPCF beyond_equip_stuff_tag_config_template = 25;
-		GGANMNJJDAM beyond_property_group_config_template = 30;
+		HFLLBNPKCIP beyond_attack_damage_attenuation_config_template = 18;
 		CNLFMPEDPPA beyond_effect_timeline_config_template = 31;
+		GGANMNJJDAM beyond_property_group_config_template = 30;
+		IGIEEFCDEPL beyond_equip_stuff_type_config_template = 24;
 		PDHBIEGPLPG beyond_monster_grow_curve_config_template = 13;
 		ACKCNBMBFFF beyond_shop_config_template = 27;
 		NHBDFJHDECK beyond_duty_config_template = 14;
-		BOLCMKKGIKD beyond_stuff_bag_config_template = 22;
-		HFLLBNPKCIP beyond_attack_damage_attenuation_config_template = 18;
-		CPECMBJLNFK beyond_role_status_config_template = 11;
 		IKOCBHJDKPH beyond_duty_grow_curve_config_template = 15;
-		BBKDMLHBMAE beyond_equip_stuff_config_template = 20;
+		ADEEOFIDJDG beyond_equip_stuff_bag_config_template = 23;
+		OKLLNNOGMJA beyond_shield_config_template = 29;
+		BOLCMKKGIKD beyond_stuff_bag_config_template = 22;
 		LCGDHNHCBJA beyond_custom_skill_config_template = 16;
+		IOFLFCFOCBD beyond_scan_entity_sub_tag_config_template = 28;
+		DIPLIKCANHB beyond_energy_config_template = 17;
+		LAODCDAJPCF beyond_equip_stuff_tag_config_template = 25;
 		CAHCNKHNEDP beyond_normal_stuff_config_template = 19;
+		DPGHGFGMJPN beyond_equip_stuff_affix_config_template = 26;
+		BBKDMLHBMAE beyond_equip_stuff_config_template = 20;
 	}
 }
 
@@ -31773,10 +31773,10 @@ message OBAMNOPJNAA {
 message GCKMNAOEKKB {
 	NLOHIONHNGL MIJLEDPDFIA = 1;
 	oneof NPOODEEMOCJ {
-		DHPFOJGHPKC step_create_compound_connection = 103;
-		ILEONGAKNKI step_create_connection = 102;
 		KGNJPHJNJGJ step_create_node = 100;
+		ILEONGAKNKI step_create_connection = 102;
 		AENIOPKJBCJ step_modify_value = 101;
+		DHPFOJGHPKC step_create_compound_connection = 103;
 	}
 }
 
@@ -31970,14 +31970,14 @@ message EOCGDIIBPOI {
 	uint32 GPHADGKBNHD = 1;
 	GLAHFAPEEOH IINNIHOCAIP = 2;
 	oneof NPOODEEMOCJ {
-		CIFEMBOBNII damage_by_attack_val = 12;
-		PEMJAHOJHBP remove_role_status = 16;
 		CNIGNHJAHEJ add_role_status = 15;
-		AIDJLNPJIFG bullet_trigger_bullet = 14;
+		PEMJAHOJHBP remove_role_status = 16;
+		CIFEMBOBNII damage_by_attack_val = 12;
 		DOLLANGJEFH bullet_fire_effect = 17;
-		IMCEJMOMEME heal = 18;
 		BKBEDFHPLGL trigger_attack_event = 11;
 		IGPPJCLLMFG kill_self = 13;
+		AIDJLNPJIFG bullet_trigger_bullet = 14;
+		IMCEJMOMEME heal = 18;
 	}
 }
 
@@ -32370,25 +32370,25 @@ message HINNECHBOGO {
 	AIKJKAEDDKB DFLNJOJPDGA = 1;
 	oneof NPOODEEMOCJ {
 		BJAFOJCJHLD attach_point_property = 21;
-		CNFKOJJGOOF enmity_property = 23;
+		IBCAMODDLPG monster_defined_state_property = 31;
 		PMMKEPBABNP default_defined_state_property = 12;
+		IENMENMGKBK default_born_property = 14;
+		CNFKOJJGOOF enmity_property = 23;
 		BCCHKGAEAAJ army_property = 16;
-		POIJHLIGOLL blueprint_reference_property = 13;
-		BBKHBOOKMHF bind_param_property = 26;
 		OLPKGOOKGFM ugc_monster_ai_property = 19;
+		NGHPKKJKFDP collision_property = 15;
+		KKLPGADCJLN sound_effect_property = 29;
 		MHJHOOCPBLH combat_property = 17;
 		ABJHPLIGHOB endure_property = 28;
-		NGHPKKJKFDP collision_property = 15;
+		POIJHLIGOLL blueprint_reference_property = 13;
+		ELJHBOAPJNH deployment_property = 11;
+		BBKHBOOKMHF bind_param_property = 26;
+		ICJIJLIBECB entity_tag_property = 27;
+		MLGNDAKKGBK client_optimization_param_property = 30;
+		BDFBGOLPLCA vision_param_property = 22;
+		GNNFOAFBDOA mode_visibility_property = 18;
 		OGBDMGKAEEF multi_model_accessory_property = 24;
 		KJFDFAACKAH default_tier_config_property = 25;
-		KKLPGADCJLN sound_effect_property = 29;
-		IBCAMODDLPG monster_defined_state_property = 31;
-		BDFBGOLPLCA vision_param_property = 22;
-		ELJHBOAPJNH deployment_property = 11;
-		GNNFOAFBDOA mode_visibility_property = 18;
-		MLGNDAKKGBK client_optimization_param_property = 30;
-		ICJIJLIBECB entity_tag_property = 27;
-		IENMENMGKBK default_born_property = 14;
 	}
 }
 
@@ -32765,18 +32765,18 @@ message KCBNPPFBCJL {
 
 message LGHBFFKCLHE {
 	oneof AMKLGFFLKKJ {
-		MBGDHJFMFHL op_redraw = 10;
-		CEFPGHJJBCG op_discover_refresh = 12;
-		FFKJGJJNJIC op_reroll = 15;
 		FGOIOIOFLFC op_attack = 3;
 		PFJKGOPKELH op_pass = 6;
+		JAJACMCAJOK op_vehicle = 14;
 		NMMHELEAMDA op_select_on_stage = 7;
 		KJFEJIDIHFK op_surrender = 8;
+		CEFPGHJJBCG op_discover_refresh = 12;
+		FPPLAHKNBIE op_discover = 2;
 		OGKFKBEOCLK op_change_character_index = 9;
 		GLFNOFJAKKP op_play_card = 4;
-		JAJACMCAJOK op_vehicle = 14;
-		FPPLAHKNBIE op_discover = 2;
 		HMHMDBONMAI op_reboot = 11;
+		MBGDHJFMFHL op_redraw = 10;
+		FFKJGJJNJIC op_reroll = 15;
 	}
 }
 
@@ -33224,8 +33224,8 @@ message IPEINBGILNN {
 
 message DEMLNOAAHPC {
 	oneof NPOODEEMOCJ {
-		uint32 hash_code = 2;
 		string primitive_str = 1;
+		uint32 hash_code = 2;
 	}
 }
 
@@ -33777,42 +33777,42 @@ message POKANDELNAP {
 	JHKHLFNPMEO AJDNGKHLIJE = 1;
 	bool BPGGDBELJGA = 2;
 	oneof NPOODEEMOCJ {
-		HFGFGLBIHLA attach_point_comp = 32;
-		LEFLMCDEIPG equip_stuff_bag_comp = 45;
-		FHAENMLIEAE born_point_comp = 17;
-		LOMKMMKPEMP combat_comp = 28;
-		JKGICLOMDNC obstacle_comp = 52;
-		EKOIJJBOABK pop_up_comp = 51;
-		EOAHDINKJBH intee_comp = 34;
-		LNNKAEPBBAF move_comp = 14;
-		AKAHAAAHMOA avatar_disturber_comp = 25;
-		GCPLFCMDNFE talk_comp = 39;
-		OHPFAEFCCDE timer_comp = 13;
-		BOOPPIFGBGF drop_stuff_comp = 48;
-		FKJHJNCGHFL role_status_comp = 24;
 		HJGOHNAFCEL effect_comp = 16;
-		IELKPJDGDOM minimap_mark_comp = 43;
-		PMAGMHFABPJ camera_comp = 23;
-		DLFLHLMDBGM monster_ai_comp = 53;
-		KOELCFEODNI option_comp = 27;
+		BOOPPIFGBGF drop_stuff_comp = 48;
+		IOCDKBHJGAB bullet_move_comp = 21;
 		LAHLKPPBJPH shop_comp = 46;
+		LNNKAEPBBAF move_comp = 14;
+		CLCPGEEOPPE drop_gather_comp = 47;
 		GHBGFEOOGLB client_trigger_comp = 15;
-		OIGFFJPFEFA sound_effect_comp = 40;
-		AGIHPFDPJEC collision_comp = 18;
-		IFIGIJNBALE count_down_comp = 26;
-		KCPKHOMAIOE enmity_comp = 37;
-		HFKDACKJLEC custom_value_comp = 11;
-		EAFJKGHLKJA hitbox_comp = 29;
-		NEKEEOLDBGK stuff_bag_comp = 44;
+		GCPLFCMDNFE talk_comp = 39;
 		PBNFMKAKOOK nameplate_comp = 38;
 		FCPIKIKHLGA light_group_comp = 49;
-		DNAMMAGEFML custom_skill_comp = 33;
-		HMNFGMFHNCC scan_entity_comp = 50;
+		OHPFAEFCCDE timer_comp = 13;
+		HFGFGLBIHLA attach_point_comp = 32;
+		AKAHAAAHMOA avatar_disturber_comp = 25;
+		EOAHDINKJBH intee_comp = 34;
+		FKJHJNCGHFL role_status_comp = 24;
+		NEKEEOLDBGK stuff_bag_comp = 44;
 		HOEIJFPPOLL hit_detection_comp = 22;
+		AGIHPFDPJEC collision_comp = 18;
 		FHLPIFJNNOC bullet_pattern_comp = 30;
-		CLCPGEEOPPE drop_gather_comp = 47;
-		IOCDKBHJGAB bullet_move_comp = 21;
+		OIGFFJPFEFA sound_effect_comp = 40;
+		DNAMMAGEFML custom_skill_comp = 33;
+		LOMKMMKPEMP combat_comp = 28;
+		HMNFGMFHNCC scan_entity_comp = 50;
+		EKOIJJBOABK pop_up_comp = 51;
+		JKGICLOMDNC obstacle_comp = 52;
+		DLFLHLMDBGM monster_ai_comp = 53;
+		PMAGMHFABPJ camera_comp = 23;
 		AHBLDNMPMPM follow_move_comp = 19;
+		KOELCFEODNI option_comp = 27;
+		FHAENMLIEAE born_point_comp = 17;
+		LEFLMCDEIPG equip_stuff_bag_comp = 45;
+		IFIGIJNBALE count_down_comp = 26;
+		HFKDACKJLEC custom_value_comp = 11;
+		EAFJKGHLKJA hitbox_comp = 29;
+		IELKPJDGDOM minimap_mark_comp = 43;
+		KCPKHOMAIOE enmity_comp = 37;
 	}
 }
 
@@ -34034,8 +34034,8 @@ message MGLIECBDBIK {
 message PNAGFNHFEBI {
 	repeated uint32 EKIJBCEIAKA = 8;
 	oneof NPOODEEMOCJ {
-		NFEBPADBPNE order_info = 1;
 		INIAILDOKBL exam_info = 15;
+		NFEBPADBPNE order_info = 1;
 	}
 }
 
@@ -34078,35 +34078,35 @@ message EPGFLEFAOMO {
 	uint32 BIMKGDAKKDA = 5;
 	uint32 GJJIGPOLLMP = 7;
 	oneof NPOODEEMOCJ {
-		PAADCILPAJA pitch_pot_info = 1049;
-		EMGEIHIFHLG mechanicus_info = 830;
+		DDIJLCIDALA hide_and_seek_info = 1415;
+		PPLDFEKPNGL chess_info = 619;
+		AAMCFLGPJCC target_shooting_info = 344;
+		PNMFMHPFFDP watergun_info = 1358;
+		CNBHAFLGLBI hide_and_seek_v_4_info = 151;
+		GHKCKKPCMBG mvm_2_pvp_info = 1041;
+		NJKFOGOOHAK snow_race_hide_info = 1570;
+		MKHLLJINPGM lan_v_4_party_lion_info = 629;
+		PGCPKFIFLBN fleur_fair_v2_pacman_info = 1458;
+		KPEMEHOBILN irodori_chess_info = 73;
+		ICIKMKFECPF cooperate_challenge_info = 729;
+		JHLDFELDGIC saurus_1_v_3_info = 1207;
+		FAIOFECFCAB brick_breaker_info = 420;
+		GNMFNMHOEKF monster_vs_monster_info = 1227;
+		KLFHEPCGOJH lan_v_3_boat_info = 819;
 		ELGLEIFNPCD electrohercules_battle_v_3_info = 415;
 		ADAFNHFPJAK bomber_v_3_info = 1299;
-		KLFHEPCGOJH lan_v_3_boat_info = 819;
-		PGCPKFIFLBN fleur_fair_v_2_pacman_info = 1458;
-		AAMCFLGPJCC target_shooting_info = 344;
-		CNBHAFLGLBI hide_and_seek_v_4_info = 151;
-		DDIJLCIDALA hide_and_seek_info = 1415;
-		NAFHBKIDIBL char_amusement_info = 1186;
-		DLJJBKOIBCD ceremony_ghost_info = 1867;
-		ACOEBACCFNH music_party_info = 391;
-		PPLDFEKPNGL chess_info = 619;
-		MAIONPGNBIJ ball_game_info = 199;
-		FAIOFECFCAB brick_breaker_info = 420;
-		GHPAGFNMOFD natlan_dragon_party_stage_info = 1806;
-		MKHLLJINPGM lan_v_4_party_lion_info = 629;
-		GHKCKKPCMBG mvm_2_pvp_info = 1041;
-		KPEMEHOBILN irodori_chess_info = 73;
 		OALGELOIEMN party_info = 1158;
-		OJBOIFLCDLC fishing_joy_info = 1687;
-		PNMFMHPFFDP watergun_info = 1358;
+		PAADCILPAJA pitch_pot_info = 1049;
 		EGNNAIGMAJH fleur_fair_info = 835;
-		GNMFNMHOEKF monster_vs_monster_info = 1227;
+		NAFHBKIDIBL char_amusement_info = 1186;
+		EMGEIHIFHLG mechanicus_info = 830;
 		KHCCMNLEKAF bird_ball_info = 1337;
-		ICIKMKFECPF cooperate_challenge_info = 729;
+		GHPAGFNMOFD natlan_dragon_party_stage_info = 1806;
+		MAIONPGNBIJ ball_game_info = 199;
+		ACOEBACCFNH music_party_info = 391;
 		EMNBILLCNAE coin_collect_info = 765;
-		JHLDFELDGIC saurus_1_v_3_info = 1207;
-		NJKFOGOOHAK snow_race_hide_info = 1570;
+		DLJJBKOIBCD ceremony_ghost_info = 1867;
+		OJBOIFLCDLC fishing_joy_info = 1687;
 	}
 }
 
@@ -34172,8 +34172,8 @@ message EAEALBKDNGC {
 
 // CmdID: 26252
 message JIJDGMCPFLP {
-	int32 MBKKKANIBAK = 13 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 30000) + 42120", (ys_custom).value_unmask = "(val - 42120) ^ 30000"];
-	uint32 MPLGDGFNFIL = 3 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 51147) + 18277", (ys_custom).value_unmask = "(val - 18277) ^ 51147"];
+	int32 MBKKKANIBAK = 13 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 42120) ^ 30000", (ys_custom).value_unmask = "(val ^ 30000) + 42120"];
+	uint32 MPLGDGFNFIL = 3 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 18277) ^ 51147", (ys_custom).value_unmask = "(val ^ 51147) + 18277"];
 }
 
 // CmdID: 2843
@@ -34518,10 +34518,10 @@ message JAAGCCKPJNE {
 message JOEPCJNCENE {
 	uint32 GPHADGKBNHD = 10;
 	oneof OLFCJGHGCFA {
-		KOAKFFNMDPG monster_group_deactive = 9;
-		HDOJAAMBMFC gadget_deactive = 5;
 		AFIMGBGFDGP gadget_state_change = 2;
 		PBHHPBILGPL monster_wave_deactive = 15;
+		KOAKFFNMDPG monster_group_deactive = 9;
+		HDOJAAMBMFC gadget_deactive = 5;
 	}
 }
 
@@ -34762,9 +34762,9 @@ message NEKCHBEFPOJ {
 	BFCFNAPAPFO BJANOHDLACN = 3;
 	oneof NPOODEEMOCJ {
 		KIICMDECMAF rotate_to_dir_mover_data = 14;
-		MDDIHFHBBMF rotate_mover_data = 12;
 		OEJBAAFGIIP vector_mover_data = 11;
 		EKOMNCKPJGF route_mover_data = 13;
+		MDDIHFHBBMF rotate_mover_data = 12;
 	}
 }
 
@@ -34791,10 +34791,10 @@ message MDGCIICHNFL {
 	bool HJBACFDPKID = 2;
 	AHBPJNFJBOC ONNDNHKFPMA = 1;
 	oneof NPOODEEMOCJ {
-		AHFMMIICANL box_data = 11;
-		EOOCHMFELNJ cylinder_data = 14;
 		GEMJIMFKOLJ sphere_data = 12;
+		EOOCHMFELNJ cylinder_data = 14;
 		LKAABFDDIHE capsule_data = 13;
+		AHFMMIICANL box_data = 11;
 	}
 }
 
@@ -35098,8 +35098,8 @@ message HHMFILLICFM {
 message OCFFEKJLIMH {
 	uint32 FCHMGIONNIH = 1;
 	oneof AAFHLPFACNF {
-		uint32 icon = 9;
 		string text = 13;
+		uint32 icon = 9;
 	}
 }
 
@@ -35264,7 +35264,7 @@ enum BHEACIJOBPN {
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_INVALID_LITTLE_DRILL_NAME = 7;
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_INVALID_UGC = 8;
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_HALL_EDIT = 9;
-	BHEACIJOBPN_REPORT_REASON_SUBTYPE_INVALID_CHAT_V_2 = 10;
+	BHEACIJOBPN_REPORT_REASON_SUBTYPE_INVALID_CHAT_v2 = 10;
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_BEYOND_COSTUME = 11;
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_BEYOND_GIFT_TEXT = 12;
 	BHEACIJOBPN_REPORT_REASON_SUBTYPE_BEYOND_LEVEL_DEPLOYMENT = 13;
@@ -36021,7 +36021,7 @@ enum MPLGJNCJCCP {
 	MPLGJNCJCCP_LOCAL_BULLET = 1;
 	MPLGJNCJCCP_DROP_GATHER = 2;
 	MPLGJNCJCCP_PREFAB_GROUP = 3;
-	MPLGJNCJCCP_MONSTER_V_2 = 4;
+	MPLGJNCJCCP_MONSTER_v2 = 4;
 }
 
 // CmdID: 8038
@@ -36121,14 +36121,14 @@ message OMIEGJJPBLC {
 	int32 FOPFDADBCHB = 501;
 	int32 ECACPILKILB = 502;
 	oneof NPOODEEMOCJ {
-		KEMLHDJCIPN prototype_comp = 14;
-		NNCFBAMBFCF persist_comp = 11;
-		DKELNLFNFGD layout_comp = 15;
-		KLINFLGOOCH prototype_hierarchy_comp = 17;
-		DKGJINGPHGB group_comp = 16;
-		ENGPDHMBLIF sync_topo_comp = 12;
-		LDNFNGBDOKB instance_comp = 13;
 		JMHBKHIOHHA ele_group_hierarchy_comp = 18;
+		KLINFLGOOCH prototype_hierarchy_comp = 17;
+		LDNFNGBDOKB instance_comp = 13;
+		KEMLHDJCIPN prototype_comp = 14;
+		ENGPDHMBLIF sync_topo_comp = 12;
+		DKELNLFNFGD layout_comp = 15;
+		DKGJINGPHGB group_comp = 16;
+		NNCFBAMBFCF persist_comp = 11;
 	}
 }
 
@@ -36353,21 +36353,21 @@ message BDHMPOHANAP {
 
 message JJEJCGLKCAC {
 	oneof NPOODEEMOCJ {
-		POFGKFAIBJJ holiday_resort_adventure_level_info = 5913;
-		PAEEJIJGAJE holiday_resort_graffiti_level_info = 10093;
-		GGGFCBFAKIG dream_switching_level_info = 2672;
 		DBKEFAFPFEC map_mark_level_info = 7241;
 		GEFOIAHHFGF natlan_drill_battle_level_info = 16919;
-		EJJNBNFFDFG party_level_info = 10095;
-		CDGBENFKPCH sumeru_adventure_goal_fighting_level_info = 17640;
-		FFCLBKELMHO holiday_resort_battle_level_info = 10008;
-		GJOEPMEFKAG diversity_battle_level_info = 9723;
-		NPLKPONOMCF tower_defense_level_info = 14427;
+		GGGFCBFAKIG dream_switching_level_info = 2672;
 		HOPGHMNDJLE holiday_resort_sniper_level_info = 5739;
 		MCAFIKDEHKG bubble_drama_photo_level_info = 8626;
-		CJGGOFDCHCL doppelganger_puzzle_level_info = 9172;
+		GJOEPMEFKAG diversity_battle_level_info = 9723;
+		POFGKFAIBJJ holiday_resort_adventure_level_info = 5913;
 		EKMDLMMLOGM autochess_level_info = 17836;
+		CDGBENFKPCH sumeru_adventure_goal_fighting_level_info = 17640;
 		PHLBLAEEBOA inazuma_badminton_level_info = 5277;
+		CJGGOFDCHCL doppelganger_puzzle_level_info = 9172;
+		PAEEJIJGAJE holiday_resort_graffiti_level_info = 10093;
+		NPLKPONOMCF tower_defense_level_info = 14427;
+		EJJNBNFFDFG party_level_info = 10095;
+		FFCLBKELMHO holiday_resort_battle_level_info = 10008;
 	}
 }
 
@@ -36525,31 +36525,31 @@ message HHOJHLHLELL {
 	JALBDOPILID IDJMOIJGAGJ = 2;
 	CJNJEKLHPBC NBMCEPLBFNI = 1;
 	oneof NPOODEEMOCJ {
-		GEOODLHPECD beyond_client_frogprint_param_value_struct = 32;
-		CLONJHABEGO beyond_client_frogprint_param_value_entity_reference = 29;
-		PBCBLLFEMEA beyond_client_frogprint_param_value_int_list = 14;
-		GLLIBPJCMLF beyond_client_frogprint_param_value_bool_list = 16;
-		BGFOOGLMONK beyond_client_frogprint_param_value_vector_3 = 21;
 		DMHHKFJBGBA beyond_client_frogprint_param_value_enum = 23;
-		PFGNPJMPDJB beyond_client_frogprint_param_value_entity = 11;
-		KILBINBAHHP beyond_client_frogprint_param_value_int = 13;
-		EEBBMNLNGCD beyond_client_frogprint_param_value_guid_list = 25;
-		KGLAJHKCHFL beyond_client_frogprint_param_value_vector_3_list = 22;
-		POMPHAKAPJB beyond_client_frogprint_param_value_army = 26;
-		CGDKMMLLPGA beyond_client_frogprint_param_value_enum_list = 27;
-		FEHOABNDLCH beyond_client_frogprint_param_value_string_list = 20;
-		HHOJJBLEHCP beyond_client_frogprint_param_value_float = 17;
-		GDPEEENPLPB beyond_client_frogprint_param_value_guid = 24;
-		FBHCGLBGLOF beyond_client_frogprint_param_value_float_list = 18;
-		IBMIJLCMCMK beyond_client_frogprint_param_value_config_reference = 28;
-		LKDDBNHNFFD beyond_client_frogprint_param_value_config_reference_list = 30;
-		OKHEIKIBMGI beyond_client_frogprint_param_value_struct_list = 33;
-		NEMBAHDAABH beyond_client_frogprint_param_value_army_list = 35;
-		NADKDFGMMOF beyond_client_frogprint_param_value_string = 19;
-		KKDOIPOEHDG beyond_client_frogprint_param_value_entity_list = 12;
-		LFOKIOBLLBK beyond_client_frogprint_param_value_bool = 15;
-		GDNLIOMDOLJ beyond_client_frogprint_param_value_entity_reference_list = 31;
+		GEOODLHPECD beyond_client_frogprint_param_value_struct = 32;
 		PJBIIJPFCCB beyond_client_frogprint_param_value_dict = 34;
+		CLONJHABEGO beyond_client_frogprint_param_value_entity_reference = 29;
+		KILBINBAHHP beyond_client_frogprint_param_value_int = 13;
+		GDPEEENPLPB beyond_client_frogprint_param_value_guid = 24;
+		PFGNPJMPDJB beyond_client_frogprint_param_value_entity = 11;
+		FBHCGLBGLOF beyond_client_frogprint_param_value_float_list = 18;
+		NADKDFGMMOF beyond_client_frogprint_param_value_string = 19;
+		HHOJJBLEHCP beyond_client_frogprint_param_value_float = 17;
+		FEHOABNDLCH beyond_client_frogprint_param_value_string_list = 20;
+		EEBBMNLNGCD beyond_client_frogprint_param_value_guid_list = 25;
+		PBCBLLFEMEA beyond_client_frogprint_param_value_int_list = 14;
+		POMPHAKAPJB beyond_client_frogprint_param_value_army = 26;
+		GDNLIOMDOLJ beyond_client_frogprint_param_value_entity_reference_list = 31;
+		GLLIBPJCMLF beyond_client_frogprint_param_value_bool_list = 16;
+		KGLAJHKCHFL beyond_client_frogprint_param_value_vector_3_list = 22;
+		KKDOIPOEHDG beyond_client_frogprint_param_value_entity_list = 12;
+		CGDKMMLLPGA beyond_client_frogprint_param_value_enum_list = 27;
+		IBMIJLCMCMK beyond_client_frogprint_param_value_config_reference = 28;
+		NEMBAHDAABH beyond_client_frogprint_param_value_army_list = 35;
+		OKHEIKIBMGI beyond_client_frogprint_param_value_struct_list = 33;
+		BGFOOGLMONK beyond_client_frogprint_param_value_vector_3 = 21;
+		LKDDBNHNFFD beyond_client_frogprint_param_value_config_reference_list = 30;
+		LFOKIOBLLBK beyond_client_frogprint_param_value_bool = 15;
 	}
 }
 
@@ -37281,7 +37281,7 @@ enum ONPOPPANONH {
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_ON_MONSTER_DEFINED_STATE_CHANGED_EVENT = 462;
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_QUERY_PLAYER_CUR_AVATAR = 463;
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_REVIVE_CUR_AVATAR = 464;
-	ONPOPPANONH_BEYOND_NODE_TEMPLATE_TRANSPORT_PLAYER_V_2 = 465;
+	ONPOPPANONH_BEYOND_NODE_TEMPLATE_TRANSPORT_PLAYER_v2 = 465;
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_SET_CHAT_CHANNEL_VOICE_RANGE = 64000;
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_SET_PLAYER_CHAT_CHANNEL_TEXT_LIMIT = 64001;
 	ONPOPPANONH_BEYOND_NODE_TEMPLATE_SET_PLAYER_CHAT_CHANNEL_VOICE_LIMIT = 64002;
@@ -37913,9 +37913,9 @@ message FKIMANHHFLN {
 	}
 	bool IANNFEDAGAB = 1;
 	oneof KHKEGGOBKNE {
-		JNBBPNNIHMJ count_down_delete = 2;
-		DLGENCDIANA date_delete = 3;
 		BJFIMIPEDGB delay_week_count_down_delete = 4;
+		DLGENCDIANA date_delete = 3;
+		JNBBPNNIHMJ count_down_delete = 2;
 	}
 }
 
@@ -37956,8 +37956,8 @@ message CHLIJKBNGJD {
 		KOHHBJJDEJB short_video_record = 5;
 	}
 	oneof IHDBANJAHPC {
-		CGCOFKKANIA lan_v_5_card_brief_info = 2008;
 		BDFOBAFPAIE music_brief_info = 1423;
+		CGCOFKKANIA lan_v_5_card_brief_info = 2008;
 	}
 }
 
@@ -38395,11 +38395,11 @@ message GIGFBABLAEC {
 	AHHIGHAEJCD CHEPGOLNLPF = 502;
 	BFCFNAPAPFO BJANOHDLACN = 1;
 	oneof NPOODEEMOCJ {
-		MEECDOLAJIO vector_mover_data = 11;
+		HHHAADEEKOB rotate_to_dir_mover_data = 14;
 		COOLEKOMNAN route_mover_data = 13;
+		MEECDOLAJIO vector_mover_data = 11;
 		BLNBKKLONIJ rotate_mover_data = 12;
 		OELBODPJMKN fixed_pos_rot_mover_data = 15;
-		HHHAADEEKOB rotate_to_dir_mover_data = 14;
 	}
 }
 
@@ -38411,8 +38411,8 @@ message ANDLICCNEHE {
 	BBEFIEELFPO KGEIDEIGKFM = 1;
 	oneof NPOODEEMOCJ {
 		HLNNPMMPMLH normal = 1964;
-		FCDHHBHIDID timer = 691;
 		NPOGEHHDLEJ countdown = 1796;
+		FCDHHBHIDID timer = 691;
 	}
 }
 
@@ -39091,9 +39091,9 @@ message BDGAIECNLHC {
 	HHKMPADGPAO IKFMOLDHMAN = 2;
 	oneof NPOODEEMOCJ {
 		NIIKEDJGBNM tier_data = 101;
-		KOFDHAJEIAO achievement_data = 102;
 		EFNLBGAMKAF custom_data = 100;
 		CPCPLGKKJKM dlc_data = 103;
+		KOFDHAJEIAO achievement_data = 102;
 	}
 }
 
@@ -40757,54 +40757,54 @@ enum BIGEJFKKLNH {
 
 message HKFCONAKCIG {
 	oneof JMIOJPBKKJF {
-		FNILPKOEDHJ add_dice = 6;
-		NIBIDEAFCHB no_damage_skill_result = 778;
-		KCFABCGMMJA use_skill_end = 1659;
-		LMMLJKLEILF op_timer = 2011;
-		OPHLLEBGNIF modify_add = 2026;
-		IPIGOONCEHI use_skill = 4;
-		JEEAHBBFFMH duel_data_change = 407;
-		ANAGKJDMLKP waiting_list_change = 1426;
-		ACEFGGOCPGN cost_revise = 986;
-		MCDBBOGHPAD pve_intention_change = 584;
-		MPGDCLIKIEG pve_intention_info = 271;
-		DNHHNKFEHPI select_on_stage_by_effect = 1751;
-		FPFEKJCNHPL dice_roll = 15;
-		BNDDFKEOAPD reaction_end = 203;
-		DALKHEAOHAE transfer_card_to_opponent = 1331;
-		NGBLEBLMCFP token_change = 1;
-		PKGBGFHCJIK card_update = 930;
-		HEHLJGCNFDO reaction_begin = 1604;
-		JCMPPJBJKJJ use_legend = 730;
-		JLKOPFLLOOD phase_continue = 1345;
-		MCEDKNLFEJH change_character_index = 1624;
-		IFEICIPPFCI field_update = 774;
-		DJPJOCNPHBA discover_refresh_count = 1587;
-		ELGEBCDJCAK update_controller = 1709;
-		JLIOFOLNOFM discover_refresh = 1000;
-		KPLIEOBLIDG break_up = 578;
-		KGAHNIGPEEH move_card = 9;
-		ANNKOPCCBJP add_cards = 2;
-		MFHJMFIFJEE remove_cards = 12;
-		CMFHEABNPMD modify_remove = 1612;
-		IJDBHLIEGDN client_perform = 733;
-		NIOGMONPEBA cost_dice = 5;
-		IHODEILLDCN discover_end = 1848;
-		KBIPIPJJLBK card_henshin = 448;
-		DAHPKIOLHMK char_die = 13;
 		IMNPKCNBMPF skill_result = 14;
-		LNIHBONLKDO pass = 8;
-		HAAEHOBPOFA select_on_stage = 11;
-		GCCIAEOHHOP dice_reroll = 7;
 		MOOLHCBOGGI new_card = 1602;
-		FMMGHPCMGHC game_over = 1417;
-		IJGFFPMECNB skill_limits_change = 1429;
-		EOAGDCPBOIL zone_shuffle = 528;
+		NIBIDEAFCHB no_damage_skill_result = 778;
+		HEHLJGCNFDO reaction_begin = 1604;
+		FPFEKJCNHPL dice_roll = 15;
 		KKFKFOBOPED element_mastery_change = 1630;
-		IMKIBAMHLBD add_attachment_card = 237;
-		EIJIGJONECG replace_char = 1405;
-		HIBNBHBEPEC phase_change = 3;
 		KMAJKFLABDF bust_cards = 1929;
+		GCCIAEOHHOP dice_reroll = 7;
+		IMKIBAMHLBD add_attachment_card = 237;
+		HAAEHOBPOFA select_on_stage = 11;
+		FNILPKOEDHJ add_dice = 6;
+		CMFHEABNPMD modify_remove = 1612;
+		ACEFGGOCPGN cost_revise = 986;
+		KPLIEOBLIDG break_up = 578;
+		OPHLLEBGNIF modify_add = 2026;
+		JEEAHBBFFMH duel_data_change = 407;
+		DJPJOCNPHBA discover_refresh_count = 1587;
+		KGAHNIGPEEH move_card = 9;
+		MCDBBOGHPAD pve_intention_change = 584;
+		BNDDFKEOAPD reaction_end = 203;
+		NIOGMONPEBA cost_dice = 5;
+		EOAGDCPBOIL zone_shuffle = 528;
+		IFEICIPPFCI field_update = 774;
+		KCFABCGMMJA use_skill_end = 1659;
+		IJDBHLIEGDN client_perform = 733;
+		PKGBGFHCJIK card_update = 930;
+		MPGDCLIKIEG pve_intention_info = 271;
+		MFHJMFIFJEE remove_cards = 12;
+		DALKHEAOHAE transfer_card_to_opponent = 1331;
+		JCMPPJBJKJJ use_legend = 730;
+		LNIHBONLKDO pass = 8;
+		IPIGOONCEHI use_skill = 4;
+		JLKOPFLLOOD phase_continue = 1345;
+		IJGFFPMECNB skill_limits_change = 1429;
+		EIJIGJONECG replace_char = 1405;
+		FMMGHPCMGHC game_over = 1417;
+		DAHPKIOLHMK char_die = 13;
+		ELGEBCDJCAK update_controller = 1709;
+		ANNKOPCCBJP add_cards = 2;
+		ANAGKJDMLKP waiting_list_change = 1426;
+		DNHHNKFEHPI select_on_stage_by_effect = 1751;
+		NGBLEBLMCFP token_change = 1;
+		LMMLJKLEILF op_timer = 2011;
+		KBIPIPJJLBK card_henshin = 448;
+		IHODEILLDCN discover_end = 1848;
+		MCEDKNLFEJH change_character_index = 1624;
+		JLIOFOLNOFM discover_refresh = 1000;
+		HIBNBHBEPEC phase_change = 3;
 	}
 }
 
@@ -41059,9 +41059,9 @@ message OHBPHNNBBHN {
 message NKNGFCPCKMH {
 	GMAHMIHHKIF KGEIDEIGKFM = 1;
 	oneof NPOODEEMOCJ {
-		PEBFPEAPOFL by_speed_data = 13;
-		CNPFMFDDGON by_time_data = 12;
 		IMPNKLCAPJI none_data = 11;
+		CNPFMFDDGON by_time_data = 12;
+		PEBFPEAPOFL by_speed_data = 13;
 	}
 }
 
@@ -41149,8 +41149,8 @@ message PCPPMONLCJE {
 
 // CmdID: 9877
 message DNHDPNHCPMG {
-	int32 MBKKKANIBAK = 7 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 4215) ^ 33726", (ys_custom).value_unmask = "(val ^ 33726) + 4215"];
-	uint32 MPLGDGFNFIL = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 8638) - 57396", (ys_custom).value_unmask = "(val + 57396) ^ 8638"];
+	int32 MBKKKANIBAK = 7 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 33726) + 4215", (ys_custom).value_unmask = "(val - 4215) ^ 33726"];
+	uint32 MPLGDGFNFIL = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 57396) ^ 8638", (ys_custom).value_unmask = "(val ^ 8638) - 57396"];
 }
 
 message HOINDKPHFFA {
@@ -41295,9 +41295,9 @@ message HHHEGJDIIGN {
 	}
 	uint32 FCHMGIONNIH = 13;
 	oneof AAFHLPFACNF {
-		ELMJBKHBAMM beyond_costume_share_code = 8;
-		string text = 11;
 		uint32 icon = 2;
+		string text = 11;
+		ELMJBKHBAMM beyond_costume_share_code = 8;
 	}
 }
 
@@ -41525,10 +41525,10 @@ message NALPABLDEFP {
 	oneof NPOODEEMOCJ {
 		IFNLJLKLLNB skill_area = 12;
 		LDJGBCGGEND none_intrinsic_ui = 15;
+		DGNPAOLLEHG player_hp = 11;
 		HAMMDFNKDFK mini_map = 14;
 		DEKLHIGIAHD basic_active_control = 16;
 		FANDJJPPMCP team_and_faction = 13;
-		DGNPAOLLEHG player_hp = 11;
 	}
 }
 
@@ -41551,8 +41551,8 @@ message HDCLFNEEKFI {
 	FEADGNIJBGC LIKJEBBBHOL = 9;
 	sfixed64 HKMMAJGMLDF = 10;
 	oneof NPOODEEMOCJ {
-		int64 circle_radius = 66;
 		FEADGNIJBGC box_extent = 26;
+		int64 circle_radius = 66;
 	}
 }
 
@@ -41589,10 +41589,10 @@ message DCOMCJIKJCG {
 	uint32 EJEOJHJJGPM = 5;
 	uint32 INNIHHFCNAN = 10;
 	oneof JHBKMINFGHJ {
-		uint32 item_id = 4;
 		uint32 npc_id = 2;
 		uint32 gadget_id = 3;
 		uint32 monster_id = 1;
+		uint32 item_id = 4;
 	}
 	oneof GNBLGDNBOAD {
 		IMLHHIHFADF gadget = 13;
@@ -42296,8 +42296,8 @@ message NCKLKPPNHDL {
 	PKNKEKIMFAD GLDFNEGDDOF = 9;
 	oneof OLFCJGHGCFA {
 		DEIBACBFHEO quest_param = 2;
-		uint32 level = 8;
 		uint32 chapter_id = 14;
+		uint32 level = 8;
 	}
 }
 
@@ -43066,8 +43066,8 @@ message NLGGMDDPKHN {
 	uint32 HKCCLFEJIGO = 1;
 	uint32 GHFAMHGNOHE = 12;
 	oneof NPOODEEMOCJ {
-		NPADJEMMECL primitive_avatar_info = 4;
 		OCGJPHIKEBG costume_info = 14;
+		NPADJEMMECL primitive_avatar_info = 4;
 	}
 }
 
@@ -43322,8 +43322,8 @@ message ABIJKLDAIEC {
 message OBPEDHGBAJI {
 	GOLMKINDEFP IKOFFJHCAHA = 1;
 	oneof NPOODEEMOCJ {
-		ADENPLJOGEO config_play_sound_effect = 100;
 		EKKCIDFJFBN config_play_music = 101;
+		ADENPLJOGEO config_play_sound_effect = 100;
 	}
 }
 
@@ -43332,10 +43332,10 @@ message DIOOECLJIOB {
 	int32 KOHDIPCHFAO = 501;
 	bool BNBALFNDNMH = 503;
 	oneof NPOODEEMOCJ {
-		FPEKOFGJKDI value_float = 12;
-		KOGDOFIODFL value_string = 13;
-		CFJAGECJLPC value_wild = 14;
 		OOEBNMDNEGO value_int = 11;
+		FPEKOFGJKDI value_float = 12;
+		CFJAGECJLPC value_wild = 14;
+		KOGDOFIODFL value_string = 13;
 	}
 }
 
@@ -43698,11 +43698,11 @@ message MIGOJFJLCHH {
 	uint32 OKKJCKDDIDA = 8;
 	bool GPOGNPOAPPF = 6;
 	oneof DJOBKOJPJBD {
-		GHHBHKBCPNP config_server_param_dictionary = 105;
-		JOFIMOKNIHF config_struct = 104;
 		MMHEAECGNNN config_generics = 103;
 		HHINBHKFICN config_enum = 101;
 		LFMDCDCNEIN config_list = 102;
+		JOFIMOKNIHF config_struct = 104;
+		GHHBHKBCPNP config_server_param_dictionary = 105;
 	}
 }
 
@@ -43987,11 +43987,11 @@ message LNGOBKLIGAL {
 }
 
 enum BIEDOMKPLEJ {
-	BIEDOMKPLEJ_MONSTER_CHESS_V_2_PHASE_NONE = 0;
-	BIEDOMKPLEJ_MONSTER_CHESS_V_2_PHASE_PREPARE = 1;
-	BIEDOMKPLEJ_MONSTER_CHESS_V_2_PHASE_UI_SHOW = 2;
-	BIEDOMKPLEJ_MONSTER_CHESS_V_2_PHASE_FIGHT = 3;
-	BIEDOMKPLEJ_MONSTER_CHESS_V_2_PHASE_SETTLE = 4;
+	BIEDOMKPLEJ_MONSTER_CHESS_v2_PHASE_NONE = 0;
+	BIEDOMKPLEJ_MONSTER_CHESS_v2_PHASE_PREPARE = 1;
+	BIEDOMKPLEJ_MONSTER_CHESS_v2_PHASE_UI_SHOW = 2;
+	BIEDOMKPLEJ_MONSTER_CHESS_v2_PHASE_FIGHT = 3;
+	BIEDOMKPLEJ_MONSTER_CHESS_v2_PHASE_SETTLE = 4;
 }
 
 // CmdID: 29566
@@ -44245,8 +44245,8 @@ message IFNNKMHDBMD {
 message HEKMNMDOIBF {
 	HFCBFPOFGGK BACCNPLOIDI = 1;
 	oneof MBNINMKEKLP {
-		FKABDBCFOIN frog_param_type_info = 101;
 		IMDBPDKHNCD server_param_type_info = 100;
+		FKABDBCFOIN frog_param_type_info = 101;
 	}
 }
 
@@ -44385,11 +44385,11 @@ message PGCAAIDPCOL {
 	repeated int32 MKFDLGCDCPA = 2;
 	uint32 AJDNGKHLIJE = 1;
 	oneof CKILKEACLNB {
-		string string_value = 15;
-		bool bool_value = 13;
-		uint32 uint_value = 11;
-		float float_value = 14;
 		int32 int_value = 12;
+		string string_value = 15;
+		float float_value = 14;
+		uint32 uint_value = 11;
+		bool bool_value = 13;
 	}
 }
 
@@ -45050,14 +45050,14 @@ message DKJPIIFGGDJ {
 
 message JCPPACONIKN {
 	oneof NPOODEEMOCJ {
-		AKOFAIJCNDH sumeru_adventure_goal_fighting_enter_info = 17015;
+		JPGIHLFKFCO snow_race_combat_enter_info = 5052;
+		FHECIDFOCFH trade_show_battle_enter_info = 12810;
+		HBJLFNIKPCD short_video_enter_info = 13531;
 		HAJCHCAKDFC diversity_battle_enter_info = 15003;
-		PKKJOOLICAH holiday_resort_battle_enter_info = 17693;
 		JHFPIODBGGD lantern_rite_v_6_battle_enter_info = 15474;
 		PANIPJFKFKH bubble_drama_battle_enter_info = 17750;
-		FHECIDFOCFH trade_show_battle_enter_info = 12810;
-		JPGIHLFKFCO snow_race_combat_enter_info = 5052;
-		HBJLFNIKPCD short_video_enter_info = 13531;
+		PKKJOOLICAH holiday_resort_battle_enter_info = 17693;
+		AKOFAIJCNDH sumeru_adventure_goal_fighting_enter_info = 17015;
 	}
 }
 
@@ -45481,13 +45481,13 @@ message BOLEBIMGPOI {
 message KGICBLGFFJL {
 	bool EBJNKECPPEA = 625;
 	oneof OLFCJGHGCFA {
-		BGLJDFIFELI creator_info = 1346;
+		IGJIDJNJGDE client_detector_info = 7972;
+		LLOFHFCPOCE camera_info = 1494;
 		HEKGEBMGNIN new_detector_info = 3260;
+		JELDKCFDEJG location_info = 1320;
 		OJEAHBDNBHL thunder_bird_feather_info = 646;
 		DMKIKEGEAPH sorush_info = 1021;
-		IGJIDJNJGDE client_detector_info = 7972;
-		JELDKCFDEJG location_info = 1320;
-		LLOFHFCPOCE camera_info = 1494;
+		BGLJDFIFELI creator_info = 1346;
 	}
 }
 
@@ -45562,9 +45562,9 @@ message OANMFDJKKID {
 message IDGFLIOJCLG {
 	HILCCOGKBBH BMNFELPKMNI = 1;
 	oneof NPOODEEMOCJ {
+		DDKEFKOGIFJ beyond_avatar_disturber_drag_param_local_pos = 11;
 		PMLDHPPPPMN beyond_avatar_disturber_drag_param_gadget = 13;
 		PAJKPPNIHBP beyond_avatar_disturber_drag_param_world_pos = 12;
-		DDKEFKOGIFJ beyond_avatar_disturber_drag_param_local_pos = 11;
 	}
 }
 
@@ -45805,23 +45805,23 @@ message IMNJJNDEPJP {
 message JCMKKLMMGEA {
 	GLMNJLICGFM HGOGKDHIKDC = 1;
 	oneof OLFCJGHGCFA {
-		DKNNAMLOEGB instruction_graph = 20;
-		DDAEMEEABDA edit_camera = 19;
-		EDGDOMHMODD config_prefab = 14;
-		OENMGEJJGIE pcg_instance = 28;
-		HKIGLCDEANK config_prefab_instance = 16;
-		GMIAOBHHOOP count_down = 18;
-		EIJDPKAPLAB edit_obj = 12;
-		OPMGJFPANJF signal_edit_data = 24;
-		IHHGAILICPI struct_object = 25;
-		HFABGLCIEBO level_config = 23;
-		LEGMBKABPNM tag = 27;
 		DNDKJBFNBOM suite = 26;
-		HCDEFNEKNGC tilemap = 13;
-		GHDLKOMMCOB dummy_point = 15;
-		HPNOMPBONAO prefab = 11;
+		DKNNAMLOEGB instruction_graph = 20;
+		EDGDOMHMODD config_prefab = 14;
+		HKIGLCDEANK config_prefab_instance = 16;
 		KKOAPIPOEPB node_config = 21;
+		HFABGLCIEBO level_config = 23;
+		DDAEMEEABDA edit_camera = 19;
+		LEGMBKABPNM tag = 27;
+		GMIAOBHHOOP count_down = 18;
 		NNMCBNMBDPD assistant_editor_folder = 22;
+		IHHGAILICPI struct_object = 25;
+		OENMGEJJGIE pcg_instance = 28;
+		OPMGJFPANJF signal_edit_data = 24;
+		EIJDPKAPLAB edit_obj = 12;
+		HCDEFNEKNGC tilemap = 13;
+		HPNOMPBONAO prefab = 11;
+		GHDLKOMMCOB dummy_point = 15;
 		CKLCJDJFOKB ui_node = 17;
 	}
 }
@@ -46036,12 +46036,12 @@ message HJNCNGCDJKP {
 message MIJIHMLKDLD {
 	uint32 IBHPEEECANN = 3;
 	oneof BOPLDEMIEJB {
+		JJGGGCMADCO skill_cd_info = 2002;
 		JJGGGCMADCO skill_group_cd_info = 16;
+		APBPEDFGGAM tactic_return_to_born_pos_info = 1947;
 		float skill_gcd = 255;
 		uint32 current_base_param_id = 1596;
-		JJGGGCMADCO skill_cd_info = 2002;
 		ABPKJNEKMLB current_phase = 507;
-		APBPEDFGGAM tactic_return_to_born_pos_info = 1947;
 	}
 }
 
@@ -46551,8 +46551,8 @@ message HLLEAELILCH {
 message JNGMODJAJPG {
 	PJMPJHBKBBA NJOEKBFMPOO = 1;
 	oneof EJDIPEHEMEG {
-		uint32 instance_id = 12;
 		uint32 prefab_id = 11;
+		uint32 instance_id = 12;
 	}
 }
 
@@ -46621,12 +46621,12 @@ message NOLBAMOALJM {
 	bool FJOLOALBGJO = 2;
 	int32 DCAGIOJLLHJ = 1;
 	oneof NPOODEEMOCJ {
+		ADGGNMFGKEB skill_area = 12;
+		MDEBKHIJNOM team_and_faction = 13;
+		NBBJNONCDOP basic_active_control = 16;
 		CAFHPHMCAJK none_intrinsic_ui = 15;
 		PKHAIMFBBNO player_hp = 11;
-		NBBJNONCDOP basic_active_control = 16;
-		MDEBKHIJNOM team_and_faction = 13;
 		BNBDKICBIAL mini_map = 14;
-		ADGGNMFGKEB skill_area = 12;
 	}
 }
 
@@ -46973,17 +46973,17 @@ message DPMCHPIOACI {
 message AAANCIPGBOJ {
 	BFCFNAPAPFO BJANOHDLACN = 1;
 	oneof NPOODEEMOCJ {
+		JPMHAKPPCME rotate_to_dir_mover_data = 14;
 		PHLLIKKDIIO route_mover_data = 13;
-		DNCBKPGPLLO vector_mover_data = 11;
 		FBMMPLBGAKI fixed_pos_rot_mover_data = 15;
 		BJBKMAIELPA rotate_mover_data = 12;
-		JPMHAKPPCME rotate_to_dir_mover_data = 14;
+		DNCBKPGPLLO vector_mover_data = 11;
 	}
 }
 
 enum OMAEGLICEBE {
 	OMAEGLICEBE_LIFE_BY_OWNER_NONE = 0;
-	OMAEGLICEBE_LIFE_BY_OWNER_V_2 = 1;
+	OMAEGLICEBE_LIFE_BY_OWNER_v2 = 1;
 	OMAEGLICEBE_LIFE_BY_OWNER_V_3 = 2;
 }
 
@@ -47036,8 +47036,8 @@ message OJMDPLPLDGF {
 
 message GJCDJJPJMFB {
 	oneof NPOODEEMOCJ {
-		DPPOGOKEJKJ minload_gameserver = 12;
 		GIHMBOEILOD specific_gameserver = 11;
+		DPPOGOKEJKJ minload_gameserver = 12;
 	}
 }
 
@@ -47123,11 +47123,11 @@ message KNHCJDEBOMJ {
 	bool FJOLOALBGJO = 502;
 	int32 DCAGIOJLLHJ = 501;
 	oneof NPOODEEMOCJ {
-		BNCKDOOEADE team_and_faction = 13;
-		JMAFFHMPNDJ player_hp = 11;
-		GNMICMPBJCC mini_map = 14;
 		NHGBDPJNOHB basic_active_control = 16;
 		PEPDJIJBCMK skill_area = 12;
+		JMAFFHMPNDJ player_hp = 11;
+		GNMICMPBJCC mini_map = 14;
+		BNCKDOOEADE team_and_faction = 13;
 		AIFPBFJFLNG none_intrinsic_ui = 15;
 	}
 }
@@ -47396,21 +47396,21 @@ message CDNGPNBLJCL {
 	NIFIAABGGNE MFDCJIEMBCE = 6;
 	NIFIAABGGNE NDMEJMEMKPI = 3;
 	uint32 EIDKCMHIMCA = 1427;
-	uint32 FCHMGIONNIH = 8 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 4145) + 30259", (ys_custom).value_unmask = "(val - 30259) ^ 4145"];
-	uint64 ELMOBNFLGCG = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 16749) ^ 27843", (ys_custom).value_unmask = "(val ^ 27843) + 16749"];
-	uint32 LDPOHLIHKKC = 395 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 2221) + 3554", (ys_custom).value_unmask = "(val - 3554) ^ 2221"];
-	uint32 MGBHJMENGDN = 22 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 64981) - 30022", (ys_custom).value_unmask = "(val + 30022) ^ 64981"];
-	uint32 BLFJKNGIMLK = 1073 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 40350) ^ 43962", (ys_custom).value_unmask = "(val ^ 43962) + 40350"];
-	uint32 INNIHHFCNAN = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 11523) + 49379", (ys_custom).value_unmask = "(val - 49379) ^ 11523"];
-	uint32 JALOOJCCCGO = 7 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 19873) ^ 31579", (ys_custom).value_unmask = "(val ^ 31579) + 19873"];
+	uint32 FCHMGIONNIH = 8 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 30259) ^ 4145", (ys_custom).value_unmask = "(val ^ 4145) + 30259"];
+	uint64 ELMOBNFLGCG = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 27843) + 16749", (ys_custom).value_unmask = "(val - 16749) ^ 27843"];
+	uint32 LDPOHLIHKKC = 395 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 3554) ^ 2221", (ys_custom).value_unmask = "(val ^ 2221) + 3554"];
+	uint32 MGBHJMENGDN = 22 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 30022) ^ 64981", (ys_custom).value_unmask = "(val ^ 64981) - 30022"];
+	uint32 BLFJKNGIMLK = 1073 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 43962) + 40350", (ys_custom).value_unmask = "(val - 40350) ^ 43962"];
+	uint32 INNIHHFCNAN = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 49379) ^ 11523", (ys_custom).value_unmask = "(val ^ 11523) + 49379"];
+	uint32 JALOOJCCCGO = 7 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 31579) + 19873", (ys_custom).value_unmask = "(val - 19873) ^ 31579"];
 	bool GAPGNMMKKCE = 2;
 	bool LNJDOCBLNFK = 1449;
-	uint32 LGGAMGLLCNL = 497 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 38388) + 50775", (ys_custom).value_unmask = "(val - 50775) ^ 38388"];
-	uint32 ELMBMJCADLN = 10 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 40922) ^ 39512", (ys_custom).value_unmask = "(val ^ 39512) - 40922"];
-	uint32 MPLGDGFNFIL = 11 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 22665) ^ 57361", (ys_custom).value_unmask = "(val ^ 57361) - 22665"];
-	uint32 GJNJHACKOMI = 5 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 17829) ^ 27544", (ys_custom).value_unmask = "(val ^ 27544) - 17829"];
+	uint32 LGGAMGLLCNL = 497 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 50775) ^ 38388", (ys_custom).value_unmask = "(val ^ 38388) + 50775"];
+	uint32 ELMBMJCADLN = 10 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 39512) - 40922", (ys_custom).value_unmask = "(val + 40922) ^ 39512"];
+	uint32 MPLGDGFNFIL = 11 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 57361) - 22665", (ys_custom).value_unmask = "(val + 22665) ^ 57361"];
+	uint32 GJNJHACKOMI = 5 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 27544) - 17829", (ys_custom).value_unmask = "(val + 17829) ^ 27544"];
 	AHIMILCPHGN KGEIDEIGKFM = 1;
-	uint32 DLIPFDELMII = 1467 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 7061) + 7304", (ys_custom).value_unmask = "(val - 7304) ^ 7061"];
+	uint32 DLIPFDELMII = 1467 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 7304) ^ 7061", (ys_custom).value_unmask = "(val ^ 7061) + 7304"];
 }
 
 message LAKGOFAEOGL {
@@ -47672,8 +47672,8 @@ message GHNLNHIJEFM {
 	uint32 FFDJKALHABB = 5;
 	uint64 NILFFIGGKKB = 8;
 	oneof LKCIEDGBDHD {
-		MHFHDOBKILE beyond_shop_gift = 1485;
 		LDCMDEFIHAJ beyond_gacha_gift = 97;
+		MHFHDOBKILE beyond_shop_gift = 1485;
 	}
 }
 
@@ -47697,58 +47697,58 @@ message IECFPLENHBM {
 	bool BLGEENGMKED = 503;
 	int32 ECACPILKILB = 502;
 	oneof NPOODEEMOCJ {
-		KGCPHGPOFGH mask = 47;
-		IHIFLPFCLFL window_frame_back_ground = 35;
-		FIIFBDELENF ele_group = 46;
-		KPDJPDJNJOL custom_button_style = 43;
-		EOCNKELJGGH window_frame_special_list_listener = 54;
-		KNHCJDEBOMJ active_control_setting = 14;
-		JFLAHIJPPDK group_control_trans_setting = 15;
-		EIFAKOMJEDA minimap_setting = 27;
-		HMOIIIAPKOE effect_setting = 32;
-		NENODPGGMJI window_frame_page_single = 37;
-		CIOIDAGEAFB window_frame_tab_style = 42;
-		APKAMFOMOGJ custom_button_feature = 44;
-		FADCCEENHOI graphic_cast_region = 45;
-		NNHJGGEGPBI progress_bar_feature = 59;
-		NBNAIJCFLCO transform_setting = 13;
-		FOOJKOGKECE popup_window = 18;
-		FFINCGKHOGO image_setting = 31;
-		HFBKMINEABJ custom_toggle_style = 51;
-		PEFIBOJJEGG progress_bar_style = 58;
-		NFCKGDICJJJ window_frame_toggle_widget_visibility = 61;
-		FELIKLNANOB text_frame = 19;
-		IGIGMPCJAJP special_number = 62;
-		JNNKHINCDBG window_frame_tab_base = 39;
-		NHMBMOACLHH window_frame_toggle_container_visibility = 60;
-		BOJLMPPFIGJ item_slot_setting = 28;
-		NBLIGGEEHKJ joypad_navigation_setting = 30;
-		NBAIBBMONCH option_seletor_item = 24;
-		FKPFAFBAGOJ window_frame_page_close_button = 53;
-		CCJJBBNCCGO score_board = 22;
-		OPJPDCLPIAK option_selector = 23;
-		FEKBCDCLIBG classic_mode_skill_button_setting = 29;
-		CFNNIPDFCJJ faction_setting = 12;
-		LCBLOIHFJPC window_frame_outer = 33;
-		LLKDGIKIKND window_frame_tab_interact = 41;
-		BCHGKOALKJE custom_toggle_feature = 52;
-		IHHPDMIKNHD window_frame_special_container_visibility = 55;
-		GDNCHABBCMH skill_setting = 11;
-		EHJIONOJFKD screen_effect_setting = 49;
-		JBNDADIEMFF window_frame_drag_text_frame = 57;
-		NOIMHFJPDDM skill_button_setting = 16;
-		DBEDBLAAJBJ option_selector_unknown_item = 25;
-		LIDJFOFHPAF option_selector_item_lib = 26;
-		DLCMLJCMACK progress_bar = 20;
-		APLBAGOOMJO window_frame_value = 34;
 		NKOHENBDJEM layout_apply_duty_setting = 17;
-		EHOFELLMMBI timer = 21;
-		AHCMFBGIKPK text_sprite_frame = 38;
-		GINFKEKJODK window_frame_style_list = 48;
-		MPGMGBLBNCM window_frame_page_main = 36;
-		KKHMOKCBGHO window_frame_tab_item_list = 40;
+		FOOJKOGKECE popup_window = 18;
+		LCBLOIHFJPC window_frame_outer = 33;
+		CIOIDAGEAFB window_frame_tab_style = 42;
+		EHJIONOJFKD screen_effect_setting = 49;
+		HFBKMINEABJ custom_toggle_style = 51;
+		FADCCEENHOI graphic_cast_region = 45;
+		BCHGKOALKJE custom_toggle_feature = 52;
+		FIIFBDELENF ele_group = 46;
+		JFLAHIJPPDK group_control_trans_setting = 15;
+		NBLIGGEEHKJ joypad_navigation_setting = 30;
+		EOCNKELJGGH window_frame_special_list_listener = 54;
 		JJJPOLPEPNB window_frame_drag_list_base = 50;
+		IHHPDMIKNHD window_frame_special_container_visibility = 55;
+		JBNDADIEMFF window_frame_drag_text_frame = 57;
+		GINFKEKJODK window_frame_style_list = 48;
 		GNJGPFLJDMN window_frame_special_widget_visibility = 56;
+		APLBAGOOMJO window_frame_value = 34;
+		KNHCJDEBOMJ active_control_setting = 14;
+		FFINCGKHOGO image_setting = 31;
+		JNNKHINCDBG window_frame_tab_base = 39;
+		PEFIBOJJEGG progress_bar_style = 58;
+		FKPFAFBAGOJ window_frame_page_close_button = 53;
+		IGIGMPCJAJP special_number = 62;
+		IHIFLPFCLFL window_frame_back_ground = 35;
+		NBAIBBMONCH option_seletor_item = 24;
+		BOJLMPPFIGJ item_slot_setting = 28;
+		NHMBMOACLHH window_frame_toggle_container_visibility = 60;
+		HMOIIIAPKOE effect_setting = 32;
+		NFCKGDICJJJ window_frame_toggle_widget_visibility = 61;
+		EHOFELLMMBI timer = 21;
+		OPJPDCLPIAK option_selector = 23;
+		NBNAIJCFLCO transform_setting = 13;
+		EIFAKOMJEDA minimap_setting = 27;
+		NNHJGGEGPBI progress_bar_feature = 59;
+		GDNCHABBCMH skill_setting = 11;
+		KGCPHGPOFGH mask = 47;
+		KKHMOKCBGHO window_frame_tab_item_list = 40;
+		DBEDBLAAJBJ option_selector_unknown_item = 25;
+		NOIMHFJPDDM skill_button_setting = 16;
+		CFNNIPDFCJJ faction_setting = 12;
+		FELIKLNANOB text_frame = 19;
+		CCJJBBNCCGO score_board = 22;
+		MPGMGBLBNCM window_frame_page_main = 36;
+		LIDJFOFHPAF option_selector_item_lib = 26;
+		FEKBCDCLIBG classic_mode_skill_button_setting = 29;
+		NENODPGGMJI window_frame_page_single = 37;
+		LLKDGIKIKND window_frame_tab_interact = 41;
+		KPDJPDJNJOL custom_button_style = 43;
+		AHCMFBGIKPK text_sprite_frame = 38;
+		DLCMLJCMACK progress_bar = 20;
+		APKAMFOMOGJ custom_button_feature = 44;
 	}
 }
 
@@ -47801,10 +47801,10 @@ message CJHCNNDALFM {
 	bool HJBACFDPKID = 2;
 	AHBPJNFJBOC ONNDNHKFPMA = 1;
 	oneof NPOODEEMOCJ {
-		OBDMAOPNEBJ cylinder_data = 14;
-		FLFIMBNIOKP capsule_data = 13;
 		EPIEDEJNHCM sphere_data = 12;
 		BAFGCBDHAKP box_data = 11;
+		FLFIMBNIOKP capsule_data = 13;
+		OBDMAOPNEBJ cylinder_data = 14;
 	}
 }
 
@@ -47841,19 +47841,19 @@ message OAFECKEOBNO {
 message DOAAANPLODH {
 	HGPDEGONDPG ACEJFBBLMCE = 1;
 	oneof NPOODEEMOCJ {
-		FDLICLCDMOJ special_can_do_skill = 20;
-		ALNBDCHOPJP avatar_steer_by_camera = 13;
-		ONLJADBPGIM attach_shoot_helper_byd_effect = 16;
-		CKGIJJFLJMI monster_steer_by_cv_pos = 19;
-		LDAFDCCNPGH byd_check_ground = 22;
-		OPANCPDBBJP attach_effect = 11;
-		CBKJIFEOMHN enter_focus = 14;
-		CBLONEICINH avatar_levitate = 12;
-		ALKAGCKJEPH modify_cast_speed_ratio = 21;
-		DHPMGFNCILJ monster_steer_by_ai_target = 18;
-		HHKAINOKBKJ attach_pre_input_combo_jump_effect = 17;
 		MHJCDOMOLLB ability_drag_force = 23;
+		OPANCPDBBJP attach_effect = 11;
+		CBLONEICINH avatar_levitate = 12;
+		ONLJADBPGIM attach_shoot_helper_byd_effect = 16;
 		JLGMALFCKHJ aim_ui = 15;
+		ALNBDCHOPJP avatar_steer_by_camera = 13;
+		CKGIJJFLJMI monster_steer_by_cv_pos = 19;
+		FDLICLCDMOJ special_can_do_skill = 20;
+		CBKJIFEOMHN enter_focus = 14;
+		DHPMGFNCILJ monster_steer_by_ai_target = 18;
+		ALKAGCKJEPH modify_cast_speed_ratio = 21;
+		LDAFDCCNPGH byd_check_ground = 22;
+		HHKAINOKBKJ attach_pre_input_combo_jump_effect = 17;
 	}
 }
 
@@ -48781,9 +48781,9 @@ message NBAACHJNBHD {
 		uint32 IBHPEEECANN = 11;
 	}
 	oneof NODKCLPJDMN {
-		GFBBIGEHKJH catch_seed = 15;
-		DJHMJGLCNIJ refresh_seed = 11;
 		FHHAEAJHKHG add_signal = 8;
+		DJHMJGLCNIJ refresh_seed = 11;
+		GFBBIGEHKJH catch_seed = 15;
 	}
 }
 
@@ -48799,18 +48799,18 @@ message BCBONIBGBMO {
 	uint32 HOCLLOJBEGG = 14;
 	uint32 DJMGJENFDLM = 9;
 	oneof NPOODEEMOCJ {
-		OMGBNAMFIIK natlan_drill_collect_info = 1664;
-		HDNOBABOMKC fruit_pick_info = 1680;
-		KEHLJHDDCDN float_toy_info = 1605;
-		PNAOIICHMND cook_game_info = 1622;
-		AIFGJCGGHGJ great_festival_v_2_sheet_restore_info = 27;
-		LFDHFGDGODP catcafe_info = 1751;
-		IJNOEHJAENN ceremony_doodle_info = 928;
-		BBIHEHLEBDB fairy_tales_flyppy_hat_info = 1296;
-		MJDNNGPBIEF bird_ball_client_info = 736;
-		OKPHIPPLAPE dream_switching_info = 1330;
 		GBKPLCMFHEI lantern_rite_v_6_danmaku_info = 1301;
 		MGLHFPIBJJC holiday_resort_adventure_info = 1310;
+		KEHLJHDDCDN float_toy_info = 1605;
+		HDNOBABOMKC fruit_pick_info = 1680;
+		AIFGJCGGHGJ great_festival_v2_sheet_restore_info = 27;
+		IJNOEHJAENN ceremony_doodle_info = 928;
+		LFDHFGDGODP catcafe_info = 1751;
+		OKPHIPPLAPE dream_switching_info = 1330;
+		PNAOIICHMND cook_game_info = 1622;
+		OMGBNAMFIIK natlan_drill_collect_info = 1664;
+		MJDNNGPBIEF bird_ball_client_info = 736;
+		BBIHEHLEBDB fairy_tales_flyppy_hat_info = 1296;
 	}
 }
 
@@ -49305,12 +49305,12 @@ message EDHNJCGIBCA {
 		ODKNCOILLJA FAFIMBAGDKG = 1;
 	}
 	oneof AMKLGFFLKKJ {
-		GPHIONPDMGK leave_op = 2;
-		DMIDABFEAAI invite_op = 1;
 		AKBMOJBCJFC reply_op = 4;
-		LKFHGIKENJN set_player_state_op = 6;
 		OKFJKOLDPHJ set_team_op = 5;
+		GPHIONPDMGK leave_op = 2;
+		LKFHGIKENJN set_player_state_op = 6;
 		OHLMLCMBNEA kick_op = 3;
+		DMIDABFEAAI invite_op = 1;
 	}
 }
 
@@ -49451,61 +49451,61 @@ message HIGAIKNBCDD {
 	GLAHFAPEEOH IINNIHOCAIP = 2;
 	int32 EJDIPEHEMEG = 1;
 	oneof NPOODEEMOCJ {
-		NGJHIOMCKDH beyond_trigger_ai_skill_cd_mp_action_config = 52;
-		JPMHNIGDMLM beyond_bullet_damage_by_attack_value_mp_action_config = 30;
-		LENHPODIKMJ beyond_break_loop_mp_action_config = 36;
-		OEJCEDNGAJN beyond_damage_by_attack_value_mp_action_config = 12;
-		LHOBNHDCHNB beyond_change_enmity_value_by_ratio_mp_action_config = 39;
-		PJNPEDLKPCE beyond_damage_by_attack_value_by_abs_pos_mp_action_config = 17;
-		HKKGDAKJONI beyond_frogprint_multi_predicated_mp_action_config = 63;
-		DHCGHCCMJKB beyond_set_self_attack_target_mp_action_config = 25;
-		KOKLEDKHLBD beyond_set_ai_skill_cd_available_now_mp_action_config = 51;
-		CPHICKCBAPC beyond_shoot_helper_result_mp_action_config = 28;
-		KCENDGKGMAE beyond_set_ai_skill_cd_mp_action_config = 53;
-		OJKJEIIECMP beyond_add_role_status_mp_action_config = 13;
-		JFEAKGOELLF beyond_bullet_trigger_bullet_mp_action_config = 32;
-		IBPCJCJODKE beyond_remove_velocity_force_mp_action_config = 21;
-		HIPOJBKIAIG beyond_frogprint_predicated_mp_action_config = 27;
-		MPPNBBOMHFA beyond_fixed_monster_rush_move_by_abs_pos_mp_action_config = 50;
-		FIPEGEFIAFL beyond_bullet_trigger_attack_event_mp_action_config = 29;
-		BCHPCCDEMML beyond_set_global_value_mp_action_config = 57;
-		HHJJMJPGBDG beyond_rush_move_mp_action_config = 20;
-		PNEFLGAIJBJ beyond_trigger_ai_skill_group_cd_mp_action_config = 54;
-		MAABFMLGPEP beyond_turn_to_dir_mp_action_config = 45;
-		GGBEKMMEHBH beyond_heal_hp_mp_action_config = 34;
-		ADAOGLMFKIN beyond_set_frogprint_temp_value_mp_action_config = 44;
-		NGGGAPHBLIA beyond_kill_self_mp_action_config = 33;
-		LDPOAEMFFFM beyond_fire_effect_by_abs_pos_mp_action_config = 18;
-		MLHHCMHPMMG beyond_trigger_attack_event_mp_action_config = 11;
-		PCEKJDLBNEC beyond_turn_direction_mp_action_config = 23;
-		BLNFMKCIJOD beyond_foreach_frogprint_targets_mp_action_config = 26;
-		PCOFKKAKJMA beyond_force_exit_focus_state_mp_action_config = 47;
-		HJDCDCEDDOP beyond_set_ai_skill_gcd_mp_action_config = 56;
-		CCNOBAHLICA beyond_override_targetting_param_mp_action_config = 24;
-		HIHGCMAFKNK beyond_record_key_behaviour_mp_action_config = 61;
-		FPDLAPGFGBD beyond_taunt_mp_action_config = 43;
 		NGKGGHGBJOP beyond_send_signal_mp_action_config = 48;
-		ACBLHBAACON beyond_monster_blink_by_abs_pos_mp_action_config = 49;
-		KOKLLIBBGFG beyond_remove_from_enmity_list_mp_action_config = 42;
-		DGLKHHMOICD beyond_add_global_value_mp_action_config = 58;
-		KPIJNDNPPCE beyond_interrupt_cur_skill_mp_action_config = 59;
-		OJFAMHEOACF beyond_bullet_fire_effect_mp_action_config = 31;
-		EICBCEJIPOL beyond_select_skill_attack_target_mp_action_config = 46;
-		LOOEJOGOHMH beyond_transfer_enmity_value_by_ratio_mp_action_config = 40;
-		OKJGGJDEKPP beyond_blink_mp_action_config = 60;
-		NDDJPFIPKDI beyond_send_blueprint_event_mp_action_config = 15;
-		DDLEKNPJPFA beyond_clear_key_behaviour_mp_action_config = 62;
-		CGGPHLDNDLI beyond_clear_enmity_list_mp_action_config = 41;
-		PHLLDJIHAGD beyond_set_ai_skill_group_cd_mp_action_config = 55;
-		KLMBAOCIBJL beyond_try_start_custom_skill_by_id_mp_action_config = 64;
-		DFIFMMKNOAI beyond_try_start_custom_skill_by_slot_mp_action_config = 65;
-		DFBHGEIKOHJ beyond_remove_role_status_mp_action_config = 14;
-		NLFJGGBNNDC beyond_trigger_attack_event_by_abs_pos_mp_action_config = 16;
-		MAPAHDEHOAE beyond_loop_call_mp_action_config = 35;
+		HIPOJBKIAIG beyond_frogprint_predicated_mp_action_config = 27;
 		LNEBHKEKBNC beyond_set_enmity_value_mp_action_config = 37;
+		OJKJEIIECMP beyond_add_role_status_mp_action_config = 13;
 		EHNABKPENDF beyond_change_enmity_value_mp_action_config = 38;
+		MAABFMLGPEP beyond_turn_to_dir_mp_action_config = 45;
+		CCNOBAHLICA beyond_override_targetting_param_mp_action_config = 24;
+		EICBCEJIPOL beyond_select_skill_attack_target_mp_action_config = 46;
+		NGJHIOMCKDH beyond_trigger_ai_skill_cd_mp_action_config = 52;
+		PHLLDJIHAGD beyond_set_ai_skill_group_cd_mp_action_config = 55;
+		NLFJGGBNNDC beyond_trigger_attack_event_by_abs_pos_mp_action_config = 16;
+		PNEFLGAIJBJ beyond_trigger_ai_skill_group_cd_mp_action_config = 54;
+		KOKLLIBBGFG beyond_remove_from_enmity_list_mp_action_config = 42;
+		KOKLEDKHLBD beyond_set_ai_skill_cd_available_now_mp_action_config = 51;
+		PJNPEDLKPCE beyond_damage_by_attack_value_by_abs_pos_mp_action_config = 17;
+		OEJCEDNGAJN beyond_damage_by_attack_value_mp_action_config = 12;
+		HHJJMJPGBDG beyond_rush_move_mp_action_config = 20;
+		IBPCJCJODKE beyond_remove_velocity_force_mp_action_config = 21;
+		MAPAHDEHOAE beyond_loop_call_mp_action_config = 35;
+		CPHICKCBAPC beyond_shoot_helper_result_mp_action_config = 28;
+		PCEKJDLBNEC beyond_turn_direction_mp_action_config = 23;
+		FIPEGEFIAFL beyond_bullet_trigger_attack_event_mp_action_config = 29;
+		LHOBNHDCHNB beyond_change_enmity_value_by_ratio_mp_action_config = 39;
+		MLHHCMHPMMG beyond_trigger_attack_event_mp_action_config = 11;
+		OJFAMHEOACF beyond_bullet_fire_effect_mp_action_config = 31;
+		CGGPHLDNDLI beyond_clear_enmity_list_mp_action_config = 41;
+		FPDLAPGFGBD beyond_taunt_mp_action_config = 43;
+		DFBHGEIKOHJ beyond_remove_role_status_mp_action_config = 14;
+		ACBLHBAACON beyond_monster_blink_by_abs_pos_mp_action_config = 49;
+		KPIJNDNPPCE beyond_interrupt_cur_skill_mp_action_config = 59;
+		DDLEKNPJPFA beyond_clear_key_behaviour_mp_action_config = 62;
+		LENHPODIKMJ beyond_break_loop_mp_action_config = 36;
+		LOOEJOGOHMH beyond_transfer_enmity_value_by_ratio_mp_action_config = 40;
+		BCHPCCDEMML beyond_set_global_value_mp_action_config = 57;
+		NGGGAPHBLIA beyond_kill_self_mp_action_config = 33;
+		GGBEKMMEHBH beyond_heal_hp_mp_action_config = 34;
+		HJDCDCEDDOP beyond_set_ai_skill_gcd_mp_action_config = 56;
+		DHCGHCCMJKB beyond_set_self_attack_target_mp_action_config = 25;
 		PLOGAJACLKJ beyond_fixed_avatar_rush_move_by_abs_pos_mp_action_config = 19;
+		BLNFMKCIJOD beyond_foreach_frogprint_targets_mp_action_config = 26;
+		DGLKHHMOICD beyond_add_global_value_mp_action_config = 58;
+		OKJGGJDEKPP beyond_blink_mp_action_config = 60;
+		KCENDGKGMAE beyond_set_ai_skill_cd_mp_action_config = 53;
+		KLMBAOCIBJL beyond_try_start_custom_skill_by_id_mp_action_config = 64;
 		BMPMLEDLJOM beyond_trigger_bullet_by_abs_pos_mp_action_config = 22;
+		ADAOGLMFKIN beyond_set_frogprint_temp_value_mp_action_config = 44;
+		LDPOAEMFFFM beyond_fire_effect_by_abs_pos_mp_action_config = 18;
+		DFIFMMKNOAI beyond_try_start_custom_skill_by_slot_mp_action_config = 65;
+		PCOFKKAKJMA beyond_force_exit_focus_state_mp_action_config = 47;
+		MPPNBBOMHFA beyond_fixed_monster_rush_move_by_abs_pos_mp_action_config = 50;
+		NDDJPFIPKDI beyond_send_blueprint_event_mp_action_config = 15;
+		JPMHNIGDMLM beyond_bullet_damage_by_attack_value_mp_action_config = 30;
+		JFEAKGOELLF beyond_bullet_trigger_bullet_mp_action_config = 32;
+		HKKGDAKJONI beyond_frogprint_multi_predicated_mp_action_config = 63;
+		HIHGCMAFKNK beyond_record_key_behaviour_mp_action_config = 61;
 	}
 }
 
@@ -49842,7 +49842,7 @@ message IHCDGFEAEOM {
 // CmdID: 23611
 message JHHCCNPLCGE {
 	repeated uint64 JAIONLNKEMC = 8;
-	int32 MBKKKANIBAK = 10 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 9379) + 51228", (ys_custom).value_unmask = "(val - 51228) ^ 9379"];
+	int32 MBKKKANIBAK = 10 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 51228) ^ 9379", (ys_custom).value_unmask = "(val ^ 9379) + 51228"];
 	uint32 JHJHOOOLJLP = 3;
 	uint64 FDIIIMHPEPH = 15;
 }
@@ -50100,10 +50100,10 @@ message CGHPHPGKKEP {
 	int32 OEJKFBGMDDH = 1;
 	int32 FFENEKCGBCL = 3;
 	oneof NPOODEEMOCJ {
-		CPJLOHLNBAK property_string = 13;
-		FOLAEFDDBMJ custom_value_string = 11;
 		FKPNNDJEEOE equip_affix_string = 14;
+		FOLAEFDDBMJ custom_value_string = 11;
 		PEBDGINAAAI normal_string = 12;
+		CPJLOHLNBAK property_string = 13;
 	}
 }
 
@@ -51118,8 +51118,8 @@ message IAKBHOJMGCC {
 		uint32 JJFKAOPMNLK = 7;
 	}
 	oneof AMKLGFFLKKJ {
-		MPBIBKNLONN pair_op = 4;
 		NJMABMELILH unpair_op = 10;
+		MPBIBKNLONN pair_op = 4;
 	}
 }
 
@@ -51272,8 +51272,8 @@ message FKABDBCFOIN {
 	uint32 ALONHCHOOCJ = 2;
 	LDIOIPHMGED EEKNJGFCOKM = 3;
 	oneof CKJAMNLDBHO {
-		ECOODHCFIHD ref_kv_pair = 101;
 		PECCOBECELM ref_struct_id = 100;
+		ECOODHCFIHD ref_kv_pair = 101;
 	}
 }
 
@@ -51771,7 +51771,7 @@ enum AKBOMEKEBOM {
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_DEFAULT = 2400;
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_0 = 2401;
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_1 = 2402;
-	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_2 = 2403;
+	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_Lv2 = 2403;
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_3 = 2404;
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_4 = 2405;
 	AKBOMEKEBOM_BEYOND_HIT_IMPULSE_TYPE_LV_5 = 2406;
@@ -52009,7 +52009,7 @@ enum AKBOMEKEBOM {
 	AKBOMEKEBOM_BEYOND_PLAYER_INPUT_DEVICE_TYPE_CONTROLLER = 5801;
 	AKBOMEKEBOM_BEYOND_PLAYER_INPUT_DEVICE_TYPE_TOUCH_SCREEN = 5802;
 	AKBOMEKEBOM_BEYOND_MONSTER_VERSION_TYPE_MONSTER_V_1 = 5900;
-	AKBOMEKEBOM_BEYOND_MONSTER_VERSION_TYPE_MONSTER_V_2 = 5901;
+	AKBOMEKEBOM_BEYOND_MONSTER_VERSION_TYPE_MONSTER_v2 = 5901;
 	AKBOMEKEBOM_BEYOND_CLIENT_AI_TARGET_TYPE_THREAT = 6000;
 	AKBOMEKEBOM_BEYOND_CLIENT_AI_TARGET_TYPE_OWNER = 6001;
 	AKBOMEKEBOM_BEYOND_CLIENT_AI_TARGET_TYPE_CHILDREN = 6002;
@@ -52075,12 +52075,12 @@ message HNBDENGMLIA {
 	FMNCNKHGHDD LLDLFBGALLH = 1;
 	JJGFEODJOPH KLDDAHDNHJJ = 2;
 	oneof PJMDMFMHPPP {
-		FPIBKOPCEFB tier_up = 3;
-		JIAHLIHEIBD paid_dlc_unlock = 8;
-		PCNGEGCILNO platinum_achievement = 6;
 		bool is_collect = 7;
-		INKIOHEPHCH normal_achievement = 5;
+		JIAHLIHEIBD paid_dlc_unlock = 8;
+		FPIBKOPCEFB tier_up = 3;
 		JHDBIJNEJCA rank = 4;
+		INKIOHEPHCH normal_achievement = 5;
+		PCNGEGCILNO platinum_achievement = 6;
 	}
 }
 
@@ -52721,8 +52721,8 @@ message MFOPFKHLKAA {
 	oneof GEFPLOFDJCM {
 		uint32 target_uid = 3;
 		string xbox_user_id = 6;
-		string online_id = 13;
 		string psn_id = 7;
+		string online_id = 13;
 	}
 }
 
@@ -53303,35 +53303,35 @@ message KKMHGAELBHB {
 	ADCIABOGHJK NBMCEPLBFNI = 2;
 	CKEGLLBEMLG ILNOOPPFOCC = 1;
 	oneof NPOODEEMOCJ {
-		JEOCBDIMPOK beyond_param_value_comp_type = 28;
+		AEPOFCJGKAH beyond_param_value_entity_reference_list = 33;
+		HNDPFFFFAFB beyond_param_value_float = 15;
 		DICPKDLJEME beyond_param_value_army_list = 34;
-		OCDKBGMLHDK beyond_param_value_enum = 24;
-		HJJKHKMFLEN beyond_param_value_entity = 11;
-		CMONGHJLJGO beyond_param_value_custom_value_snapshot = 38;
-		AFLNGKMIFKI beyond_param_value_int = 13;
+		JCMBEFIAGIO beyond_param_value_entity_list = 23;
+		AGFJFMCHEOE beyond_param_value_int_list = 18;
+		JEOCBDIMPOK beyond_param_value_comp_type = 28;
+		IKNCIOOOGMA beyond_param_value_struct_const = 35;
+		BHCNCHDAOKD beyond_param_value_variable = 26;
 		KMJGBPHACFA beyond_param_value_entity_reference = 31;
 		LCPLJBNPDGO beyond_param_value_dict_const = 37;
-		EMPOCFLBNNM beyond_param_value_string = 16;
-		KHCNKLBIOEC beyond_param_value_config_reference_list = 32;
-		BHCNCHDAOKD beyond_param_value_variable = 26;
-		KEIFMGGPKNH beyond_param_value_string_list = 21;
-		HNDPFFFFAFB beyond_param_value_float = 15;
-		EEMNBFODBOD beyond_param_value_bool = 14;
-		IKNCIOOOGMA beyond_param_value_struct_const = 35;
-		AEPOFCJGKAH beyond_param_value_entity_reference_list = 33;
-		MAALGBJACDC beyond_param_value_guid_list = 17;
 		NKBBIIPOIOD beyond_param_value_enum_list = 39;
-		MNDJHKJJAME beyond_param_value_float_list = 20;
-		JCMBEFIAGIO beyond_param_value_entity_list = 23;
+		MAALGBJACDC beyond_param_value_guid_list = 17;
+		KEIFMGGPKNH beyond_param_value_string_list = 21;
 		KLPEGALFEBI beyond_param_value_config_reference = 30;
+		AFLNGKMIFKI beyond_param_value_int = 13;
+		HDKHKILAEAB beyond_param_value_vector_3_list = 25;
+		LDLIJOFPODA beyond_param_value_struct_list_const = 36;
+		CMONGHJLJGO beyond_param_value_custom_value_snapshot = 38;
+		OJECAJOAPGP beyond_param_value_vector_3 = 22;
+		FKLLMGFOENF beyond_param_value_army = 27;
+		HJJKHKMFLEN beyond_param_value_entity = 11;
+		EEMNBFODBOD beyond_param_value_bool = 14;
+		KHCNKLBIOEC beyond_param_value_config_reference_list = 32;
+		MNDJHKJJAME beyond_param_value_float_list = 20;
+		EMPOCFLBNNM beyond_param_value_string = 16;
+		BDFLMOCAJIK beyond_param_value_category_type = 29;
 		DPLJHOKJCFN beyond_param_value_guid = 12;
 		NIBACAICOJP beyond_param_value_bool_list = 19;
-		BDFLMOCAJIK beyond_param_value_category_type = 29;
-		AGFJFMCHEOE beyond_param_value_int_list = 18;
-		HDKHKILAEAB beyond_param_value_vector_3_list = 25;
-		OJECAJOAPGP beyond_param_value_vector_3 = 22;
-		LDLIJOFPODA beyond_param_value_struct_list_const = 36;
-		FKLLMGFOENF beyond_param_value_army = 27;
+		OCDKBGMLHDK beyond_param_value_enum = 24;
 	}
 }
 
@@ -53951,8 +53951,8 @@ message KJAJOOPKLOJ {
 
 message LNFMDKKNJPJ {
 	oneof NPOODEEMOCJ {
-		BMHMPNEODFD npc = 12;
 		NKCOPJHGALM player = 10;
+		BMHMPNEODFD npc = 12;
 	}
 }
 
@@ -54306,8 +54306,8 @@ message CBBKEELKMEF {
 	uint32 BMELFCEBJKF = 3;
 	uint32 NINNIAKBJOI = 2;
 	oneof CGNGFCAPFJC {
-		JPMFDMCAGOK room_extra_info = 102;
 		CDOJOHOKEIF team_extra_info = 101;
+		JPMFDMCAGOK room_extra_info = 102;
 	}
 }
 
@@ -54636,8 +54636,8 @@ message POIEIFHCLNJ {
 message PANGAFPFEPG {
 	bool KFMFGBFCKIL = 3;
 	oneof NPOODEEMOCJ {
-		OKEMBAHKGPI reliquary = 1;
 		DHLNCKHGHNN weapon = 2;
+		OKEMBAHKGPI reliquary = 1;
 	}
 }
 
@@ -55185,8 +55185,8 @@ message OENMCGHPKIA {
 	int32 OEJKFBGMDDH = 501;
 	int32 FFENEKCGBCL = 503;
 	oneof NPOODEEMOCJ {
-		KBIBPACKNNG property_string = 13;
 		GNMEOCAELCB custom_value_string = 11;
+		KBIBPACKNNG property_string = 13;
 		BHCDACDLFKN equip_affix_string = 14;
 		OAHGCNHANCC normal_string = 12;
 	}
@@ -56265,10 +56265,10 @@ message IEDKJLNHKJO {
 	BFCFNAPAPFO BJANOHDLACN = 3;
 	bool BPGGDBELJGA = 2;
 	oneof NPOODEEMOCJ {
-		FEAPKAHEBGJ route_mover_data = 13;
-		AIOPKAAIKIC rotate_mover_data = 12;
 		MHNDOCEHANK vector_mover_data = 11;
+		AIOPKAAIKIC rotate_mover_data = 12;
 		IIBPNEPEGLE rotate_to_dir_mover_data = 14;
+		FEAPKAHEBGJ route_mover_data = 13;
 	}
 }
 
@@ -57215,12 +57215,12 @@ message DOMLFBECKME {
 	LHJJAJLIBOL KBACEEIHPAL = 1;
 	bool CMCNFFLBKJJ = 2;
 	oneof MCHLAIAOPPL {
-		DLCLKHAKCEK config_function = 104;
-		FMBKKHJBPMP config_ref = 102;
-		ADNDDKCHGCE config_enable_edit_list = 105;
 		AGFBCKIFBFP config_tag_search = 101;
-		PJJPAMONBPL config_repair_on_import = 103;
+		ADNDDKCHGCE config_enable_edit_list = 105;
 		FDEPPDLHFDO config_beyond_guid_reference_on_export = 106;
+		DLCLKHAKCEK config_function = 104;
+		PJJPAMONBPL config_repair_on_import = 103;
+		FMBKKHJBPMP config_ref = 102;
 	}
 }
 
@@ -57357,7 +57357,7 @@ message ICGCPODMPPI {
 		AOPODOPDNLP bird_ball_info = 676;
 		BBIHEHLEBDB fairy_tales_flyppy_hat_info = 1021;
 		KEHLJHDDCDN float_toy_info = 1548;
-		AIFGJCGGHGJ great_festival_v_2_sheet_restore_info = 1566;
+		AIFGJCGGHGJ great_festival_v2_sheet_restore_info = 1566;
 		MGLHFPIBJJC holiday_resort_adventure_info = 1757;
 		HDNOBABOMKC fruit_pick_info = 1775;
 		IJNOEHJAENN ceremony_doodle_info = 1904;
@@ -57442,17 +57442,17 @@ message LDDOCGGPMJC {
 message PCFGEOAEOAM {
 	NKOBBAGFGGE HOCHNICPJJL = 1;
 	oneof NPOODEEMOCJ {
-		GBPEIDAMKDN beyond_client_frogprint_config_template = 12;
 		IFGPMHKDJFB beyond_client_talk_config_template = 14;
-		NKEKEOGHLBG beyond_client_light_config_template = 18;
+		GBPEIDAMKDN beyond_client_frogprint_config_template = 12;
+		NJDKODMGGCE beyond_client_nameplate_config_template = 13;
+		IIMPGCNHOBG beyond_client_minimap_mark_config_template = 16;
+		JNJAAICLGHP beyond_client_richtext_config_template = 15;
 		EJPEFAOIGJF beyond_client_monster_custom_skill_config_template = 19;
 		BBDIDJKNPAH beyond_client_entity_global_value_config_template = 21;
-		IIMPGCNHOBG beyond_client_minimap_mark_config_template = 16;
+		NKEKEOGHLBG beyond_client_light_config_template = 18;
 		ELOMFLGGMOO beyond_client_effect_timeline_config_template = 32;
-		JNJAAICLGHP beyond_client_richtext_config_template = 15;
-		AGDFHKAPFHP beyond_client_environment_config_template = 17;
-		NJDKODMGGCE beyond_client_nameplate_config_template = 13;
 		AOMOAKMJEMA beyond_client_entity_ai_config_template = 20;
+		AGDFHKAPFHP beyond_client_environment_config_template = 17;
 	}
 }
 
@@ -58066,65 +58066,65 @@ message BJCOOOMFHFG {
 	uint32 GIHFLPFIFKB = 7;
 	uint64 BMEGNMNCGBG = 1070;
 	oneof BJALIICAKGB {
-		IHDLBOBOMFP sorush_trial_hitman_info = 132;
-		ICKCGKLJAFH buoyant_combat_info = 2041;
+		BDJDFHKJCLL island_party_sail_info = 330;
+		JNKPCEGMMMJ fungus_fighter_capture_info = 928;
+		HCCNCDINPLF box_match_info = 1563;
 		PJDDILGBNMA home_balloon_info = 902;
-		JHBGKKOANAC vintage_hunting_info = 489;
-		BBOKIKKFPAG duel_heart_info = 1151;
-		IGMJIHBPFBB journey_dice_info = 833;
-		DKBHHFLHBOO flight_gear_info = 1825;
-		LALNMEMBDGG target_shooting_info = 1066;
-		CFHDNCOCNHJ inspiration_spurt_info = 170;
-		HNNNOMOMCNM broken_floor_info = 10;
-		JKGAFFFJDPP salvage_escort_info = 905;
-		LMJCIEHFLDC hide_and_seek_v_4_info = 959;
-		KLPNCOFAPBE handball_info = 1331;
+		BGHMGDBIINO home_seek_furniture_info = 1435;
 		MCHHBMKGFOC sandworm_info = 342;
-		DIHNMIKINMJ summer_time_v_2_boat_info = 228;
-		OCAOKEFAOAA bullet_info = 6;
+		CBEJKAEJOFI coin_collect_info = 1046;
+		DKDFAHEJGEJ wind_field_info = 879;
+		PFEBAEEOLGH quick_time_combat_info = 356;
+		BBOKIKKFPAG duel_heart_info = 1151;
+		LEBMOGPGCAC fungus_fighter_v_3_info = 1845;
+		FNACICODBLM tower_defense_info = 231;
+		DIHNMIKINMJ summer_time_v2_boat_info = 228;
+		DKBHHFLHBOO flight_gear_info = 1825;
+		AHMJJBDKJKE aka_fes_archaeology_info = 1831;
+		LFNPINFABPK salvage_prevent_info = 1441;
+		MHHAHGAJHJO treasure_seelie_info = 922;
+		NJBAGNOCGLJ char_amusement_info = 1221;
+		KLPNCOFAPBE handball_info = 1331;
 		GLHKHDMDFBP irodori_master_info = 1169;
+		PPGGDBMPAHA fungus_fighter_training_info = 1181;
+		GMIEKKFFOHG filmfest_sniper_info = 1548;
+		GEJIJDNMGDN animal_view_info = 1309;
+		IGMJIHBPFBB journey_dice_info = 833;
+		ICKCGKLJAFH buoyant_combat_info = 2041;
+		LMJCIEHFLDC hide_and_seek_v_4_info = 959;
+		LNJCLFMPIGK bounce_conjuring_info = 77;
+		IEIJNMMJKND flower_info = 8;
+		FGELNLAMBLA island_party_raft_info = 1840;
+		HNNNOMOMCNM broken_floor_info = 10;
+		HMAALDGCBFE sumo_info = 1305;
+		JKGAFFFJDPP salvage_escort_info = 905;
+		BMIBOJEODBC island_party_down_hill_info = 439;
+		CLLGEHCPLAE slime_cannon_info = 853;
+		IHDLBOBOMFP sorush_trial_hitman_info = 132;
+		BKBIDFGHJFA photo_info = 1073;
 		LDFACGJIJFL balloon_info = 15;
+		EKJNDCPCEBK remus_arena_info = 1757;
+		ACFLFKAJPMF effigy_challenge_info = 423;
 		KDJHEFFIMPN muqadas_potion_info = 685;
 		NNMFKCALCLO time_stop_photo_info = 345;
-		CLLGEHCPLAE slime_cannon_info = 853;
-		BMIBOJEODBC island_party_down_hill_info = 439;
-		HICDONKGLIM hide_and_seek_info = 12;
-		FKIFOKNIBME fall_info = 13;
-		JOFHLAJCFGO auto_time_stop_info = 1201;
-		FNACICODBLM tower_defense_info = 231;
+		LALNMEMBDGG target_shooting_info = 1066;
 		IONKNKFEKLK treasure_hunt_v_4_info = 97;
-		HCCNCDINPLF box_match_info = 1563;
-		NJBAGNOCGLJ char_amusement_info = 1221;
-		DKDFAHEJGEJ wind_field_info = 879;
-		EKJNDCPCEBK remus_arena_info = 1757;
-		HMAALDGCBFE sumo_info = 1305;
 		EBKOIPOMOCJ instable_spray_info = 993;
-		GOOEHFCLJFA aka_fes_rhythm_info = 786;
-		FGELNLAMBLA island_party_raft_info = 1840;
-		LEBMOGPGCAC fungus_fighter_v_3_info = 1845;
-		DCMABPANNEM fungus_fighter_v_2_info = 692;
-		BGHMGDBIINO home_seek_furniture_info = 1435;
-		CPIJHIHEEAF team_chain_info = 163;
-		PFEBAEEOLGH quick_time_combat_info = 356;
-		MOIHGMCGIBB boat_multi_info = 292;
-		IEIJNMMJKND flower_info = 8;
-		CBEJKAEJOFI coin_collect_info = 1046;
-		BEEGFEFHKJD pacman_info = 957;
-		AHMJJBDKJKE aka_fes_archaeology_info = 1831;
-		JNKPCEGMMMJ fungus_fighter_capture_info = 928;
-		LNJCLFMPIGK bounce_conjuring_info = 77;
+		CFHDNCOCNHJ inspiration_spurt_info = 170;
 		HCMMMBDMDHL sorush_trial_photo_match_info = 1011;
-		ACFLFKAJPMF effigy_challenge_info = 423;
-		IEHKOFIONGJ filmfest_battle_info = 1533;
-		PPGGDBMPAHA fungus_fighter_training_info = 1181;
-		GEJIJDNMGDN animal_view_info = 1309;
-		MHHAHGAJHJO treasure_seelie_info = 922;
-		MPJIIGOLEBI luminance_stone_challenge_info = 152;
-		BDJDFHKJCLL island_party_sail_info = 330;
-		LFNPINFABPK salvage_prevent_info = 1441;
+		HICDONKGLIM hide_and_seek_info = 12;
 		OOOFFGOBHMC crystal_link_info = 1743;
-		BKBIDFGHJFA photo_info = 1073;
-		GMIEKKFFOHG filmfest_sniper_info = 1548;
+		JHBGKKOANAC vintage_hunting_info = 489;
+		IEHKOFIONGJ filmfest_battle_info = 1533;
+		CPIJHIHEEAF team_chain_info = 163;
+		GOOEHFCLJFA aka_fes_rhythm_info = 786;
+		FKIFOKNIBME fall_info = 13;
+		MPJIIGOLEBI luminance_stone_challenge_info = 152;
+		DCMABPANNEM fungus_fighter_v2_info = 692;
+		OCAOKEFAOAA bullet_info = 6;
+		BEEGFEFHKJD pacman_info = 957;
+		JOFHLAJCFGO auto_time_stop_info = 1201;
+		MOIHGMCGIBB boat_multi_info = 292;
 	}
 }
 
@@ -58981,8 +58981,8 @@ message HOHEELAFMKH {
 
 message NIOANEOPHOD {
 	oneof KAJLFFGNGCE {
-		HAHHGNBPOCN paid_tag = 3;
 		OODPHOFJDHO level_tag = 10;
+		HAHHGNBPOCN paid_tag = 3;
 	}
 }
 
@@ -59052,8 +59052,8 @@ message DBBJCGGLMKO {
 	uint32 LOMHJGEDNFJ = 6;
 	bool OFNKEEMKIBP = 4;
 	oneof OLFCJGHGCFA {
-		CPNHCNEOKHP shop_info = 9;
 		OLHDJDLCMME chest_info = 1;
+		CPNHCNEOKHP shop_info = 9;
 	}
 }
 
@@ -60604,9 +60604,9 @@ enum CMGCIPGELOK {
 message MBHFFLIEDGK {
 	int32 GCCOAGJKCJK = 1;
 	oneof NPOODEEMOCJ {
-		DHOEKLIIIEK alert_effect_clip = 12;
 		PKMADEEFMNN effect_clip = 11;
 		CGBGOLOGPEL sound_effect_clip = 13;
+		DHOEKLIIIEK alert_effect_clip = 12;
 	}
 }
 
@@ -61029,8 +61029,8 @@ message JNMOAPKNFAN {
 		uint32 JJFKAOPMNLK = 7;
 	}
 	oneof AMKLGFFLKKJ {
-		HMFKPLMAOFC pair_op = 7;
 		PHFGPCBCEGP unpair_op = 9;
+		HMFKPLMAOFC pair_op = 7;
 	}
 }
 
@@ -61113,13 +61113,13 @@ message JDDEMDLLLBB {
 message JCOCPCMHFHH {
 	message GOKOPILJHEO {
 		oneof KCOIOJGMJHB {
-			bool is_in_new_beyond_team = 15;
-			INIKAPCJCLP member_leave_info = 5;
-			CDOJOHOKEIF team_extra_info = 1;
 			EIBFEJJHEML new_member = 7;
 			CBBKEELKMEF init_info = 12;
 			EBOHOFIBBGD new_config = 6;
+			INIKAPCJCLP member_leave_info = 5;
+			bool is_in_new_beyond_team = 15;
 			EIBFEJJHEML new_member_info = 4;
+			CDOJOHOKEIF team_extra_info = 1;
 			EIBFEJJHEML new_captain = 13;
 		}
 	}
@@ -61249,7 +61249,7 @@ message MGIIPPGCHHF {
 		NPKIKAOJLBG lantern_rite_v_6_parkour_settle_info = 618;
 		MIHGJEAEHJN trial_avatar_first_pass_dungeon_notify = 763;
 		IHHPEHJDHCC lantern_rite_v_6_battle_settle_info = 787;
-		EMLPLIMBMJA fungus_fighter_v_2_settle_info = 801;
+		EMLPLIMBMJA fungus_fighter_v2_settle_info = 801;
 		PDLMFFIEAII saurus_1_v_3_settle_info = 806;
 		IJCIMJEHPOF natlan_dragon_party_settle_info = 811;
 		OCPGNHNECKK filmfest_battle_settle_info = 858;
@@ -61259,9 +61259,9 @@ message MGIIPPGCHHF {
 		PCMLFAKOCMH fairy_tales_combat_settle_info = 990;
 		OIODNNPABEI theme_park_parkour_settle_info = 1010;
 		BPDGJMBEFOJ blade_dance_settle_info = 1011;
-		ODOFNMMEOLB summer_time_v_2_dungeon_settle_info = 1027;
+		ODOFNMMEOLB summer_time_v2_dungeon_settle_info = 1027;
 		FCPBGEGPPEI trade_show_td_settle_info = 1049;
-		KLGHKMPPAMK effigy_challenge_v_2_settle_info = 1091;
+		KLGHKMPPAMK effigy_challenge_v2_settle_info = 1091;
 		CBDNCDMIPBM effigy_challenge_dungeon_result_info = 1125;
 		OGMNDKLKNDK mvm_2_pve_settle_info = 1140;
 		JGNNAJCMFHM map_mark_settle_info = 1146;
@@ -62057,15 +62057,15 @@ message PPNGPHJPDAK {
 	BHEACIJOBPN DKNEODDFENP = 14;
 	NDIDHDFCNBO CJNKKCMKGKM = 15;
 	oneof NPOODEEMOCJ {
-		IPOOAHHMNDF level_brief_report_info = 1258;
-		PPPKJDIDJLC level_internal_report_info = 2;
-		OLLOBNMEJNC hall_report_info = 4;
-		ONJGLMJAHPJ chat_report_info = 10;
-		EDDECPIBLDD voice_chat_report_info = 715;
-		AAGLLCILIMK gift_text_report_info = 13;
-		PIIPCGBOPPL teyvat_common_report_info = 1982;
-		EHEPEOFKMNF costume_report_info = 9;
 		PJHOGNBGFGK custom_profile_picture_report_info = 1750;
+		PIIPCGBOPPL teyvat_common_report_info = 1982;
+		PPPKJDIDJLC level_internal_report_info = 2;
+		IPOOAHHMNDF level_brief_report_info = 1258;
+		ONJGLMJAHPJ chat_report_info = 10;
+		EHEPEOFKMNF costume_report_info = 9;
+		EDDECPIBLDD voice_chat_report_info = 715;
+		OLLOBNMEJNC hall_report_info = 4;
+		AAGLLCILIMK gift_text_report_info = 13;
 	}
 }
 
@@ -62468,18 +62468,18 @@ message ECLKNGKHCBN {
 
 message KDNPFJFMJAG {
 	oneof OLFCJGHGCFA {
-		int32 int_param = 2;
-		float float_param = 3;
 		string enum_param = 5;
+		float float_param = 3;
 		string string_param = 4;
+		int32 int_param = 2;
 		uint32 uint_param = 1;
 	}
 }
 
 message MIGFHCGDLJI {
 	oneof NPOODEEMOCJ {
-		ALNOMNFKHAK player_world_info = 13;
 		ABGGNKKJDON beyond_world_info = 11;
+		ALNOMNFKHAK player_world_info = 13;
 		FODGLKIGBED player_world_anchor_point_info = 14;
 		LBFCLHCCBNC hall_world_info = 12;
 	}
@@ -62881,12 +62881,12 @@ enum OFCDFDEFFDK {
 	OFCDFDEFFDK_BEYOND_RETCODE_PARAM_VALUE_STRUCT_INVALID_STRUCT = 2000288;
 	OFCDFDEFFDK_BEYOND_RETCODE_PARAM_VALUE_STRUCT_INVALID_STRUCT_PTR = 2000289;
 	OFCDFDEFFDK_BEYOND_RETCODE_PARAM_VALUE_STRUCT_INVALID_STRUCT_TYPE = 2000290;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_CONFIG_ERROR = 2000291;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_WITH_PLAYER_DATA_CONFIG_ERROR = 2000292;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_SUB_RANKING_LIST_RULE_MAP_EMPTY = 2000293;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_SUB_RANKING_LIST_RULE_MAP_SIZE_TOO_LARGE = 2000294;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_SUB_RANKING_LIST_RULE_CONFIG_RANKING_LIST_ID_NOT_VALID = 2000295;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_BEYOND_CREATOR_LEVEL_NOT_ENOUGH = 2000296;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_CONFIG_ERROR = 2000291;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_WITH_PLAYER_DATA_CONFIG_ERROR = 2000292;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_SUB_RANKING_LIST_RULE_MAP_EMPTY = 2000293;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_SUB_RANKING_LIST_RULE_MAP_SIZE_TOO_LARGE = 2000294;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_SUB_RANKING_LIST_RULE_CONFIG_RANKING_LIST_ID_NOT_VALID = 2000295;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_BEYOND_CREATOR_LEVEL_NOT_ENOUGH = 2000296;
 	OFCDFDEFFDK_BEYOND_RETCODE_REVIVE_POINT_NOT_FOUND = 2000297;
 	OFCDFDEFFDK_BEYOND_RETCODE_ROLE_STATUS_CELL_CHECK_VALID_FAILED = 2000298;
 	OFCDFDEFFDK_BEYOND_RETCODE_ROLE_STATUS_CONFIG_NOT_FOUND = 2000299;
@@ -62975,7 +62975,7 @@ enum OFCDFDEFFDK {
 	OFCDFDEFFDK_BEYOND_RETCODE_CLASSIC_PRIMITIVE_TEAM_PARTIAL_AVATAR_WHILE_NOT_OPEN = 2000382;
 	OFCDFDEFFDK_BEYOND_RETCODE_CLASSIC_PRIMITIVE_TEAM_PARTIAL_AVATAR_WHILE_EXCLUDED = 2000383;
 	OFCDFDEFFDK_BEYOND_RETCODE_ENTITY_INSTANCE_ENTITY_TYPE = 2000384;
-	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_V_2_SUB_RANKING_LIST_RULE_CONFIG_RECORD_RELIQUARY_NOT_CLASSIC_MODE = 2064000;
+	OFCDFDEFFDK_BEYOND_RETCODE_RANKING_LIST_RULE_v2_SUB_RANKING_LIST_RULE_CONFIG_RECORD_RELIQUARY_NOT_CLASSIC_MODE = 2064000;
 	OFCDFDEFFDK_BEYOND_RETCODE_SERVER_DEFAULT_ERROR = 2100001;
 	OFCDFDEFFDK_BEYOND_RETCODE_STR_UTF_8_ENCODE_ERROR = 2100002;
 	OFCDFDEFFDK_BEYOND_RETCODE_STR_UTF_8_LEN_EXCEED = 2100003;
@@ -63709,10 +63709,10 @@ message HBKCHNBGNEB {
 	sfixed64 AKOEHJNMCOP = 12;
 	uint32 IBHPEEECANN = 6;
 	oneof NPOODEEMOCJ {
-		JNIDNCCPJPA button_input = 645;
 		DOBNMLAMEGN axis_2_d_input = 734;
-		EDLBIINLIKH axis_input = 1154;
 		OEJPCMCBMCP custom_input = 784;
+		EDLBIINLIKH axis_input = 1154;
+		JNIDNCCPJPA button_input = 645;
 	}
 }
 
@@ -64876,8 +64876,8 @@ message OIIGIHGHIJL {
 message IGOFHABOPAO {
 	uint32 HPGBLNDJILA = 1;
 	oneof NPOODEEMOCJ {
-		OKEMBAHKGPI reliquary = 2;
 		DHLNCKHGHNN weapon = 3;
+		OKEMBAHKGPI reliquary = 2;
 	}
 }
 
@@ -64974,11 +64974,11 @@ message GEIAPNCIDBH {
 	uint32 GNBKJGHKPJC = 7;
 	bool NIAPALENLOC = 8;
 	oneof NPOODEEMOCJ {
-		MFODMHABBFL card_result = 1981;
-		CNHDBMAENJM avatar_result = 941;
-		GCMHPLNLBIE mark_avatar_result = 1805;
 		MNLJGEFDPLI coin_result = 807;
+		MFODMHABBFL card_result = 1981;
+		GCMHPLNLBIE mark_avatar_result = 1805;
 		KCDICPPJHIP avatar_available_count_result = 756;
+		CNHDBMAENJM avatar_result = 941;
 	}
 }
 
@@ -65207,7 +65207,7 @@ enum ADHDJMFPAJP {
 	ADHDJMFPAJP_MP_ACTION_START_NODE = 6;
 	ADHDJMFPAJP_FUNCTION = 7;
 	ADHDJMFPAJP_DICT_CONFIG = 8;
-	ADHDJMFPAJP_PIN_VISIBILITY_CONTROLLER_V_2 = 9;
+	ADHDJMFPAJP_PIN_VISIBILITY_CONTROLLER_v2 = 9;
 	ADHDJMFPAJP_TEMPLATE_TYPE_COMPOUND = 1000;
 	ADHDJMFPAJP_TEMPLATE_TYPE_FIRE_SIGNAL = 1001;
 	ADHDJMFPAJP_TEMPLATE_TYPE_SIGNAL_EVENT = 1002;
@@ -65634,7 +65634,7 @@ message AGGGGKJBANM {
 message POKKOIHAPPL {
 	CPKEFIEGADA KGEIDEIGKFM = 1;
 	oneof MCHLAIAOPPL {
-		NJALGJFFPNL data_pin_visibility_controller_v_2 = 100;
+		NJALGJFFPNL data_pin_visibility_controller_v2 = 100;
 	}
 }
 
@@ -65810,9 +65810,9 @@ message OKOMDEODPOP {
 	bool BNAFGOJEOFG = 9;
 	uint32 NDNCAHEDIOM = 12;
 	oneof NPOODEEMOCJ {
+		AJMBPGHOKPA level_score_detail_info = 1826;
 		JFADFLIFGFK fashion_welfare_detail_info = 1701;
 		JJPENIDIJAE welfare_detail_info = 1582;
-		AJMBPGHOKPA level_score_detail_info = 1826;
 	}
 }
 
@@ -66509,8 +66509,8 @@ message IJDCNEPEALB {
 	JBCMJLJJIJA DKKKAMENBKG = 4;
 	uint64 JLNFPCJCNCM = 7;
 	oneof IHDBANJAHPC {
-		BDFOBAFPAIE music_brief_info = 550;
 		CGCOFKKANIA lan_v_5_card_brief_info = 1387;
+		BDFOBAFPAIE music_brief_info = 550;
 	}
 }
 
@@ -66809,10 +66809,10 @@ message FAKNOJCAPGI {
 	uint32 HPGBLNDJILA = 1;
 	oneof NPOODEEMOCJ {
 		PANGAFPFEPG equip = 6;
-		FFEMFNGGHKK furniture = 7;
-		DKAILBOBMKO facility = 9;
-		MCJHLAJPAMG beyond_material = 8;
 		IJCKMDCPLGB material = 5;
+		FFEMFNGGHKK furniture = 7;
+		MCJHLAJPAMG beyond_material = 8;
+		DKAILBOBMKO facility = 9;
 	}
 }
 
