@@ -7,6 +7,8 @@ AAFHLPFACNF⇨content
 AAGDBIGHOHC⇨is_arrive_finish
 AAGLLCILIMK⇨_GiftTextReportInfo
 AAGPEACEPKM⇨platform_list
+AAHPOPACGJB⇨_MapMarkRecord
+AAIMHKLFCAH⇨BonusActivityInfoReq
 AAJBCCCJHIN⇨gallery_stage_index
 AAJFCNKFKCP⇨hit_point
 AAJHFPCPKJM⇨is_destroy_when_disconnect
@@ -51,6 +53,7 @@ ABPKJNEKMLB⇨_CurrentPhase
 ABPKNJJILDA⇨GCGBossChallengeData
 ACBCMFMNMDJ⇨brick_statistics_map
 ACBLHBAACON⇨_BeyondMonsterBlinkByAbsPosMpActionConfig
+ACBOKPFLBLI⇨is_submit
 ACCCNHNJLPC⇨parent_ability_entity_id
 ACCFDGKFNNH⇨area_mask
 ACDDABINMKN⇨is_inited
@@ -109,6 +112,7 @@ ADNFGLELMKC⇨world_prop_map
 ADOHMFOPOAC⇨is_mp_challenge_touched
 ADOKDIIPAMF⇨TowerFloorRecordChangeNotify
 ADONEHEBLKA⇨is_succ
+ADPNBFDCHMD⇨_StrangerChatNotify
 AEACGNKBAKO⇨player_name
 AEBCFHIMGHH⇨HomeTransferReq
 AEBLKGGDOGL⇨PlayerQuitFromHomeNotify
@@ -118,6 +122,7 @@ AECKBBAGGDI⇨argument_type
 AEDEGJENCGB⇨medal_level
 AEEJGGCIFHJ⇨region_list
 AEHBHKCIOOG⇨_BeyondGachaTransferItem
+AEHHEEBBGDF⇨_BeyondDelCostumeSetRsp
 AEHMJOFANNI⇨stage_map
 AEIJLJHGPHL⇨HomeDeleteBlueprintRsp
 AEKAOMBAAGD⇨ability_control_block
@@ -167,6 +172,7 @@ AFLMHKDMCKK⇨finish_forward
 AFLNGKMIFKI⇨_BeyondParamValueInt
 AFMNCLCCLGF⇨_trace_effect_id
 AFONNPFEIPB⇨HomeSeekFurnitureGalleryScoreNotify
+AFPFPEKKLHH⇨ActivityPlayOpenAnimNotify
 AFPKCBPMKAA⇨RogueDiaryCoinAddNotify
 AGAALCEHEGM⇨GameplayRecommendationElementReliquaryRequest
 AGACFAIOFJK⇨DungeonSlipRevivePointActivateReq
@@ -206,6 +212,7 @@ AHDANJGNALL⇨MistTrialSettleNotify
 AHDCPAHEGLO⇨clue_position
 AHEIPJKOHEJ⇨PlayerQuitFromMpNotify
 AHFKACGHMBF⇨damage
+AHGDMHDEIAB⇨_StrangerChatDataNotify
 AHGEHMCHOGG⇨MpPlayPrepareNotify
 AHGGCFJACEM⇨RechargeRsp
 AHHGGKFHCMP⇨op_activity_info_list
@@ -242,7 +249,9 @@ AIHLAAJBJFB⇨delete_custom_furniture_list
 AIHLFEEIDMJ⇨fall_count
 AIHLILGCGPD⇨FireworksLaunchParam
 AIJBJCPLHJK⇨world_routine_info_list
+AIJFBFOPMBI⇨_StrangerChatHintType
 AIJHNNOKKKN⇨_AvatarChangeWeaponSkinReq
+AIKFOFFDJMC⇨target_state
 AIKHJPBHDCO⇨EntityMoveInfo
 AILHHHDMJML⇨selected_card_id_list
 AIMOAKCLPAO⇨codex_id
@@ -256,6 +265,7 @@ AJAHEFOLPEO⇨best_avatar_list
 AJAMBHOGANL⇨SceneEntityDrownReq
 AJAPDBNLECF⇨update_ugc_guid_list
 AJBIJBEDKAL⇨obstacle
+AJCOPJBJPJL⇨_continue_quest_id_list
 AJDBKBEFJBL⇨init_pose_id
 AJDHNICBINA⇨reward_index
 AJECEDAGKIO⇨monster_preview_detail_list
@@ -314,6 +324,7 @@ AKOHHKCGFMP⇨assist_info_list
 AKPFCOLEKOL⇨PlantFlowerGiveFriendFlowerReq
 AKPNCLKNPJP⇨finished_challenge_id_list
 ALAAKLLDMCE⇨_SorushWidgetData
+ALAEBMNOLDE⇨ActivityBannerNotify
 ALAJIKKHHEF⇨ParentQuestRandomInfo
 ALAPGHAKDDE⇨spawn_pos
 ALCDNCGNMGB⇨MpPlayGuestReplyInviteReq
@@ -350,6 +361,7 @@ AMKLGFFLKKJ⇨op
 AMKLODGAEIL⇨CreateVehicleRsp
 AMMIPDDDJIF⇨GetBargainDataReq
 AMNIMAIHJIH⇨VisionType
+AMNNBAEIOML⇨_is_allow_stranger_chat
 AMOMJFCHLBM⇨EffigyChallengeV2EnterDungeonRsp
 AMPCBANHPGP⇨_InfoStructId
 AMPCFBPOCHP⇨_SpecialStateDoSkill
@@ -386,6 +398,7 @@ AOCKMMHCNAD⇨element_type
 AOEGLOOIINF⇨_FurnitureMakeSlotUnlockReq
 AOEPALIIDFO⇨_GetWidgetQuickSlotListReq
 AOEPCAEHIIK⇨ReliquaryPromoteRsp
+AOEPHGDJPLI⇨_outgoing_chat_list
 AOFCIFEAOIF⇨SumoActivityDetailInfo
 AOFKKGPIBJA⇨extents
 AOGOJEPKILG⇨cool_down_group_data_list
@@ -397,6 +410,7 @@ AOLEALKEFOO⇨allow_controller_map
 AOMHPPEJMGO⇨entrance_index
 AOMLFGDKIGC⇨obstacle_id
 AOMOAKMJEMA⇨_BeyondClientEntityAiConfigTemplate
+AONEHFEFEMG⇨_stranger_chat_setting
 AOOADLECLIE⇨region_config_id
 AOOCCAAHEAD⇨GCGGameCreateReason
 AOPKAMNMAOM⇨RockBoardExploreDetailInfo
@@ -432,6 +446,7 @@ APJMGIFKOKH⇨heal_amount
 APKOKFLJGNM⇨scene_entity_info
 APLBIDMPODH⇨short_ability_hash_map
 APLIDBODONO⇨_QuestProgressInfo
+APMCCEHPGEJ⇨_vote_positive_num
 APNJBFPGDAI⇨min_level
 APPGFMOBOOL⇨_FilmfestBallGameSyncSnapShot
 APPGOFKBEEI⇨weekly_boss_resin_discount_info
@@ -508,6 +523,7 @@ BCCDHKPJCNO⇨minors_reg_min_age
 BCCHBJDKGLJ⇨EnterFishingRsp
 BCCOPBAPPFN⇨prefab_path_hash
 BCDOIMBADIN⇨skill_no_list
+BCEHJHJPAMI⇨_mutual_place_list
 BCFMPKIFBJH⇨_RemoveParamData
 BCGGELPEADO⇨is_player_cur_avatar
 BCGNNMIDNLJ⇨_LanV6CardSticker
@@ -549,17 +565,20 @@ BDKDJJOIJCI⇨max_points
 BDKMJKPDBDB⇨module_info_list
 BDLGHJPCEJD⇨_MonsterChessV2RoundSettleNotify
 BDNCJMDIEDM⇨_auth_mode
+BDNHDNBIHDH⇨_camera_config_id
 BDOIMBCPECN⇨_beyond_item_hint_list
 BDPAKLPOMIF⇨result
 BEACIDKBDAM⇨_BlessingV2DetailInfo
 BEAJAEEGBOD⇨fail_progress_list
 BEBCEPHBHEP⇨exp_id
+BECACLOABMK⇨_is_skip_training
 BECCHFJBJIC⇨use_clue
 BECCNDAKBHF⇨win_controller_id
 BEDBHBHGMBE⇨life_count
 BEECNPBJPBD⇨rotation
 BEEGFEFHKJD⇨_SceneGalleryPacmanInfo
 BEFIMGNACKK⇨speed
+BEFNPGNDLHP⇨SaveUgcRsp
 BEGPOJNFPEB⇨VehicleInteractReq
 BEHBHIEEJDD⇨_FilmfestSniperSettleInfo
 BEHJOPCJBGH⇨ChatChannelUpdateNotify
@@ -578,6 +597,8 @@ BEOBNPBGEOD⇨ReunionBriefInfoRsp
 BEOCMCHHHBC⇨stage
 BEOFCDENMCL⇨add_quest_id_list
 BEPMGGBEJON⇨DungeonRestartInviteReplyReq
+BFBKBHOENPC⇨is_interpret
+BFBOJNFKKIA⇨_BeyondPlayerReportRsp
 BFCLNJJALBC⇨HomeAvatarTalkReq
 BFDFGNIICKK⇨forge_queue_map
 BFEDBNGEDBP⇨SpiceStageData
@@ -620,6 +641,7 @@ BGCDPEOKDHF⇨ResinCardData
 BGEDPPPHLFO⇨DynamicLayerNodes
 BGENOPFIMDL⇨val
 BGEPJFHMNAF⇨event_type
+BGFGPOJHACG⇨is_play_open_anim
 BGFOOGLMONK⇨_BeyondClientFrogprintParamValueVector3
 BGGBPELOGIM⇨source_id
 BGHMGDBIINO⇨SceneGalleryHomeSeekFurnitureInfo
@@ -632,8 +654,10 @@ BGMFFPFKABM⇨GadgetAutoPickDropInfoNotify
 BGNIODKENEC⇨invoke_list
 BGOGAKKGBFF⇨_StructListInfo
 BGPLPLBNGBE⇨HuntingSuccessNotify
+BGPOHPBOBJI⇨_ActivityAvatarInfo
 BHAHCPMFGNC⇨is_area_locked
 BHCNCHDAOKD⇨_BeyondParamValueVariable
+BHEACIJOBPN⇨_ReportReasonSubtype
 BHEGFGCKLFC⇨scoin
 BHEGGGGJGFJ⇨_PartyDetailInfo
 BHEHNLDMNPD⇨_TowerDefenseSettleInfo
@@ -667,6 +691,7 @@ BIJGOFCKFKH⇨SceneAreaUnlockNotify
 BIJKHPFGCBC⇨option_list
 BIKAKLDJOEB⇨is_hide_progress
 BILACLJFBHK⇨ExitFishingReq
+BILMOHJDLAB⇨_input_type
 BIMJPJLPDEE⇨last_take_reward_time
 BIMKADOOBPA⇨sequence
 BIMKGDAKKDA⇨group_id
@@ -717,6 +742,7 @@ BKBKCKAHEJM⇨camp_type
 BKDFILMBPLB⇨PlayerChatRsp
 BKEDKLAAKGA⇨override_map
 BKEFBBALACC⇨cond_reason
+BKEONKGKPMD⇨_BeyondChatNotify
 BKFENPCAOBA⇨template_reminder_id
 BKFLCLOALFH⇨gadget_entity_id
 BKFNGCFGNNI⇨cool_down_time
@@ -731,6 +757,7 @@ BKLJMNMLIBA⇨_life_by_owner_type
 BKLKGFMGBLF⇨floor_id
 BKNJENHHBAK⇨fetter_list
 BKONKMFOJNC⇨_UgcV2OfficialLevelData
+BKPCMJDCCHI⇨_BeyondActivityTakeWatcherRewardBatchReq
 BKPJDJLAKNA⇨_beyond_player_social_info
 BKPMLKKGEIB⇨message_id
 BLCIEDBEPLN⇨skill_limits_list
@@ -738,6 +765,7 @@ BLCIHMGIBBB⇨GameplayRecommendationSkillRequest
 BLDGCMHMFLP⇨pose_para_list
 BLDIOCDNIID⇨DropItemRsp
 BLEGEEMMHAJ⇨DigMarkPoint
+BLEKDDMBNKB⇨_StrangerChatSetting
 BLENPIHMGID⇨event_over_time
 BLFJKNGIMLK⇨enter_reason
 BLGCBKMLMKP⇨controller_path_remote_hash
@@ -791,7 +819,9 @@ BMPCBPADECI⇨camp_stage_map
 BMPILAKDIMP⇨_suite_list
 BMPKPNCEHHI⇨_EffigyChallengeV5DetailInfo
 BMPMLEDLJOM⇨_BeyondTriggerBulletByAbsPosMpActionConfig
+BNAFGOJEOFG⇨is_common_content_closed
 BNAFICANOBO⇨BlessingRedeemRewardRsp
+BNAJLFPBMFE⇨FinishMainCoopReq
 BNAMGLOAAMF⇨fireworks_reform_data
 BNBIEEOJOHG⇨is_end_quest_accept
 BNCMGNOBOEH⇨ReunionBriefInfo
@@ -799,12 +829,13 @@ BNDALGJPKHA⇨AISnapshotEntitySkillCycle
 BNDDFKEOAPD⇨GCGMsgReactionEnd
 BNDJGCCNIGE⇨HomeAvatarSummonEventReq
 BNEBIEAGPLH⇨_FilmfestBallGameAction
-BNGBCHLBLEJ⇨_Counter
+BNGBCHLBLEJ⇨_AutoChessCounter
 BNGDODNCJDK⇨BuyGoodsParam
 BNGGDBNCMIM⇨client_silence_version_suffix
 BNGJODPPFNK⇨new_unlocked_bgm_id_list
 BNHLAKIMDOG⇨route
 BNINFNNCJKI⇨_NatlanDrillDetailInfo
+BNJIGMLCMNM⇨config_need_begin_time
 BNJKGLFIKGO⇨InBattleIrodoriChessSettleInfo
 BNJNGDGBPHC⇨kicker_uid
 BNJNLAJKEJB⇨_AnecdoteWishInfo
@@ -817,6 +848,7 @@ BNMLKBCLHAD⇨applied_modifiers
 BNMNCOGPPMJ⇨zone_id_list
 BNNFDHIJAEE⇨param_list
 BNOADNCGLCK⇨cur_pos
+BNOBNNDBMFN⇨_BeyondDelCostumeSetReq
 BNOHLKEIPJF⇨GetParentQuestVideoKeyRsp
 BNPAEGEBBIB⇨_total_social_value
 BOABIFNLCDA⇨_ConfirmChallengeFinishOp
@@ -875,10 +907,12 @@ BPGCMLMIKDF⇨_claimed_avatar_id_list
 BPHIJBBDDFE⇨extra_level
 BPHNCIJNPKD⇨GeneralMatchInfo
 BPJBGMIPCDP⇨cur_week_finished_count
+BPJCHBMMPIH⇨unlocked_city_list
 BPJPPOKKEMC⇨qte_quality
 BPLAEJKEFDA⇨stage_index
 BPLAOGBGNCK⇨TakeEffigyFirstPassRewardReq
 BPMLFLLAAEM⇨is_editor
+BPMOBLMONKE⇨_GalleryEndTimeChangeNotify
 BPOAHJACGKI⇨_BeyondSkillEnergyClientProperty
 BPONJHMHILC⇨CombatInvokeEntry
 BPOOMGGEIOC⇨DungeonCandidateTeamInviteNotify
@@ -891,6 +925,7 @@ CACFLIJPOKG⇨is_check
 CACOAEMAMJB⇨CityReputationExploreInfo
 CADBDBBEKJE⇨TakeHuntingOfferRsp
 CADJDBNFHIN⇨GCGGrowthLevelNotify
+CAGEKNOKOCL⇨selected_avatar_reward_id
 CAGFMAFGEMH⇨settle_show
 CAGLBKDNCML⇨_BoltbugAbyssDetailInfo
 CAHCNKHNEDP⇨_BeyondNormalStuffConfigTemplate
@@ -898,6 +933,7 @@ CAHILODFFPJ⇨GachaInfo
 CAIGJBOPACL⇨_BeyondTimelineAssetProperty
 CAIHPOKBDNJ⇨chapter_id
 CAIIAOOAFHH⇨start_pos
+CAKHHLALGJN⇨NpcTalkStateNotify
 CALEEGEMCNE⇨instanced_ability_id
 CALEJOIJEFC⇨_settle_type
 CALOKMDEOPG⇨DungeonReviseLevelNotify
@@ -909,6 +945,7 @@ CAPOGPHBOCB⇨msg_id
 CAPOPMFIHKP⇨_UgcDungeonRoomDeployment
 CBAPNIKMBFK⇨LuaOptionType
 CBBKEELKMEF⇨_InitInfo
+CBCGGLDPIJF⇨_blur_radius
 CBCJKNNPOGD⇨_monster_level_id
 CBDNCDMIPBM⇨EffigyChallengeDungeonResultInfo
 CBEFAAKDKFH⇨_BeyondHallChangeBgmRsp
@@ -944,7 +981,7 @@ CCJBIDIHKLO⇨_anecdote_wish_info
 CCJEKKJIHNC⇨signin_data_list
 CCJGMAECKPE⇨SettleReason
 CCJKMOGJPFC⇨_MonsterAiSkillListProperty
-CCJOMKPJHEP⇨_source_online_id
+CCJOMKPJHEP⇨_creator_online_id
 CCMMOIAAEJE⇨exhibition_info_list
 CCNCODDFEGG⇨FungusCultivateReq
 CCNHMEJOEAD⇨DeshretObeliskChestInfoNotify
@@ -969,6 +1006,7 @@ CDGBENFKPCH⇨_SumeruAdventureGoalFightingLevelInfo
 CDHEDPEPJBO⇨_NatlanDrillBattleSettleInfo
 CDJJLLPALIP⇨_ValueStruct
 CDLELBNIGAO⇨_SnowRaceCombatDungeonInfo
+CDMAAOFCELI⇨ActivityBannerClearReq
 CDMCGDILBGM⇨dungeon_avatar_list
 CDMDJDCEPDB⇨_GetLocalLegendInfoRsp
 CDMOPHEHAIC⇨is_enter_edit_mode
@@ -1010,6 +1048,7 @@ CFCHDDNDNHG⇨client_md5
 CFCJAHKDJGD⇨_LanV6LanternGiftFriendInfoRsp
 CFCNGKICAEC⇨is_today_has_awarded
 CFDKCCPEEOJ⇨HomeBasicInfo
+CFFLOGJEFBL⇨_recv_time
 CFHDNCOCNHJ⇨_SceneGalleryInspirationSpurtInfo
 CFHGPGNDGIC⇨FlightDailyRecord
 CFIHFNHNCBL⇨server_share_code
@@ -1036,12 +1075,14 @@ CGDKMMLLPGA⇨_BeyondClientFrogprintParamValueEnumList
 CGEGJOMNKPN⇨EffigyChallengeV2DetailInfo
 CGGIJGMBLAK⇨AISnapshotEntityData
 CGGPHLDNDLI⇨_BeyondClearEnmityListMpActionConfig
+CGHEAHJGEJM⇨finished_talk_id_list
 CGHPAENNHIP⇨score_list
 CGHPLCCDLHA⇨target_entity_id_list
 CGILPKIOAFB⇨branch
 CGINLKEANPF⇨IrodoriMasterLevelInfo
+CGJDHLIGCEK⇨_ugc_vote
 CGJDNKDMCGG⇨id_list
-CGJKIIFDPCB⇨_BeyondCosmeticSet
+CGJKIIFDPCB⇨_BeyondCostumeSetDetail
 CGJNDGDBHCJ⇨BattlePassUnlockStatus
 CGJPADKFAEO⇨FoundationNotify
 CGKAPNJEMCI⇨MistTrialMissionInfo
@@ -1086,6 +1127,7 @@ CIAMPFCHDNP⇨max_speed
 CIBNDJMPIOJ⇨_is_allow_import
 CIDKJACNONJ⇨prop_list
 CIEEFNBLHGG⇨total_cost_time
+CIEIJFMOMPF⇨_MaglevStateUpdateNotify
 CIEPBDOEDFH⇨StartFishingReq
 CIFBAOHJFNB⇨sign_in_info
 CIFEMBOBNII⇨_DamageByAttackVal
@@ -1161,7 +1203,9 @@ CLFIALFMMFC⇨old_append_prop_list
 CLHADPAIOAN⇨SetIsAutoUnlockSpecificEquipRsp
 CLHBJIFPCJG⇨MonsterForceAlertNotify
 CLHLPPJENCF⇨LaunchFireworksReq
+CLHNFFGKJDI⇨_current_target_reward
 CLIKALEDLIP⇨avatar_name
+CLJGJIALOCG⇨count_down_text
 CLKNINNOFMP⇨routine_info_list
 CLKNPKOAOJA⇨master_level_list
 CLLBGCDJAGN⇨tmp_version
@@ -1186,11 +1230,14 @@ CMFLIDBNJAL⇨device_name
 CMGDKAHEIOK⇨is_stored
 CMGLODJLONF⇨appear_type
 CMHHLPIBPIB⇨HomeResourceTakeFetterExpRsp
+CMIBFKECCBC⇨_beyond_gift_type
 CMIEFFKKLJF⇨ai_threat_map
 CMIEHEHKJGL⇨mail_list
 CMIHDNJFIGC⇨next_guest_open_time
 CMIJCCILLIH⇨player_time
+CMJPMIGCJJF⇨_BeyondRenameCostumeSetReq
 CMKIJPELBOI⇨AvatarWearFlycloakRsp
+CMLEAEHKMBF⇨level_tag_id_list
 CMLKFIDHJKH⇨VintageMarketStoreViewStrategyRsp
 CMLLNONIOLG⇨VehicleInteractRsp
 CMMBOGCLJCM⇨WaterSpiritActivityDetailInfo
@@ -1242,6 +1289,7 @@ COFEELEACNH⇨is_connected
 COFPJIJNNGF⇨h5_activity_info_list
 COHHDJFNHKE⇨wait_seconds
 COHHNBPPBAG⇨_BulletHellDetailInfo
+COLDAFMOJJC⇨_UgcDelRsp
 COLOLAMMCFM⇨trial_avatar_id
 COMFPAPLDHL⇨State
 COMILKHKKMJ⇨PlayerConfirmMatchReq
@@ -1295,6 +1343,7 @@ DAMFHGMAMLJ⇨avatar_guid_list
 DAMHCHPGMEK⇨single_bullet_id
 DANNINOIMND⇨is_valid
 DAOHKKLDBIM⇨VectorPlane
+DAOPONHOEBG⇨_is_respawning
 DBAALCLKMID⇨option_type
 DBAJLPIDIBK⇨level_tag_id
 DBBJCGGLMKO⇨_UgcGadget
@@ -1340,6 +1389,7 @@ DCMLOCJLMKM⇨_QuestFocusQuitRsp
 DCOMCJIKJCG⇨CreateEntityInfo
 DCPCDFGCEPI⇨_BeyondPlayerTemplate
 DCPIJIDBFPB⇨ElectroherculesBattleDetailInfo
+DCPKHPAAKHG⇨TakeRegionSearchRewardRsp
 DDAEMEEABDA⇨_EditCamera
 DDCLKNLLFKK⇨play_index
 DDCNELLBGCG⇨SpringUseReq
@@ -1376,6 +1426,7 @@ DEEBDPJKOGI⇨BreakoutSyncFinishGame
 DEFCANBOLFH⇨server_buff_change_type
 DEGGBLCILBF⇨WindFieldStageInfo
 DEGLIEGNIEH⇨GetAllMailNotify
+DEHCCMLDNKD⇨_finish_times
 DEHFOFMNLPP⇨ref_pos
 DEHJHHKMMKL⇨change_intention_list
 DEHJJIIFHFJ⇨PlayerApplyEnterMpRsp
@@ -1396,6 +1447,7 @@ DFCMFHDCEAE⇨EntityMoveRoomNotify
 DFDFOOKLICA⇨cur_player_num_in_world
 DFEPGMLKIDF⇨LanternRiteFireworksReformFactorInfo
 DFFBBEANBDP⇨team_list
+DFFHEPILLKC⇨_security_file
 DFFHJIONMLH⇨_ShortVideoDungeonInfo
 DFFMENKBLLJ⇨BartenderStartLevelRsp
 DFFNBIFDGAL⇨_vehicle_rot
@@ -1431,6 +1483,7 @@ DGFAHAIMAOO⇨_AnecdoteAreaInfo
 DGFEDKMKBAN⇨evt_being_hit_info_list
 DGGDGJEMMBA⇨tree_type
 DGHAPPIHNAE⇨item_param_list
+DGHJOBAPLEL⇨is_banner_cleared
 DGIHHFIJGGM⇨_SorushTrialDetailInfo
 DGKAEFEGLCP⇨option
 DGKIGBMKHOK⇨ReceivedTrialAvatarActivityRewardReq
@@ -1475,6 +1528,7 @@ DIAPDFPOCBB⇨time_var_map
 DIBCFCLOEBN⇨slot_info
 DIBMNLOJDDA⇨TeamChainChooseAvatarInfo
 DICJLFGCDOB⇨GetScenePerformanceRsp
+DICLGHLKMBG⇨continue_state
 DICOBLLFFOF⇨_TowerDefenseOperationReq
 DIDENGOIABD⇨_tower_star_count
 DIDHHCOEDMN⇨ReunionMissionInfo
@@ -1566,6 +1620,7 @@ DKKPEHFOOFF⇨EvtFixedRushMove
 DKLOHOCKAFF⇨avatar_info_list
 DKNALDINLLC⇨_LanV6LanternGiftFriendInfo
 DKNCPANCDOF⇨_BubbleDramaDetailInfo
+DKNEODDFENP⇨_report_subtype
 DKNGJPEKKCD⇨_UgcDungeonSettleNotify
 DKOGMHFCKBB⇨_ReunionReportType
 DKOINHICKFB⇨WindFieldGalleryChallengeInfoNotify
@@ -1574,6 +1629,7 @@ DKPEKCODHLG⇨state_name_hash
 DLANKIMAJKN⇨SceneEntityDisappearNotify
 DLBAKPOALHD⇨is_init_hash
 DLDCFPOCFBM⇨VintageMarketStoreChooseStrategyReq
+DLDMMAEPLKP⇨count_down_frequency
 DLDPCOIDDAB⇨_client_play_cur_level_info
 DLEMHJHCOLO⇨SalesmanStatusType
 DLGENCDIANA⇨DateTimeDelete
@@ -1604,6 +1660,7 @@ DMCMAMIMAGC⇨_NodkraiTourParkourSettleInfo
 DMCMIKPNEFJ⇨cond_value
 DMCMNKMNJEP⇨_LanternRiteV6BattleDungeonInfo
 DMDCOMIBPCH⇨ShapeType
+DMDHDGHPHEF⇨_BeyondGachaBriefInfoNotify
 DMELPDHJAAD⇨LanV3RaceSettleNotify
 DMFKLJPGGBC⇨_combat_detail
 DMFNALIMIOM⇨PlayerLogoutReq
@@ -1641,7 +1698,7 @@ DNJBHKJAMKO⇨BreakoutPhysicalObject
 DNJBKAHCCIM⇨owned_costume_list
 DNJPOLNALOK⇨AbilityMixinFilmfestBallGame
 DNMMPAMKAGN⇨equip_type
-DNMOEFHINBK⇨_cosmetic_plan
+DNMOEFHINBK⇨_costume_set_detail
 DNMPEFLDAFE⇨_IntelligenceScanInfo
 DNNHHGPJGPC⇨GetDailyDungeonEntryInfoReq
 DNNLHOOGIGJ⇨target_friend_brief
@@ -1655,6 +1712,7 @@ DOBNMLAMEGN⇨_Axis2dInput
 DOCENIBAPML⇨GetCompoundDataRsp
 DOCJNGCPFHJ⇨PlayerPropChangeReasonNotify
 DOCKEIKBLFE⇨CrystalLinkActivityDetailInfo
+DODIHPIGHIC⇨_UgcVoteRsp
 DOEMKIEJAMM⇨ActivityTakeWatcherRewardRsp
 DOFPEKBJPDM⇨GachaTransferItem
 DOHMBDENGCJ⇨RoguelikeCardGachaNotify
@@ -1672,8 +1730,9 @@ DONHDFDPHGC⇨ForgeGetQueueDataReq
 DOOGMPJPBAE⇨_food_id
 DOPFEOJJIHH⇨way_point_id
 DOPFPAFIDCB⇨_ExtraSignalConfig
-DPABGKPPKBM⇨_Chess
+DPABGKPPKBM⇨_AutoChessChess
 DPAPAGAPFHN⇨_end_pos_list
+DPBKEOIMIMM⇨_BeyondRenameCostumeSetRsp
 DPBNMNEGONB⇨pick_card_id
 DPCGHIJBEOF⇨uid_score_map
 DPCIDOJIPBM⇨ExhibitionDisplayInfo
@@ -1745,6 +1804,7 @@ EBMOCMBMKNB⇨HomeMarkPointNPCData
 EBNCKLNKAJP⇨ToTheMoonQueryPathRsp
 EBNEHCCCODK⇨chess_data
 EBNIMLLIJLP⇨IrodoriScanEntityRsp
+EBNMHBBGKBJ⇨_theme_id
 EBOHOFIBBGD⇨_NewConfig
 EBPEJGNLDGB⇨_card_extra_level
 EBPFGFPMDMN⇨_AddMutelistReq
@@ -1801,6 +1861,7 @@ EDMEFHBGICL⇨ClientLoadingCostumeVerificationNotify
 EDMIDGLBLHB⇨monster_pool_preview_list
 EDMLCKKBPGO⇨QuestDestroyEntityRsp
 EDNICDCNFKD⇨is_read
+EDNKOFFFPCN⇨_StrangerChatRsp
 EDOAOIKIJCH⇨PlayerEnterDungeonRsp
 EDPAIALFGKB⇨config_id_list
 EDPJFPNJLOP⇨center_pos
@@ -1820,6 +1881,7 @@ EEFBANOPEIJ⇨item_count_list
 EEFIFONGNNH⇨content_close_time
 EEFIPEDAHKG⇨InstableSprayTeamInfo
 EEFJOEHMJNB⇨shikigami_group_id
+EEFMMCDENDJ⇨_ley_line_challenge_last_best_time
 EEGDHONDHFP⇨play_id
 EEHBBPIKKCO⇨handbook_url
 EEHBONCLGFF⇨delete_time_num_map
@@ -1833,11 +1895,13 @@ EEMBPHIFDDH⇨_AnecdoteWishInfoUpdateNotify
 EEMKGIHJKEG⇨TreasureMapDetectorData
 EEMNBFODBOD⇨_BeyondParamValueBool
 EENADCHKCMH⇨random_info
+EENILHGEGAB⇨_AutoChessItem
 EEOBPCACBHL⇨search_info
 EEOIOFCJPHD⇨max_finished_level
 EEPAFLEMFNM⇨hunting_stage_map
 EEPEKIJNBPK⇨_DutyEditClientPropertyGrowCurveConfig
 EEPPHGKBOIJ⇨FurnitureMakeRsp
+EFACOOJBKPJ⇨_AutoChessShopItem
 EFAHACDANCI⇨PlayerSignatureNotify
 EFAKFDOCCNP⇨_avatar_element_type
 EFBHCMIJGOF⇨dead_time
@@ -1891,6 +1955,7 @@ EHDGAKGHOPE⇨is_region_detected
 EHEPEOFKMNF⇨_CostumeReportInfo
 EHFDJNPDEOA⇨_UgcSuite
 EHFFJODGJFP⇨OfficialCustomDungeon
+EHHGLEBPJLG⇨_SceneChangeTagReq
 EHJGPKDHGGN⇨animator_para
 EHJMHBEDEOB⇨MistTrialGetChallengeMissionRsp
 EHKHBOBDOEM⇨client_silence_data_md5
@@ -1952,6 +2017,7 @@ EJOHMNAPLLM⇨ArenaChallengeMonsterLevel
 EJONMNMGPKG⇨is_fast_finish
 EJPEFAOIGJF⇨_BeyondClientMonsterCustomSkillConfigTemplate
 EJPEHDMHHFA⇨event_id_list
+EJPOLLGFGBF⇨_BeyondHallChangeAuthModeNotify
 EKABFCOALAJ⇨_SetWidgetSettingRsp
 EKANGPMNEDF⇨_beyond_mcoin_product_list
 EKCEHPGODLN⇨HomeStakePlayRecord
@@ -1999,10 +2065,12 @@ ELMOBNFLGCG⇨scene_begin_time
 ELOMCPPHFKC⇨finished_num
 ELOMFLGGMOO⇨_BeyondClientEffectTimelineConfigTemplate
 ELPDDCJJHFG⇨fireworks_id_list
+ELPJPAOEBJE⇨AbilityMixinRaycastSelectTarget
 ELPPOMHBBCC⇨extra_card_data
 EMABDNHACKJ⇨battle_type
 EMAOOCILCDN⇨WindFieldDungeonSettleInfo
 EMBGJAICLDE⇨bin_data
+EMCBMPFPDJB⇨is_associate
 EMDFKBAJMHI⇨EvtSyncEntityPositionInfo
 EMDLMPNKBGL⇨OpActivityDataNotify
 EMEMBOGECDJ⇨_BeyondGachaInfo
@@ -2023,6 +2091,7 @@ EMNGNLIIPLG⇨GCGStartChallengeByCheckRewardRsp
 EMNKKHIIAPK⇨is_psn_source
 EMOFLCMELDG⇨ClientAbilityChangeNotify
 EMOLOABBLCG⇨ability_info
+EMOMJBOGJNK⇨GadgetChainLevelUpdateNotify
 EMPBIHJIHCB⇨GCGWaitingCharacter
 EMPDGBOMDKN⇨passed_dungeon
 EMPEBAPDEDO⇨RedPointData
@@ -2044,6 +2113,7 @@ ENMGLHHPNDK⇨RoguelikeEffectDataNotify
 ENMHILBEIIA⇨DestroyMaterialReq
 ENMJLAJLDCB⇨_InfoServerParamDictionary
 ENMMEDMIGCF⇨RogueDiaryDungeonRecord
+ENPIHLKCFOD⇨_level_record_list
 EOACLFHHIEB⇨month
 EOAFGJDIOPG⇨CoinCollectTeamAvatarInfo
 EOAGDCPBOIL⇨_GCGMsgZoneShuffle
@@ -2108,6 +2178,7 @@ FAGACFJPICN⇨detail_list
 FAGEMNEAMFK⇨BreakoutAction
 FAHLHJHNDGJ⇨CityReputationQuestInfo
 FAIBCCEBLGD⇨InstableSprayStageInfo
+FAIKNNMFNAJ⇨_BeyondGiftType
 FAIMFFOLOCN⇨_UgcMonster
 FAIOFECFCAB⇨BrickBreakerStageInfo
 FAJBAAHOHEO⇨InferencePageInfo
@@ -2141,9 +2212,11 @@ FCBPOCMDDDB⇨discount_num
 FCCDKHLCAJA⇨dungeon_scene_id
 FCCGBAINJLF⇨BattlePassProduct
 FCCGHLBDHON⇨is_enable_interact
+FCCJKNNACKN⇨_costume_info_list
 FCCMGHLCOBN⇨SeaLampContributeItemRsp
 FCDHAPEEAMB⇨client_unique_id
 FCDHHBHIDID⇨_CustomGalleryTimerScoreBoard
+FCFBNFGAHLG⇨_QuestQuickLaunchUpdateNotify
 FCFPACGHPOF⇨_gallery_state_map
 FCHGONCMGAD⇨GetMapMarkTipsReq
 FCHMGIONNIH⇨target_uid
@@ -2166,6 +2239,7 @@ FDAHEDJLHJB⇨_TakeFurnitureMakeOption
 FDBBINKJNND⇨disappear_pos
 FDCCHGADIIE⇨user_id
 FDCJJFIHELM⇨KeepRotType
+FDCKPPHAMNC⇨_StrangerChatSession
 FDDIPPHDBHH⇨SelectWorktopOptionReq
 FDDMGNIDCJA⇨_FashionWelfareSelectTargetRewardReq
 FDEBPMCLIFM⇨EvtRushMoveNotify
@@ -2178,6 +2252,7 @@ FDHCCJIJEBK⇨open_stage_list
 FDIIIMHPEPH⇨cur_avatar_guid
 FDJBLNCOFAM⇨EntityJumpNotify
 FDJOKAAPMFH⇨buff_id
+FDKBHFCCEKK⇨_UgcVote
 FDKBMFJLEKL⇨_GetBeyondPlayerDetailReq
 FDLEGINBEIG⇨LunaRiteHintPointRsp
 FDLICLCDMOJ⇨_SpecialCanDoSkill
@@ -2201,6 +2276,7 @@ FEBNICLFAPN⇨djinn_pos
 FEBOLPPAIIC⇨AvatarExpeditionAllDataRsp
 FEDIIKGOFCG⇨look_pos
 FEEFPGIHIJK⇨temp_avatar_guid_list
+FEFCMLFONKP⇨center_system_frequency
 FEFHIODAKFP⇨BargainOfferPriceReq
 FEFJLKEIHEB⇨SceneReliquaryInfo
 FEHOABNDLCH⇨_BeyondClientFrogprintParamValueStringList
@@ -2208,6 +2284,7 @@ FEIFMLILPDC⇨AvatarFlycloakChangeNotify
 FEIJGKIPIHO⇨gacha_prefab_path
 FEIJJDGNEBM⇨launch_param_list
 FEIKFDJDLAG⇨AntiAddictNotify
+FEIKLCCCHEH⇨_GetBeyondGachaInfoReq
 FEJAFAAJKLN⇨BlessingGetFriendPicListRsp
 FEJPCHOHKIE⇨UpdatePlayerShowAvatarListRsp
 FEJPJFMOLKL⇨url
@@ -2223,6 +2300,7 @@ FFACGOPBOGE⇨select_avatar_index_list
 FFADGPILGNG⇨GCGDuelChallenge
 FFAEIMBGMHO⇨LuaSetOptionNotify
 FFAFPFGECHK⇨FireworksReformData
+FFBDJDLGNCL⇨_UgcVoteReq
 FFBDLNGMIOH⇨CancelCityReputationRequestRsp
 FFCEDPPDGIF⇨jigsaw_picture_data
 FFCLBKELMHO⇨_HolidayResortBattleLevelInfo
@@ -2246,6 +2324,7 @@ FFLNEDIHKKM⇨TowerFloorRecord
 FFMPCODBOLP⇨add_obstacles
 FFNDNGHPDHG⇨TriggerRoguelikeRuneReq
 FFODAIIHAMN⇨scene_player_balloon_info_map
+FFPOJGADMIN⇨from_state
 FGAFOFBGCMG⇨FilterType
 FGBDNIBBFFM⇨fish_area_list
 FGBEJGPCLPD⇨player_info_list
@@ -2316,10 +2395,12 @@ FIGNPKDKKOK⇨_ArtifactSelectInfo
 FIJJCECJBNK⇨GetCityHuntingOfferReq
 FIKLJOCGFAI⇨GetCityReputationMapInfoReq
 FIKMKCCCGBL⇨fishing_score_list
+FILCBNABHNH⇨_PullStrangerChatRsp
 FINJJHCENMM⇨GadgetPlayInfo
 FINLNDBMEGJ⇨GetSceneNpcPositionRsp
 FINOKGOIJKC⇨MeetNpcReq
 FINPDKGOLIA⇨_AnecdoteConflictInfoReq
+FIPAPGINEPO⇨secondary_sheet_id
 FIPEGEFIAFL⇨_BeyondBulletTriggerAttackEventMpActionConfig
 FIPKFBFPFNG⇨animal_count_map
 FIPNLLKHPKA⇨start_rot
@@ -2346,6 +2427,7 @@ FJNAALEEGHP⇨_BeyondAbsoluteRouteProperty
 FJNFGJBCAKJ⇨EvtCombatForceSetPosInfo
 FJNHIDHJPPJ⇨SetSceneWeatherAreaReq
 FJODFJDDGHA⇨WidgetSlotChangeNotify
+FJOIHFPODLE⇨_level_name
 FJPMPCHLCNK⇨HuntingRevealFinalNotify
 FKABDBCFOIN⇨_FrogParamTypeInfo
 FKAFBGFBCDJ⇨last_read_pushtips_codex_id
@@ -2433,6 +2515,7 @@ FMLFBBFNNKE⇨RoguelikeShikigamiRecord
 FMLNBMPEAMB⇨share_cd_info_map
 FMMEIKILAAE⇨_random_item_num
 FMMGHPCMGHC⇨GCGMsgGameOver
+FMNAPMMMPMG⇨_report_text
 FMNCEOJJAOL⇨ForgeDataNotify
 FMNPOGLAALG⇨MistTrialActivityDetailInfo
 FNACHBKCDPA⇨_BeyondMonsterAiGraphRefProperty
@@ -2446,6 +2529,7 @@ FNDKKEGCEMF⇨close_time
 FNDLBPCGBCE⇨BreakoutSyncConnectUidInfo
 FNDLKEIIDDI⇨_RemoveMutelistRsp
 FNHDBBHJIJG⇨monster_detail_list
+FNIHKPPPGKA⇨dungeon_confirm_text
 FNILPKOEDHJ⇨GCGMsgAddDice
 FNJKCLDFMHC⇨seal_max_progress
 FNJLOOBLADL⇨face_type
@@ -2478,7 +2562,7 @@ FPDLAPGFGBD⇨_BeyondTauntMpActionConfig
 FPDPBOFJDEG⇨AuthorityChange
 FPEJHBIFHKI⇨_UgcDungeonAddReq
 FPFEKJCNHPL⇨GCGMsgDiceRoll
-FPGEEJBBIFH⇨_avatar_cosmetic_plan
+FPGEEJBBIFH⇨_avatar_costume_set
 FPGKNLCJJNN⇨gateserver_domain_name
 FPHKBGGNAFI⇨_ActivityClientPlayEnterDungeonRsp
 FPHLDFDFMJL⇨finished_level_index
@@ -2498,6 +2582,7 @@ FPOMDJFPGKK⇨is_pass_all_stage
 FPPLAHKNBIE⇨_GCGOperationDiscover
 FPPPBBIJKDK⇨sbuff_uid
 GADBKBIPADJ⇨peer_id
+GAFFLALDODA⇨_ReadStrangerChatRsp
 GAGBEIBDBBI⇨_monster_wave_list
 GAGCCEFDAJE⇨gcg_match_info
 GAGLLFNPPGL⇨_DungeonLowerDifficultyReq
@@ -2588,6 +2673,7 @@ GDBEEPAMFDN⇨GCGInviteGuestBattleRsp
 GDCAOMABNFH⇨is_dirty
 GDCKBOELFNA⇨is_sc_open
 GDDAFHMAIPM⇨HomeFurnitureSuiteData
+GDDBJCFDFAH⇨_auto_chess_equip_id
 GDECGDEPHMK⇨custom_dungeon_group_id
 GDEEOOOEHDK⇨HomeBlueprintInfoNotify
 GDFCGLILDPL⇨shoot_count
@@ -2643,6 +2729,8 @@ GFCNLOHHLHA⇨is_forbid_skill
 GFDBKPAOBPD⇨wrong_uid
 GFELOLGOMIB⇨furniture_make_slot
 GFEMJHEOLKB⇨BlessingGiveFriendPicRsp
+GFEPGOKOHMD⇨_vote_negative_num
+GFFKDEKJOPA⇨_camera_offset
 GFGGNAFCNJC⇨interact_uid_list
 GFHGOLBJMLD⇨MiracleRingDeliverItemRsp
 GFHLELADNFP⇨_highest_wave
@@ -2826,9 +2914,11 @@ GLICLJIPGNJ⇨query_type
 GLIJEIHPJGK⇨settle_info
 GLJBMNFCIKH⇨TreasureSeelieRegionData
 GLJJBPKEDKH⇨OptionType
+GLKPEJCPHJP⇨_auto_chess_chess_id
 GLLALOPNJAD⇨ShowTemplateReminderNotify
 GLLIBPJCMLF⇨_BeyondClientFrogprintParamValueBoolList
 GLMCINIEDLA⇨MainCoop
+GLMJFIEOFHD⇨_costume_set_name
 GLNFMDKJLOJ⇨StartRogueDiaryPlayRsp
 GLNOGHKDHMG⇨cell_type
 GLOEHEKHOFF⇨scene_team_avatar_list
@@ -2886,6 +2976,7 @@ GNNDFANFBBP⇨team_entity_id
 GNNDFEKHIPP⇨skill_id
 GNNJCELGHEF⇨_SetWidgetSettingReq
 GNNNAKGMJKG⇨quest_var
+GNOGMAGOBCH⇨_TakeTowerSkipRewardReq
 GNPMPEGHLNP⇨refresh_interval
 GOBJAKAPMCA⇨has_new_watcher
 GOEBOAMCBAG⇨is_ready
@@ -2904,6 +2995,7 @@ GOKKNHMMCAI⇨inject_fix
 GOLLMAMJFPA⇨ScenePlayerSoundNotify
 GOOEHFCLJFA⇨_SceneGalleryAkaFesRhythmInfo
 GOOHIFAINPP⇨AbilityMixinFireworksLauncher
+GOOODAIGEPH⇨_survey_count
 GOPBLOBNMPP⇨velocity
 GOPDJCGGMJP⇨ForgeStartReq
 GOPLOEGBIBO⇨_BeyondBattlePassMissionUpdateNotify
@@ -2956,7 +3048,7 @@ HBBONBGKOHD⇨_UgcMonsterWave
 HBBONDEKECF⇨crc
 HBCHLJGFKGF⇨PlayerMatchStopNotify
 HBCJMENOLDD⇨PlayerTimeNotify
-HBDCIBJKOIL⇨_act_id
+HBDCIBJKOIL⇨_role_combat_round
 HBEGCFKEEHA⇨GachaActivityDetailInfo
 HBFAPOGLFIE⇨_MonsterSnapSettleReq
 HBFEEHAMCDC⇨_UpgradeToBonusFacilityRevenueBuffInfo
@@ -3038,6 +3130,8 @@ HEJNIPDFMHN⇨PlatformStopRouteNotify
 HEKGEBMGNIN⇨_WidgetNewDetectorInfo
 HELLGCNJGAA⇨finished_theme_list
 HEMOBLBJMDB⇨FurnitureMakeStartRsp
+HEOAEJDGMAL⇨search_id
+HEODAGEDBNA⇨TakeRegionSearchRewardReq
 HEOMMBODAOB⇨FishEscapeNotify
 HEOPAGJCHCM⇨RemoveBlacklistRsp
 HEPEHNKEHAB⇨_GainBuffSettleInfo
@@ -3048,6 +3142,7 @@ HFBBANGJJFL⇨QuestTransmitRsp
 HFCDGHHIOED⇨ChatChannelInfoNotify
 HFCFNKDFOOB⇨prop_delta
 HFDIJLDKGKJ⇨hour_time
+HFDKINLLAFC⇨_banked_entity_id
 HFDNHOELFCE⇨ClientTransmitReq
 HFEFAIKJMOM⇨_PacmanSettleInfo
 HFEKPPNCENC⇨_AlchemySimDetailInfo
@@ -3093,6 +3188,7 @@ HGLNNFGLLNB⇨FungusCultivateRsp
 HGMDMFGMDJB⇨_UgcSpecialGadgetInfo
 HGNFMONLMOA⇨_monster_config
 HGNGMHPCDNP⇨_daily_attendance_cur_points
+HGNHGLGBLEN⇨gadget_chain_level_map
 HGNNEMGOLOF⇨FinishedParentQuestNotify
 HGOGKDHIKDC⇨guid
 HGOPBNEOHJM⇨_GCGReplaySetFavoriteReq
@@ -3120,8 +3216,10 @@ HHKLBBDEFBD⇨DelScenePlayTeamEntityNotify
 HHKMIKBHDBL⇨record_value
 HHLECEMHNDL⇨PlayerCookReq
 HHOJJBLEHCP⇨_BeyondClientFrogprintParamValueFloat
+HHOMECCCJKI⇨_incoming_chat_list
 HHPLIDJJNFA⇨ScenePlayBattleUidOpNotify
 HIADHPGHADM⇨HomeScenePointFishFarmingInfoNotify
+HIAHKBCLKBB⇨_GlobalChatDataNotify
 HIAHNOBKEAI⇨WatcherAllDataNotify
 HIALBHLNICH⇨msg_pack_list
 HIANCLBMLOA⇨FleurFairBalloonSettleNotify
@@ -3132,6 +3230,7 @@ HICDONKGLIM⇨SceneGalleryHideAndSeekInfo
 HICMBLGFKLI⇨ChannellerSlabLoopDungeonResultInfo
 HIDKOHAFNBJ⇨TakeReunionWatcherRewardRsp
 HIDMPEAMIPH⇨target_entity_id
+HIEDFEANLBD⇨_MaglevStateChangeNotify
 HIFBHPEAOGE⇨_level_info
 HIFNPAGDHNN⇨op_idx
 HIGBKKFJKAP⇨HomeLimitedShopGoodsListReq
@@ -3140,12 +3239,14 @@ HIHDPKNJFKG⇨GrantRewardNotify
 HIHEBOGANNJ⇨_HumanDragonPuzzleSettleInfo
 HIHGCMAFKNK⇨_BeyondRecordKeyBehaviourMpActionConfig
 HIHNDNAENBB⇨AddSeenMonsterNotify
+HIIBEBIAJIN⇨_ChangeReason
 HIJNHOGEHGI⇨PlayerReportReq
 HIKFJDCBEJM⇨is_attachment_got
 HILEEOCLLFO⇨RockBoardExploreStageData
 HINEMGNLLJD⇨GetAllMailReq
 HINFPLCLCCF⇨ChatChannel
 HIOCDDNLLJA⇨WeaponPromoteRsp
+HIOEENEOICL⇨_report_index
 HIPCCKKNJFF⇨HomeSceneJumpReq
 HIPMMKIPKMF⇨CylinderRegionSize
 HIPMMPMFFKD⇨IslandPartySailInfoNotify
@@ -3240,6 +3341,7 @@ HMAIAGIMLNI⇨AbilityInvokeEntryHead
 HMAJHFKLILE⇨city_id
 HMALEELKAPN⇨use_time
 HMAMHNOIPEL⇨is_mp_mode_available
+HMCNGCKDCNG⇨LevelTagDataNotify
 HMEFHGNHAPM⇨_QuestFocusModeNotify
 HMFKPLMAOFC⇨_PairOp
 HMHMDBONMAI⇨GCGOperationReboot
@@ -3271,6 +3373,7 @@ HNHPDMCGICC⇨gadget_id
 HNIPJFHMGPJ⇨ShopCardProduct
 HNLDBNLIGJB⇨weather_wizard_data
 HNLIGLPHCAN⇨DelMailReq
+HNLJNLJCFCO⇨cg_list
 HNMGLBKIEFA⇨Achievement
 HNMHEKMFOHK⇨next_res_version_config
 HNMKAPMGPEP⇨daily_record_list
@@ -3336,6 +3439,7 @@ HPLOOMENGEK⇨AbilityActionBlink
 HPMDNGPHBDO⇨weapon_count_limit
 HPMLFDLBJBA⇨HomeAvatarRewardEventGetRsp
 HPNIJKMMEMD⇨trigger_entity_id
+HPNNIGKAKML⇨_last_message_time
 HPOMCFDJBEF⇨HomeAvatarTalkFinishInfo
 HPPGMKCAECN⇨data_version
 IAABDKMEJCI⇨CustomDungeonBrief
@@ -3346,6 +3450,7 @@ IADMHHGPCEB⇨npc_id_list
 IAELJDOLFKC⇨_AnecdoteFinishRsp
 IAEMCJADCIE⇨CoinCollectOperatorInfo
 IAGDHLJHHED⇨HomeUpdatePictureFrameInfoRsp
+IAGGNBNIJGA⇨UiSettingInputTypeNotify
 IAJCFFAGJMM⇨_AvatarChangeTraceEffectRsp
 IAKABDPHIJP⇨store_type
 IAKBHOJMGCC⇨AbilityMixinMixedMagnet
@@ -3358,6 +3463,7 @@ IANFABNEDAK⇨furniture_suite_id_list
 IANNFEDAGAB⇨has_delete_config
 IBAEGCOIJBP⇨slot_list
 IBAOKINEIDM⇨_food_id_list
+IBBJBCPNLNE⇨_TakeReunionVideoRewardReq
 IBBMPHMFFOK⇨AbilityEmbryo
 IBBNKPCOBFF⇨_room_deployment
 IBDAFCCDADA⇨city_info_list
@@ -3382,6 +3488,7 @@ IBOLGNKIAEB⇨ChangHpReason
 IBOMFLLNPAK⇨factor_info_list
 IBPCJCJODKE⇨_BeyondRemoveVelocityForceMpActionConfig
 IBPDMHDHJCH⇨_DailyAttendanceTakeRewardReq
+IBPIOADAKJK⇨_DungeonQuickOpenReq
 IBPLEMPMHAO⇨WorldOwnerDailyTaskNotify
 IBPLPLLDEOO⇨weapon_enhance_level
 IBPPLBNDIGK⇨RechargeReq
@@ -3421,6 +3528,7 @@ IDDDANEFAAN⇨unlock_level_list
 IDDLJDKKNFP⇨guest_uid
 IDEFHJMJDPL⇨state_hash
 IDEJIPACAFG⇨RogueDiaryProgress
+IDEJJBEHIJC⇨_costume_set_id
 IDEKLLAFPFM⇨base_value
 IDFJKAAILCK⇨ItemRenameAvatarRsp
 IDGEPPLEFBJ⇨total_finish_timestamp
@@ -3465,12 +3573,14 @@ IFAMEGONGIF⇨AbilityMixinModifyDamage
 IFBEKKGNFIN⇨ChessMysteryInfo
 IFBFAFEMLNM⇨AvatarFetterInfo
 IFDLOBPIJNJ⇨SetFriendEnterHomeOptionRsp
+IFEBILENJID⇨_cur_week_capture_num
 IFEICIPPFCI⇨_GCGMsgFieldUpdate
 IFFCLKOJHAD⇨_UgcDungeonSetting
 IFGDMNGKBNI⇨_BagShopInfo
 IFGNOJIKDBD⇨HomeCustomFurnitureInfoNotify
 IFGPMHKDJFB⇨_BeyondClientTalkConfigTemplate
 IFHBIFHOFKC⇨dest_room_id
+IFHBKHCLHOB⇨_ability_param_list
 IFHGNGLAMBB⇨camp_level_map
 IFICGJBOIBI⇨SingleRestartBrickBreakerReq
 IFJGJPAFNNP⇨cell_info
@@ -3482,12 +3592,15 @@ IFOGHJIOBMJ⇨HomeSeekFurniturePlayerScore
 IFOHGMCFNBC⇨_BeyondPrefabGroupOwnerProperty
 IFOJMPNIPPC⇨ReunionPrivilegeInfo
 IFONJNFDFID⇨LanternRiteActivityDetailInfo
+IFPIGDKIODB⇨_BeyondChatRsp
 IFPKHMLEJBO⇨mail_id_list
 IGACDBNNCOE⇨open_id_list
+IGACIOBFHLA⇨_GalleryPreStartEndTimeChangeNotify
 IGAIBONODLP⇨BrickBreakerDetailInfo
 IGCNIGDOPCJ⇨MonsterSummonTagNotify
 IGEEIMHIOBO⇨TakeAchievementGoalRewardRsp
 IGFBIOLCMJC⇨enable_login_pc
+IGFMCEDNOND⇨DailyTaskUnlockedCitiesNotify
 IGGCLEEGIDG⇨ItemGivingReq
 IGGKFJPFDFG⇨ai_snapshots
 IGGKLFCPABP⇨feature_type
@@ -3507,14 +3620,16 @@ IGOKEEFMECA⇨_profile_picture_id
 IGPPJCLLMFG⇨_KillSelf
 IHAFEAHLKIB⇨is_extra_paid_reward_taken
 IHBEFGOIHHE⇨GetCityReputationInfoRsp
+IHCPGADJLKO⇨config_need_player_level
 IHDBANJAHPC⇨brief
 IHDBOACJPIL⇨spice_stage_data_list
+IHDGNPGCDEC⇨_is_view_requests
 IHDLBOBOMFP⇨_SceneGallerySorushTrialHitmanInfo
 IHDMCGNGKMI⇨cond_data_list
 IHDODKFGNML⇨MapMarkTipsType
 IHEEJKKJBGP⇨reward
 IHEFPDJIAEE⇨affix_map
-IHEMNBGHLKB⇨_BeyondCosmeticPlan
+IHEMNBGHLKB⇨_BeyondCostumeSetInfo
 IHFEHINOBEB⇨InBattleMechanicusStageType
 IHFJHDDLJFI⇨ProductPriceTier
 IHGKFGGBAHK⇨field_guid
@@ -3548,6 +3663,7 @@ IIGEKBOBHPG⇨PotionResetChallengeRsp
 IIHDLEEKBAO⇨reward_id
 IIIKMDFCABN⇨open_expedition_list
 IIJKPDPMNLB⇨cd
+IILKCMJPDGP⇨NeedPlayerLevel
 IIMIEBCCBKB⇨select_avatar_list
 IIMPGCNHOBG⇨_BeyondClientMinimapMarkConfigTemplate
 IINNIHOCAIP⇨action_type
@@ -3562,6 +3678,7 @@ IJCIMJEHPOF⇨_NatlanDragonPartySettleInfo
 IJCKMDCPLGB⇨Material
 IJDBHLIEGDN⇨GCGMsgClientPerform
 IJDCCLEIJPA⇨NightCrowGadgetInfo
+IJFCMCBHAPJ⇨dungeon_brief
 IJGCPCDILHP⇨MistTrialBestAvatar
 IJGFFPMECNB⇨GCGMsgSkillLimitsChange
 IJGJEIEFBGL⇨DungeonEntryCond
@@ -3571,6 +3688,7 @@ IJHELHJBDNN⇨cost_list
 IJIAFCMCFJJ⇨stage_id_list
 IJIDHNGOIHF⇨_emoji_set_id_list
 IJIHEOGALGE⇨_BeyondStuffBagClientProperty
+IJIPBNDEAEH⇨_friend_brief
 IJJCFGMFLBF⇨FurnitureMakeMakeInfo
 IJJKBBIGPKH⇨base_word_id
 IJKJDELLPDB⇨GCGTCTavernChallengeDataNotify
@@ -3584,6 +3702,7 @@ IJNOEHJAENN⇨_CeremonyDoodleSettleInfo
 IJPDLJJFKIK⇨invite_cd
 IJPKHLGKHAC⇨_CityReputationRewardType
 IKBBBAELJGJ⇨FleurFairReplayMiniGameReq
+IKBBICCIFIN⇨_BeyondChatReq
 IKBICDGBNHN⇨IslandPartyGallerySettleInfo
 IKBLLLMLGDG⇨watcher_list_id
 IKBLNCJBFHJ⇨op_info
@@ -3698,6 +3817,7 @@ IOFFBPLJBNB⇨ServerCondMeetQuestListUpdateNotify
 IOFIGNJACPK⇨DailyTaskScoreRewardNotify
 IOFLFCFOCBD⇨_BeyondScanEntitySubTagConfigTemplate
 IOFNAIEECBF⇨InvestigationMonster
+IOFPAIMLEPD⇨_role_combat_difficulty_id
 IOHDCFBPKLB⇨is_focus
 IOHKJPGMOAL⇨assist_time
 IOIKCOFNFMA⇨MotionState
@@ -3736,7 +3856,7 @@ IPOOGFCJJKK⇨ref_id
 JAAAKKCODNM⇨_basic_info_list
 JAABKHGIFHE⇨TakeReunionMissionRewardRsp
 JAAGCCKPJNE⇨HomeAvatarAllFinishRewardNotify
-JABIGPHKIBL⇨GalleryInitNotify
+JABIGPHKIBL⇨_GalleryInitNotify
 JACKCJBEDPJ⇨EvtCostStaminaNotify
 JADBFMMMGEM⇨GetChatEmojiCollectionRsp
 JADGACGHLPJ⇨is_attach
@@ -3748,6 +3868,7 @@ JAFGECCHAAI⇨AvatarDataNotify
 JAFPCJKHJEL⇨LuaEnvironmentEffectNotify
 JAGCPJKEPDN⇨tips_type
 JAGMHLIGOOC⇨TeamChainDungeonInfoNotify
+JAGNOIGEOHF⇨last_floor_index
 JAHFCHIAGBB⇨AvatarExpeditionCallBackRsp
 JAIAFOBACLJ⇨scene_point_id_list
 JAIBEIBNPMF⇨_DetailAbilityInfo
@@ -3794,6 +3915,7 @@ JBIKALHPICJ⇨hit_count_map
 JBIOHAGPGDE⇨team_enter_info
 JBJOCJGKFOP⇨QuestUpdateQuestTimeVarNotify
 JBKGMPMNHIE⇨_last_refresh_time
+JBLGKGPDJPG⇨_BeyondChatChannelUpdateNotify
 JBLJKINBHKM⇨ActivityGetRecvGiftListRsp
 JBLLNBPGLHL⇨IrodoriChessPlayerInfoNotify
 JBLPAAIAENI⇨PropChangeReason
@@ -3801,6 +3923,7 @@ JBMAMELHKPJ⇨jump_type
 JBPAOGPIMFJ⇨GetOpActivityInfoRsp
 JBPMOJPONDA⇨WinterCampStageInfo
 JCAKOIAAOEN⇨_MonsterChessV2ArtifactSelectReq
+JCBILNFLIMJ⇨AbilityActionLevelBankAddStuff
 JCBPBEPKPEM⇨_GCGArenaSettle
 JCCCKGAOOMC⇨QuestDestroyEntityReq
 JCDJGBFKADD⇨fishpond_guid
@@ -3846,6 +3969,7 @@ JDGDDDGHGDE⇨_wisp_cage_data
 JDHADBKPAOP⇨CustomDungeonSocial
 JDJICLJLBEB⇨is_interact
 JDJIHFCPLJG⇨_BranchJump
+JDJJNIOCCHF⇨_SceneOwnerGadgetChainLevelNotify
 JDJMCJFDOEA⇨WidgetReportReq
 JDKHMDLFKAN⇨AbilityActionGenerateElemBall
 JDMCIIJCENK⇨GravenInnocenceCarveStageInfo
@@ -3867,7 +3991,8 @@ JEIPDLDMOBF⇨taken_parent_quest_reward_list
 JEJFHLJKIJF⇨HomeSetBlueprintFriendOptionRsp
 JEJFMEGMFFO⇨cur_room_scene_id
 JEKGBKAPGPJ⇨scene_time
-JEKNEOMJJLI⇨piece_info
+JEKNEOMJJLI⇨_piece_info
+JEKPIDPMLOG⇨_vote_neutral_num
 JELDKCFDEJG⇨WidgetCreateLocationInfo
 JELEBEIMJJM⇨_BeyondHallAuthMode
 JELLBCONKMH⇨request_info_list
@@ -3907,7 +4032,9 @@ JGGGFGJFNLK⇨_LanternRiteV6DanmakuLevelInfo
 JGGNCKMAJGO⇨enter_point_id
 JGGOEBPCLGK⇨SetPlayerBirthdayRsp
 JGGOPCNPGMA⇨_MonsterChessV2ActionNotify
+JGIGHABMDPO⇨center_system_text
 JGIHJMNHNFK⇨_beyond_player_detail_list
+JGIKBCBKFPF⇨_AutoChessEquip
 JGIPEBLEOKN⇨deploy_npc_list
 JGIPMDCIJEI⇨ElectroherculesBattleSelectDifficultyRsp
 JGJDMHCJIME⇨dungeon_entry_config_id
@@ -3917,6 +4044,7 @@ JGOBMIDELIE⇨rank
 JGOOLFOBBLO⇨start_cd
 JGPICAPHPHJ⇨name_card_id
 JHAAIFLCJAA⇨begin_sequence
+JHAKOAIOOJN⇨_type_guid
 JHBGKKOANAC⇨SceneGalleryVintageHuntingInfo
 JHBKMINFGHJ⇨entity
 JHCEODEHOJK⇨open_store_list
@@ -3940,6 +4068,7 @@ JHJFDEJMJFG⇨_TreasureKeyData
 JHJHOOOLJLP⇨team_id
 JHJIFHGDBMB⇨_GCGPveInfiniteDetailInfo
 JHJNFKPOOJN⇨PlayerWorldSceneInfo
+JHLAOCEHONB⇨_BeyondProfilePictureDataNotify
 JHLDFELDGIC⇨_Saurus1V3Info
 JHLOJEFEOCL⇨_BeyondExpressionInfo
 JHMANEMEHLP⇨random_value
@@ -4003,7 +4132,7 @@ JJIMIDBBEAA⇨hp
 JJJNKMICFDA⇨_AnecdoteTakeRewardReq
 JJKKOKFJAED⇨area_type
 JJLDPFEHNAF⇨WorldPlayerRTTNotify
-JJLINKIHFCE⇨_star_count
+JJLINKIHFCE⇨_role_combat_star_count
 JJLNICGOFKK⇨_SeekerDetectorData
 JJLNMGIOPII⇨H5ActivityInfo
 JJLOBPFAMGK⇨_update_value_list
@@ -4032,6 +4161,7 @@ JKLAGMDGDLP⇨EffigyDailyInfo
 JKLCJCAHLLI⇨ModifierProperty
 JKLKHDPGALP⇨ActivityScheduleInfo
 JKLMFHPMPGN⇨AbilityMixinDoActionByElementReaction
+JKMPIKLMOGO⇨_GetPlayerFriendBriefRsp
 JKNEGOEDLMG⇨pre_start_end_time
 JKNJFAHJCCH⇨HideAndSeekMapInfo
 JKOCBMPJHGN⇨task_var_list
@@ -4040,6 +4170,7 @@ JKOPKGNJAMH⇨QueryCodexMonsterBeKilledNumReq
 JKPDHPGKDMM⇨_MusicBriefInfo
 JKPHMKGCFGC⇨op_type
 JKPJFCOHLAD⇨EvtEntityStartDieEndNotify
+JLALHKJKIBP⇨is_allow_input
 JLCLMOKKGGN⇨_TakeBeyondBattlePassMissionPointRsp
 JLEBFDLNAAK⇨GetCityReputationInfoReq
 JLFJENPFKMG⇨UpdateAbilityCreatedMovingPlatformNotify
@@ -4079,6 +4210,7 @@ JMGABDKMPMJ⇨ChatHistoryNotify
 JMGCIANAPNJ⇨PlayerRechargeDataNotify
 JMHDBCIMNCN⇨_AddMutelistRsp
 JMHDMPONEOK⇨GCGDuelCompareNotify
+JMHFCFDFBNM⇨AbilityMixinRotationFollowCamera
 JMIGKEFGIBB⇨WinterCampSetWishListRsp
 JMIGMHAIGFM⇨_SumeruAdventureGoalFightingDungeonInfo
 JMIHBKGNJHB⇨is_star
@@ -4152,6 +4284,7 @@ JOOCPBBOCGA⇨name_id
 JOOEPJGDJHF⇨father_index
 JOPIOCOKKNB⇨group_bundle_id
 JOPPNGHHMMN⇨OperateType
+JPAAOPEIJHM⇨_camera_angle
 JPAGDMMGCLE⇨finished_mission_num
 JPCFNDANFIO⇨id_index_list
 JPFCNNCBIII⇨channel_info
@@ -4180,6 +4313,7 @@ KACMFPCBENI⇨CancelCoopTaskRsp
 KACPKJJLABO⇨AvatarEnterElementViewNotify
 KADOGLICAPJ⇨stage_data_list
 KADPOONNLOA⇨GCGSkillPreviewNotify
+KAEGMMEGPMJ⇨_is_gift_received
 KAEJOHFGLLD⇨_daily_attendance_accumulated_reset_time
 KAFBLIGOJLA⇨entity_type
 KAFLFHEFDGE⇨_LanV6CardSetFavoriteRsp
@@ -4206,7 +4340,6 @@ KBIIFKLCLDL⇨_HallRecruitingInvitation
 KBIKFAJNCAD⇨group_record
 KBIPIPJJLBK⇨_GCGMsgCardHenshin
 KBLHMGOIDIL⇨_anecdote_id_list
-KBLKHGJILFA⇨last_floor_index
 KBMLDBOJMMM⇨PlayerApplyEnterMpNotify
 KBNPPJHLMGL⇨_LanV6CardDeleteRsp
 KBPEECMMHLL⇨PullRecentChatReq
@@ -4217,6 +4350,7 @@ KCCCNBLIKON⇨name_card_list
 KCCPEEDKOAA⇨scheme_id
 KCDHJNJPIFE⇨PlayerRandomCookReq
 KCDICPPJHIP⇨_AvatarAvailableCountResult
+KCDMHHAIEML⇨_QuestMutualShowNotify
 KCDOABBHODN⇨GachaStageData
 KCEGFGIOONN⇨_WispCageData
 KCEGHBEBGHC⇨is_played
@@ -4248,6 +4382,7 @@ KCOLFJKLMJK⇨search_time_map
 KDABEBHOEBB⇨_ChangeHpDebtsReason
 KDAFFEKNMBG⇨treasure_close_time
 KDAIPDDIMIA⇨SyncType
+KDCBNGKNOFN⇨_is_enter_world
 KDDKGLCCFIN⇨GCGSkillPreviewCardInfo
 KDEANLIOFCL⇨_VectorMoverInfo
 KDEBADDINNP⇨is_card_confirmed
@@ -4332,7 +4467,7 @@ KGCKOCLGKHP⇨brick_suite_id
 KGCOPBGPEPO⇨BlossomScheduleInfo
 KGDHNNBDNME⇨_tower_gadget_id
 KGEIDEIGKFM⇨type
-KGFFGJECEAJ⇨_BeyondCosmeticPieceAdjustment
+KGFFGJECEAJ⇨_BeyondCostumePieceAdjustment
 KGFJFFIKKHE⇨challenge_mode_skill_no
 KGFKBNNANAJ⇨reliquary
 KGFLHBPMNPG⇨power_up_rate
@@ -4342,7 +4477,9 @@ KGHMEPGMDPP⇨reward_token_num
 KGHMMJBMBNB⇨_BeyondCreateHallReq
 KGICBLGFFJL⇨QuickUseWidgetReq
 KGIHKLPFEBO⇨sync_type
+KGJKCBADDCH⇨CoopCgUpdateNotify
 KGKNJHNNDGG⇨BlossomBriefInfoNotify
+KGKOCGNBMMB⇨is_limit
 KGLAJHKCHFL⇨_BeyondClientFrogprintParamValueVector3List
 KGLBNFLDDON⇨prop_value
 KGLGJCDHOCL⇨DungeonCandidateTeamRefuseNotify
@@ -4385,12 +4522,14 @@ KHOCGIPPFAG⇨PersonalSceneJumpRsp
 KHOLLFIMJBI⇨TowerBuffSelectReq
 KHPCBGKJCPB⇨booth_data
 KIAHCGDNEOK⇨_ChildModelProperty
+KICPMCNNMKE⇨_is_sold_out
 KIDCNEOGMLG⇨CompoundBoostTakeStatusType
 KIDJOLCJPFK⇨dungeon_entry_point_list
 KIEIFMIGIPH⇨_GetBeyondPlayerDetailRsp
 KIHKFMNGNFC⇨bargain_result
 KIHOAJEAICF⇨PhotoPosData
 KIIEHHIEFNJ⇨InterruptGalleryRsp
+KIINEKFCOGO⇨_beyond_channel_info_list
 KIJPDKBAPDL⇨MpPlayRewardInfo
 KIKMGAEDADO⇨AbilityInvokeEntry
 KILBINBAHHP⇨_BeyondClientFrogprintParamValueInt
@@ -4413,12 +4552,15 @@ KJEKOOIOKCK⇨fail_motion
 KJFEJIDIHFK⇨GCGOperationSurrender
 KJFFPAPPMBP⇨unlock_area_list
 KJFHENHNOCP⇨gallery_stage_count
+KJGILNFJDFP⇨_BeyondChatIndex
 KJGOKDMNOEH⇨TakeMaterialDeleteReturnRsp
 KJHHABJGPBL⇨AvatarChangeCostumeRsp
 KJHJDFLIKEJ⇨AbilityString
 KJIEPKEOHFC⇨tree_pos
 KJIPDGNGMOB⇨FriendEnterHomeOption
+KJJMKGLBIMA⇨_UiSettingInputType
 KJKBBLANNPL⇨last_sign_in_time
+KJKCONADMEP⇨_UgcShortVideoAvatarInfo
 KJKPBCCLICL⇨TrialAvatarGrantRecord
 KJLGFIGKIEE⇨_UgcDungeonSettleType
 KJLKLDEEEHN⇨GroupLinkAllNotify
@@ -4441,6 +4583,7 @@ KKFKFOBOPED⇨_GCGMsgElementMasteryChange
 KKGDGBIPGAG⇨StartCoopPointRsp
 KKGIHPJIMIJ⇨_ChipCustomTrialData
 KKGLMJABJHD⇨offset
+KKGPEIOFLPJ⇨_vote_record_list
 KKHGCNIJFLK⇨card_id_list
 KKIEPNFFKOK⇨GCGToken
 KKIJCFANPGG⇨AvatarSkillUpgradeReq
@@ -4466,6 +4609,7 @@ KLFCJPMAJNE⇨max_score
 KLFGJCNMFIP⇨result_param
 KLFHEPCGOJH⇨LanV3BoatStageInfo
 KLFOENDHCFB⇨PlatformType
+KLGEDHAKLCI⇨_BeyondChatChannelDataNotify
 KLGFAHNJFMG⇨OfferingInteractReq
 KLGHKMPPAMK⇨EffigyChallengeV2SettleInfo
 KLGIBAOOKCM⇨all_argee
@@ -4519,6 +4663,7 @@ KNCEMKDHMNH⇨PlayerQuitDungeonReq
 KNFMLKIBNKH⇨AvatarSatiationData
 KNIEFONMHGO⇨stage_id
 KNKKPPMLJBH⇨ScenePlayOutofRegionNotify
+KNLHIFLIHGL⇨_PlayerSetStrangerChatSettingRsp
 KNLPJJBNIGE⇨is_game_source
 KNMKDIBDDDM⇨gacha_item
 KNMOOPHNLAJ⇨HomeFishFarmingInfo
@@ -4528,7 +4673,7 @@ KNPKMNDBKKJ⇨giving_id
 KOACBCNCFAD⇨announce_data_list
 KOADEPKPPAL⇨ClientGadgetInfo
 KOAFCKIGDFD⇨_UiStaticComp
-KOAJECFDOKB⇨piece_adjustment
+KOAJECFDOKB⇨_piece_adjustment
 KOAJINAFBGF⇨IslandPartySettleNotify
 KOAKFFNMDPG⇨_UgcTriggerConditionMonsterGroupDeactive
 KOBAKHNMIJH⇨_DungeonChatChannelDataNotify
@@ -4562,6 +4707,7 @@ KONGONPJCLO⇨HomePreChangeEditModeNotify
 KONLMJLNHNF⇨TakeCityReputationLevelRewardReq
 KOOBMAGMAOJ⇨GadgetPlayUidOpNotify
 KOOCNJNIFLL⇨_EffigyChallengeV5Detail
+KOOKPENBIFD⇨AllCoopInfoNotify
 KOOMEMFEHJF⇨WinterCampFriendWishData
 KOPFCDIOGMN⇨fetter_info
 KPAODIBPFHM⇨mixin_recover_infos
@@ -4573,11 +4719,13 @@ KPDAMCOMPCB⇨bundle
 KPDBNLCPOPJ⇨HomePictureFrameInfo
 KPDCBLAFENF⇨SceneGalleryVintageHuntingSettleNotify
 KPDLLMLJDGF⇨reborn_pos
+KPDMOMECEIG⇨next_floor_id
 KPDONOEIGMG⇨_ThemeParkSimDetailInfo
 KPEMEHOBILN⇨InBattleIrodoriChessInfo
 KPEOGFHMBMM⇨avatar_enter_info
 KPGGOBLNNEB⇨offering_data_list
 KPGIKHOLAHA⇨compound_id
+KPGKAGMFBPD⇨_play_times
 KPHIBFNMBCI⇨left_turns
 KPHLGOEBAGG⇨combine_id
 KPIJNDNPPCE⇨_BeyondInterruptCurSkillMpActionConfig
@@ -4612,6 +4760,7 @@ LALPJGNHBOJ⇨collection_id
 LAMKIJIKFCJ⇨MichiaeMatsuriChallengePositionInfo
 LANAJEMMIJP⇨HomeBalloonGalleryRecord
 LANEELFDBCK⇨being_hit_info
+LANHAFOAMCD⇨MusicGameSettleRsp
 LANHHCHJMGC⇨_IntelligenceBuyGoodsRsp
 LAODCDAJPCF⇨_BeyondEquipStuffTagConfigTemplate
 LAOFMOCPCIM⇨_photos_taken
@@ -4687,9 +4836,11 @@ LDFACGJIJFL⇨SceneGalleryBalloonInfo
 LDFFAGJDNLM⇨_is_no_remind
 LDFHPBGEMGN⇨HomeGetGroupRecordReq
 LDGAAIHDFJC⇨CustomCommonNodeInfo
+LDGBMDFNJHK⇨InterpretInferenceWordReq
 LDHEBENKMMG⇨height_offset
 LDHKKOINNPN⇨official_custom_dungeon_list
 LDHLFOEJDPD⇨QuestGlobalVarNotify
+LDIJHICLIKK⇨price_low_limit
 LDIKCIIKIOL⇨AllMarkPointNotify
 LDJIPNPNMFF⇨is_chat_no_disturb
 LDKKHFLHFEB⇨affix_list
@@ -4697,13 +4848,16 @@ LDPENHLDAFH⇨guid_list
 LDPOAEMFFFM⇨_BeyondFireEffectByAbsPosMpActionConfig
 LDPOHLIHKKC⇨_template_loading_id
 LEAJOHLEOGH⇨HuntingPair
+LEBILGHKIFJ⇨_ShortVideoVoteRecord
 LEBMOGPGCAC⇨_SceneGalleryFungusFighterV3Info
+LEBNHDHPAHD⇨_replay_config_name_list
 LEBOEHHOMFG⇨unlock_compound_list
 LECMGCPMEJP⇨ForgeQueueDataNotify
 LEEIDNJHDPN⇨PlayerReportRsp
 LEENEKFJNEJ⇨animator_state_id_list
 LEGEMIDCJMF⇨_BeyondActivityUpdateWatcherNotify
 LEHEDNBIFDN⇨notify
+LEICFIJFMMA⇨_SceneChangeTagRsp
 LEIHEJKDLHA⇨clean_mud_count
 LEIJPEIDEDP⇨GetMailItemRsp
 LEIKCHDKGME⇨SetCoopChapterViewedReq
@@ -4711,7 +4865,9 @@ LELFNAFGGCM⇨SelectEffigyChallengeConditionRsp
 LELNNCPHPJE⇨resin_cost
 LEMDCCKKGBL⇨floor_level
 LENHPODIKMJ⇨_BeyondBreakLoopMpActionConfig
+LENIJHHEBOK⇨_ley_line_challenge_last_schedule_id
 LEPEJBEJHLO⇨trial_level_data_list
+LFANHICACNK⇨_quest_id_list
 LFBBNDBNHPN⇨PlayerGameTimeNotify
 LFCCAKEDJKE⇨_lacking_resource_info
 LFCEGJNIDEK⇨num
@@ -4728,6 +4884,8 @@ LFGKKCDELDP⇨SetUpLunchBoxWidgetReq
 LFHIMBJDOJA⇨_MonsterChessV2CardStarUpInfo
 LFIBLOJFNMM⇨SceneKickPlayerRsp
 LFIGCEOPACE⇨GalleryStageType
+LFILIBBFEKK⇨_is_blur_background
+LFIPEFMCIGP⇨_AutoChessShop
 LFJJGEBGDIN⇨y
 LFJLECPKKMO⇨satiation_data_list
 LFKCCNNEHOI⇨fetter_level
@@ -4757,6 +4915,8 @@ LGHJMLEPBCH⇨_AvatarMirrorType
 LGICMKFOOMF⇨TakeInvestigationTargetRewardReq
 LGIGCPCHACJ⇨_AvatarGainTraceEffectNotify
 LGIHIDJGDFC⇨GroupUnloadNotify
+LGJJGPAFHPC⇨_reunion_video_id
+LGKJOJLGJGJ⇨GadgetChainLevelChangeNotify
 LGLDLDHFDDA⇨ActivityTakeWatcherRewardReq
 LGLHOIFBNOG⇨_LevelStateMachineComp
 LGLIGOLFLDN⇨material_id
@@ -4771,6 +4931,7 @@ LGPHKHGPKOG⇨slot
 LGPONOKDCID⇨TakeMaterialDeleteReturnReq
 LHALFBIPMGK⇨ClientReconnectNotify
 LHANAFFECPE⇨change_count
+LHBLMBEKHJB⇨_video_tag_id_list
 LHCCANCCIBB⇨cost_points
 LHCDOGMJKKL⇨_MonsterChessSettleNotify
 LHCEFHEMNLM⇨promote_level
@@ -4801,8 +4962,10 @@ LIAEJCPKBND⇨SceneTimeNotify
 LIAFMOPMBOF⇨EvtSyncTransform
 LICMBCCJCOP⇨AvatarExpeditionGetRewardReq
 LICNOKJGLOC⇨_AnecdoteGetDataRsp
+LIDBMEGNMLL⇨_report_chat_time
 LIDLMMLKEOB⇨challenge_detail
 LIDNAOGJBCO⇨_ThemeParkTriathlonSettleInfo
+LIDPKOPPCLI⇨_chess_level_up_id
 LIEOFDLNBHA⇨LanternRiteFireworksReformSkillInfo
 LIFFFOICFFI⇨got_coin_num
 LIGACCIFGLO⇨TowerCurLevelRecordChangeNotify
@@ -4829,6 +4992,7 @@ LIOADNNEBHK⇨ScenePlayOwnerCheckRsp
 LIOBPHNIBFG⇨AbilityMixinElementShield
 LIONCNPNPGH⇨AbilityMixinAvatarDrawPlaySyncMixin
 LIOPDCMMJJL⇨_WeekActiveGetRewardReq
+LJAKHMPOFBC⇨_is_auto_focus
 LJAOFPCDOHH⇨left_bonus_count
 LJBKHINANHC⇨buy_goods_list
 LJBMNDCMNEG⇨ServerLogType
@@ -4857,6 +5021,7 @@ LJPFFLAKIHC⇨_Event
 LJPLNNAPJPI⇨cur_avatar_entity_id
 LKACOKDJGCK⇨routine_id
 LKAIENAJNDK⇨_stage_phase
+LKAPMKBAOGA⇨MainCoopUpdateNotify
 LKBBDMHOIMJ⇨CheckSegmentCRCNotify
 LKBCFFNFENG⇨LunaRiteAreaInfo
 LKBCHLLNPBF⇨_beyond_profile_tag_list
@@ -4922,7 +5087,9 @@ LMCOEJKPCNI⇨_GCGPvePuzzleDetailInfo
 LMCPINKMPEH⇨_LanternRiteV5DetailInfo
 LMDDOIPNPEL⇨_TowerChallengeExtraBrief
 LMDGBIOBOJM⇨is_finished_entrance_floor
+LMECFOAHFHD⇨initial_level
 LMEEOBJFMJG⇨AbilityMetaUpdateBaseReactionDamage
+LMEFKKOPDNB⇨need_begin_time
 LMFAHHCCMCL⇨is_entered_combat
 LMHPJMMHCMF⇨conclusion_id
 LMJCBOFKMDP⇨speed_increase_count
@@ -4964,12 +5131,14 @@ LNLAFOMHEDA⇨ScenePlayBattleInfoNotify
 LNLKKCMKHJB⇨AvatarSkillDepotChangeNotify
 LNLLGIAFNHI⇨picture_frame_info_list
 LNLONPCFLAA⇨BrickBreakerStageType
+LNMDFJPJMNJ⇨SubmitInferenceWordReq
 LNMFAKANAHF⇨_ModifyNodeType
 LNMNNEACMIM⇨CoinCollectChooseSkillReq
 LNOHFCOGLJI⇨is_done
 LNPOCIKFMOK⇨UnionCmdNotify
 LOACJFOCMKC⇨_tech_node_id_level_list
 LOAELGJHIIE⇨GCGSkillPreviewTokenInfo
+LOAFAHJBAPO⇨_blur_distance
 LOAFNEMOCGB⇨vects
 LOALDCKGCMF⇨RogueDiaryAvatar
 LOBGFJOIBHD⇨wearing_flycloak_id
@@ -5023,6 +5192,7 @@ LPJNJNPBJIB⇨_streaming_video_id
 LPLAICGDLLB⇨quick_open_pre_quest_list
 LPLGFHGLJFJ⇨WindFieldGalleryInfoNotify
 LPLMGNKOLMN⇨stair_list
+LPMPKKNBPFA⇨_QuestMutualContinueRsp
 LPOJLPHMOPC⇨cloud_client_ip
 LPPNEOMFCDP⇨_GetPlayerMutelistRsp
 LPPONDMONEC⇨BuoyantCombatSettleInfo
@@ -5068,6 +5238,7 @@ MBFGOKFPKDA⇨_BeyondProfilePicture
 MBFLCHNOMGK⇨DeathZoneInfoNotify
 MBFMBDDPFBD⇨is_all
 MBGDHJFMFHL⇨GCGOperationRedraw
+MBHKLKLIDCH⇨_AutoChessSettleNotify
 MBHNOEHKBJD⇨_EditUgcDungeonState
 MBIDBOAFPJJ⇨EnterChessDungeonReq
 MBIGKBMMMED⇨_PrintNodeInfo
@@ -5103,6 +5274,7 @@ MCJCNCENDIG⇨PhotoActivityFinishReq
 MCJHLAJPAMG⇨_BeyondMaterial
 MCJJLJGKOCD⇨ClientLockGameTimeNotify
 MCKLGEHINCG⇨mission_info
+MCKOEEMLBMF⇨_QuestMutualContinueReq
 MCLEEDAHOHH⇨SegmentInfo
 MCLMEJFHGLA⇨_DiversityBattleSocialBrief
 MCMCIMBOFGD⇨projector_entity_id
@@ -5154,6 +5326,7 @@ MENPIDMDGKM⇨EvtSyncSkillAnchorPosition
 MEPICGAILKO⇨AbilityMixinShieldBar
 MEPMMEANGJI⇨HomeSetBlueprintSlotOptionRsp
 MFBBGIGFBNM⇨AranaraCollectionSuite
+MFBNFICHGAL⇨_BeyondChatChannelInfo
 MFCBPBADNGL⇨GCGLevelType
 MFCIHBLLBAM⇨gadget_entity_id_list
 MFDCJIEMBCE⇨pos
@@ -5163,6 +5336,7 @@ MFFPGPGFKAJ⇨flower_ring_catch_count_map
 MFGJFFJJGIH⇨chest
 MFHJMFIFJEE⇨GCGMsgRemoveCards
 MFIFHBDAHHP⇨GCGMessagePack
+MFIOEGKKBIE⇨_accepted_chat_list
 MFJPBPEKIOA⇨WorldPlayerLocationNotify
 MFLBEIFCGHN⇨TaskVarNotify
 MFLGNMEGKAJ⇨BreakoutBrickInfo
@@ -5218,7 +5392,10 @@ MHMGOGBFFEM⇨_DutyEditClientPropertyRoleStatusConfig
 MHNHBONNIDO⇨settle_player_info_list
 MHOBCCEACNC⇨add_attr_list
 MHODDCPLGGI⇨_anchor_point_material_next_usable_time_list
+MHOINAPJCGE⇨_target_costume_set_index
+MHPBIJFFCDB⇨_DungeonQuickOpenRsp
 MHPKOBAEHNE⇨weapon_max_promote_level
+MHPPPKMIJED⇨expected_price
 MIAIAALFIEB⇨checksum_client_version
 MIALAIKMBKN⇨GetHomeExchangeWoodInfoReq
 MIBBPHHACEI⇨anim_event_id
@@ -5243,6 +5420,7 @@ MIKHOOPOAMH⇨normalized_time_compact
 MIKOKJDNOJI⇨GadgetCrucibleInfo
 MILDMOKOPAE⇨stage_list
 MILDNDBPBKL⇨level_route_id
+MILGIHKPHBD⇨_short_video_guid_list
 MIMJCGEKKIM⇨wish_item_id
 MIOOMGLPEEL⇨privilege_id
 MIPBEMLBAIB⇨avatar_team_map
@@ -5267,6 +5445,7 @@ MJHMFGDOJMK⇨dungeon_section_info_map
 MJIAKFLDIJL⇨material_list
 MJIGBFGOJPH⇨GCGSkillPreviewOnstageChangeInfo
 MJIMGBONINP⇨extra_ball_index
+MJINCIALADK⇨_is_unread
 MJJMKILADJJ⇨MsgParam
 MJJNMDLAJPJ⇨BossChestInfo
 MJJPAFGAMBG⇨node_list
@@ -5288,6 +5467,7 @@ MKFMEDAEJHK⇨aster_progress
 MKGCFALBNKA⇨HitTreeNotify
 MKGCPKLPOPM⇨refund
 MKGHKEPKJIA⇨ChooseCurAvatarTeamReq
+MKGLOCMGONJ⇨is_starting
 MKGPACPNNON⇨HomeAvatarTalkFinishInfoNotify
 MKHIEPAMEFE⇨GadgetInteractRsp
 MKHLLJINPGM⇨_LanV4PartyLionInfo
@@ -5335,6 +5515,7 @@ MLMINAOKJOK⇨_vehicle_type
 MLONFJLGAFK⇨old_value
 MMBNGKPBFPB⇨ForgeGetQueueDataRsp
 MMEBOAJLICG⇨GivingRecordNotify
+MMEILFMJHDB⇨_TakeTowerSkipRewardRsp
 MMEPAFJDGIA⇨DailyTaskProgressNotify
 MMFMAAJMLKD⇨left_monsters
 MMHEAECGNNN⇨_ConfigGenerics
@@ -5363,6 +5544,7 @@ MNFNOKNPFMD⇨birthday
 MNGIEOGALNO⇨BreakoutPhysicalObjectModifier
 MNGNBLCMKEG⇨AvatarExpeditionInfo
 MNHPPDHPAKJ⇨world_routine_type
+MNIBMCOEJDF⇨_ReadStrangerChatReq
 MNJHBFJOLKI⇨is_allow_summon
 MNJNFAJMCIK⇨activity_push_tips_data_list
 MNKEJIHFBHD⇨UnlockAvatarTalentReq
@@ -5412,6 +5594,7 @@ MPIMAOAPBIK⇨_beyond_item_hint
 MPJIIGOLEBI⇨SceneGalleryLuminanceStoneChallengeInfo
 MPJIPJEMFFJ⇨reliquary_list
 MPJLAGHFGCD⇨_StateMachineComp
+MPKJODGEAHH⇨CoopCgShowNotify
 MPLGDGFNFIL⇨enter_scene_token
 MPMCMHMGIKC⇨CoopCg
 MPMOIMINDBM⇨scene_player_fall_info_map
@@ -5428,6 +5611,7 @@ MPPNKKCOKFD⇨index
 NAABEJMDAKD⇨PlayerNicknameAuditDataNotify
 NABBNCPPACO⇨_passed_training_step_list
 NABDEMOPFAG⇨level_info_list
+NACBBBPMOBD⇨_distance
 NACDFIANPCM⇨level_open_time_map
 NACLBHNBKBO⇨_CustomUiNode
 NACMDJCPGHH⇨_last_wish_time
@@ -5488,6 +5672,7 @@ NCAEOOKBLJA⇨VintageBoothUsedItemData
 NCBCOOMIOAL⇨WorldOwnerBlossomScheduleInfoNotify
 NCBGMMJILBD⇨next_climate_time
 NCBKDKELNOP⇨fungus_detail_list
+NCCGGHBMNEA⇨UnlockPersonalLineReq
 NCDFHCJPIMI⇨max_level
 NCDHPKFKOPA⇨_UnlockMapLayerGroupReq
 NCFIFLLGCLD⇨block_id
@@ -5501,6 +5686,7 @@ NCKLKPPNHDL⇨LockedPersonallineData
 NCLIEFEEJCD⇨target_guid
 NCMJNMELKLA⇨follow_pos
 NCNKPFJPMEG⇨ClientTransmitRsp
+NCODDMNKFPN⇨_ShortVideoLevelData
 NCPEKBEAOIK⇨SalvageEscortGallerySettleInfo
 NCPKHDIJDAB⇨start_time
 NDAFCHBOHOD⇨AllSeenMonsterNotify
@@ -5516,6 +5702,7 @@ NDFMNPKKICC⇨equip_list
 NDHDFGOCNEB⇨EvtSetAttackTargetNotify
 NDIDHDFCNBO⇨ReportReasonType
 NDINCIIKNEB⇨FlightActivityDetailInfo
+NDKDFFJAJIE⇨need_player_level
 NDKFHNLPDDD⇨no_reward_reason
 NDLFDAIGNJM⇨FungusTrainingMonsterPreviewDetail
 NDLFIIOGJPI⇨chest_info_list
@@ -5543,12 +5730,14 @@ NEIGFLNKFLB⇨route_list
 NEKJNFMPKAP⇨field
 NEKMGAEMAKJ⇨VehicleLocationInfo
 NEKOMCDOFHK⇨MaterilaInfo
+NELLNANMLCI⇨is_ban
 NELNDEFLDPF⇨SetBattlePassViewedReq
 NEMBAHDAABH⇨_BeyondClientFrogprintParamValueArmyList
 NEMDKGLJFLC⇨BreakoutSyncAction
 NEMMBMIAAHP⇨old_affix_level_map
 NEMOFDLLKCN⇨DeshretObeliskGadgetInfo
 NENBHFEEGBP⇨ResinCostType
+NENDJDIECLN⇨_PlayerSetStrangerChatSettingReq
 NEOPHHEMLDL⇨UpdatePlayerShowAvatarListReq
 NEPPGBAPIDN⇨ChangeMpTeamAvatarRsp
 NFCIBIBHCPE⇨global_value_key
@@ -5564,13 +5753,17 @@ NFIOBJAOCCK⇨AbilityMetaAddSpecialEnergyValue
 NFJBODLHIDC⇨_BeyondStructClientProperty
 NFJEMPEDEDE⇨race_info_list
 NFJFACEPAIH⇨activity_info_list
+NFKNLFBGFCO⇨_PullStrangerChatReq
+NFKODNPAFEN⇨_AddQuestContentProgressBatchRsp
 NFLJGIBNGAB⇨_MoveTeamReq
+NFMMCPEAINK⇨FinishedTalkIdListNotify
 NFMNEBBOJHG⇨AbilityIdentifier
 NFNAEPACFGM⇨ShowClientTutorialNotify
 NFNDLFAOKJN⇨_GetBeyondActivityScheduleRsp
 NFOCKGJIINI⇨FungusTrainingDungeonDetail
 NFOCOCEMFHC⇨InBattleChessSettleInfo
 NGABINAPPBJ⇨_BeyondMissionStatus
+NGAKGCEFBME⇨_video_ugc_guid
 NGAMAPBDNHE⇨engaged_player_score_list
 NGBLEBLMCFP⇨GCGMsgTokenChange
 NGBOLOFFIIJ⇨ChangeGameTimeReq
@@ -5679,6 +5872,7 @@ NJNDABJOPBL⇨DraftInviteFailReason
 NJNDAMCIFCD⇨ReformFireworksReq
 NJOEELEEHKL⇨controller_path_hash
 NJOGPNHGMND⇨is_show_mark
+NJOHIGPMBHL⇨_weekly_reward_refresh_time
 NJPIJOIKPLK⇨route_type
 NJPMLMJAGGC⇨ChessCardInfo
 NKAJEOPGPEC⇨StartFishingRsp
@@ -5699,6 +5893,7 @@ NKHHJODOGMD⇨publish_time
 NKHLLPFOJLJ⇨trial_avatar_list
 NKIAJACELEA⇨guide_name
 NKJPDDAPDEB⇨add_team_resonance_id_list
+NKKMLNLDMOL⇨is_transfered_from_avatar_card
 NKMDBFGDHEE⇨_UgcDungeonPlayRecord
 NKMDDFKFJGF⇨_ClientDetectorResult
 NKMLLOAAHFH⇨old_cell_id
@@ -5758,8 +5953,10 @@ NMLOOICDJIG⇨random_position
 NMMHELEAMDA⇨GCGOperationOnStageSelect
 NMMHHCDJOCG⇨_intelligence_scan_info
 NMMIBPPNKNO⇨ai_info
+NMMJGFIDFNB⇨_ley_line_challenge_last_difficulty
 NMMOJOHFHBA⇨AvatarEquipChangeNotify
 NMNAAAJOKAM⇨FishPoolDataNotify
+NMNLKGMCCBM⇨_new_costume_set_name
 NMNMHCDLGAK⇨PlayerWorldLocationInfo
 NMOEMBDLGGI⇨accumulate_coin_num
 NMOPCOCIEOD⇨daily_dungeon_info_list
@@ -5812,7 +6009,9 @@ NOILNICEBBI⇨_ConfigBeyondGuid
 NOIPCCFJJHB⇨is_in_time_limit
 NOJEHONPKDM⇨WinterCampAcceptGiveItemRsp
 NOLGNPIPLNM⇨share_code
+NOMDELONMGF⇨_BeyondProfileTagListNotify
 NOMDLJIPMND⇨GravenInnocencePhotoFinishRsp
+NOMNCNDPLKJ⇨_BeyondGachaBriefInfo
 NOMPDJEPMAE⇨ability_config_hash
 NOOOGPEJAFH⇨_draw_card_list
 NOOOPJIJCCA⇨status
@@ -5857,6 +6056,7 @@ OAHJCOGMJOG⇨_AnecdoteFinishReq
 OAJACBAFFGG⇨store_round
 OAJHNBJMKEJ⇨owner_entity_id
 OAJLJDGMDCB⇨AbilityMetaModifierChange
+OAKGGPDCJKM⇨_AddAvatarTalentTransferItem
 OAKMKGJLPFA⇨GetSceneAreaRsp
 OAKPNFNKAPE⇨last_level_index
 OALEKFKGMLK⇨SummerTimeDungeonInfo
@@ -5869,6 +6069,7 @@ OANAOICABHE⇨_WorldWatcherAllDataNotify
 OAOFNLKAHGI⇨version_suffix
 OAOGFOCIING⇨WorldRoutineTypeInfo
 OAOGHLCDBLJ⇨StoreItemDelNotify
+OAPBPGLMECM⇨ActivityTakeWatcherRewardBatchReq
 OAPCCMGJHJJ⇨is_all_collected
 OBAAEBPCALA⇨total_num
 OBCDGKPKFPE⇨_BeyondShopTemplateClientProperty
@@ -5905,12 +6106,14 @@ OCDCEHICHCG⇨wave_suite_index
 OCDJALBOMLJ⇨finish_progress_list
 OCDJHGHKBNO⇨_WeekActiveSelectAvatarReq
 OCDKBGMLHDK⇨_BeyondParamValueEnum
+OCFFEKJLIMH⇨_StrangerChatReq
 OCFKPEFIJEK⇨PotionEnterDungeonReq
 OCFLAAJJEAL⇨total_rotation
 OCFLOGLGMAH⇨entity_info_list
 OCGCNBAAHLA⇨_tower_skip_floor_state
 OCGGHJBCPNK⇨solution_id
 OCGJPHIKEBG⇨_CostumeInfo
+OCGPECKMLFN⇨_sub_reason
 OCHKFJGLLJH⇨last_shock_time
 OCIJJAGKIGP⇨_BeyondItemAddHintNotify
 OCKFIPAFMHH⇨_ugc_v2_special_gadget_info
@@ -6057,6 +6260,7 @@ OIOBCJJILLO⇨head
 OIODNNPABEI⇨_ThemeParkParkourSettleInfo
 OIOFHJMLOJL⇨WinterCampGetRecvItemListRsp
 OIOGDIIMJMA⇨SetUpAvatarTeamReq
+OIOOBMFMFJG⇨_UgcDelReq
 OIOPAJPADAJ⇨normal_card_info
 OJAGIOIIMGJ⇨_adjust_value
 OJANKGPONMH⇨slot_identifier
@@ -6097,6 +6301,7 @@ OKJGGJDEKPP⇨_BeyondBlinkMpActionConfig
 OKJOJEBKFAP⇨GCGTavernNpcInfo
 OKKAKELILKO⇨ClientAIStateNotify
 OKKCBNONHOP⇨AssociateInferenceWordReq
+OKKDHDKBKDC⇨_AvatarLinneaSkillCaptureNotify
 OKKGMEGGJDJ⇨PlayerSignatureAuditDataNotify
 OKLFJPLKBBF⇨EntityFightPropUpdateNotify
 OKLLNNOGMJA⇨_BeyondShieldConfigTemplate
@@ -6105,6 +6310,7 @@ OKODEOCFJED⇨HomePlantSeedReq
 OKOKDACDKCC⇨_OpType
 OKOMDEODPOP⇨_BeyondActivityInfo
 OKOPCNIPPMK⇨wave_index
+OKPEEEKLOLB⇨_RecentStrangerChatNotify
 OKPHIPPLAPE⇨_DreamSwitchingSettleInfo
 OKPHJEGFBAI⇨AvatarPromoteRsp
 OLAAEGMNKCL⇨_UgcDungeonBrief
@@ -6199,6 +6405,7 @@ OOEPALFPILB⇨sale_id
 OOFBAOFIJFO⇨boss_challenge
 OOFBHKLGCMJ⇨_QuestQuickLaunchRsp
 OOGEIBADBFO⇨_NatlanArenaDetailInfo
+OOHEOMOBLPC⇨_scene_tag_id
 OOHHELALJDP⇨HomeSceneJumpRsp
 OOHLHIEGDLO⇨SumoSwitchTeamRsp
 OOHMGAKMLCL⇨_EffigyChallengeV5SocialInfo
@@ -6215,9 +6422,11 @@ OOMNIFEDEIB⇨activity_schedule_list
 OONJNAJBNON⇨TakeInvestigationRewardRsp
 OOOFFGOBHMC⇨SceneGalleryCrystalLinkInfo
 OOOODDEIFFM⇨AranaraCollectionState
+OOOOKOIEAJB⇨initial_promote_level
 OOPCBFOOCLJ⇨EnterWorldAreaRsp
 OPACCCOMHJJ⇨_anecdote_id
 OPANDBOLDPF⇨GalleryStopReason
+OPBCELEEHEE⇨_GetPlayerFriendBriefReq
 OPBFIDLFNCO⇨match_param
 OPCCIONDANI⇨IrodoriEditFlowerCombinationRsp
 OPCFJKLECBC⇨game_biz
@@ -6232,7 +6441,7 @@ OPFFKOKHJLL⇨EvtLightCoreMove
 OPFIENLEBAK⇨child_challenge_list
 OPGMFFNAKBD⇨DungeonCandidateTeamInviteState
 OPHCCLBIOAG⇨_ShortVideoSettleInfo
-OPHCOGCLCAC⇨_BeyondCosmeticPieceInfo
+OPHCOGCLCAC⇨_BeyondCostumePieceInfo
 OPHHNCMLFHE⇨server_seq
 OPHLLEBGNIF⇨GCGMsgModifyAdd
 OPHMGKEPJGF⇨GCGLevelChallengeFinishNotify
@@ -6241,6 +6450,7 @@ OPKNEKGOJNG⇨AiSkillCdInfo
 OPLAFEPDNHM⇨preview_stage_index
 OPLBLNMAPGD⇨music_record_map
 OPLCEECKCLG⇨theme_data_list
+OPLHPIACCFN⇨_report_detail
 OPMCNJBIDGC⇨_costume_slot_index
 OPMGJFPANJF⇨_SignalEditData
 OPMKLPFMBOO⇨lose_hp_config_idx
@@ -6269,6 +6479,7 @@ PANGAFPFEPG⇨Equip
 PANHKEDPCHJ⇨reduce_ratio
 PANIPJFKFKH⇨_BubbleDramaBattleEnterInfo
 PAOENCGFBJH⇨EvtDoSkillSuccNotify
+PAOKKIALIPD⇨_is_claim_daily_attendance
 PAPGNOAILFF⇨handle
 PBAAJJCCEGA⇨skill_info_map
 PBCBLLFEMEA⇨_BeyondClientFrogprintParamValueIntList
@@ -6301,6 +6512,7 @@ PCAKHOIJEIG⇨keep_rot_type
 PCBNCOBJLDN⇨OpActivityUpdateNotify
 PCBOLDDBAJH⇨AdjustWorldLevelRsp
 PCCPHJIMHPB⇨is_taken_score_reward
+PCCPMIJLHJJ⇨_FleurFairV2MusicGameSettleRsp
 PCCPMILMDKM⇨WidgetCaptureAnimalRsp
 PCDJKIPGDCF⇨auth_appid
 PCEKJDLBNEC⇨_BeyondTurnDirectionMpActionConfig
@@ -6323,6 +6535,7 @@ PDBDHOIJDFE⇨is_final
 PDEKKICPDOK⇨apply_uid
 PDFDOLKJNJE⇨AsterMidDetailInfo
 PDFKFGEBFNI⇨_TowerChallengeDetail
+PDFLCIAADBG⇨_AddAvatarTalentNotify
 PDFLMCOONBL⇨DragonSpineChapterInfo
 PDGDDLMKJPF⇨HomeGroupPlayerInfo
 PDGDOBDMAMM⇨forbid_finish_challenge_list
@@ -6430,6 +6643,7 @@ PGOIMNDDMLO⇨AvatarPropNotify
 PHAHIKEDIIH⇨punish_time
 PHANBPCBDPB⇨float_value
 PHBPPEPHELM⇨WidgetSlotTag
+PHCIBOAFOAG⇨FinishMainCoopRsp
 PHDGDEECLJG⇨_enter_training_step
 PHEFOJINHCA⇨BlessingAcceptGivePicRsp
 PHFGPCBCEGP⇨_UnpairOp
@@ -6455,6 +6669,7 @@ PICKFMKDHPN⇨_quest_scenery_id
 PIDLNGNFKJL⇨_NatlanTourDetailInfo
 PIFJFPFFODO⇨BonusActivityUpdateNotify
 PIGAPKOCDMK⇨_ugc_tower_level_up_gadget_info
+PIGMPJLNOEO⇨_boss_chest_info
 PIGOAHNMJNO⇨_TrialAvatarInDungeonTrainingStepNotify
 PIHCBAIOJGE⇨_current_scans
 PIHCMBKCGLL⇨GCGSkillPreviewTokenChangeInfo
@@ -6496,7 +6711,7 @@ PJKKCJAEFIF⇨sub_furniture_list
 PJKKHHLCDJB⇨GetReunionSignInInfoReq
 PJKMEOEFDHH⇨TransmitReason
 PJKNPNBEELK⇨hash_value
-PJMEKAOKNCL⇨_BeyondActivityTakeWatcherRewardBatchReq
+PJMEKAOKNCL⇨_BeyondActivityTakeWatcherRewardReq
 PJNJNEIJCHN⇨paid_platform_flags
 PJNLEMMHIAA⇨BreakoutElementReactionCounter
 PJNPEDLKPCE⇨_BeyondDamageByAttackValueByAbsPosMpActionConfig
@@ -6507,7 +6722,7 @@ PKAFAIGHOFL⇨EntityForceSyncReq
 PKCAJFHOMDJ⇨is_flash_card
 PKCFJIELPBO⇨WinterCampStageInfoChangeNotify
 PKCMAFOOCJK⇨AskAddFriendRsp
-PKCMJFENBOA⇨_cosmetic_plan_list
+PKCMJFENBOA⇨_costume_set_list
 PKCPOOFMFAP⇨point_list
 PKEFDGCGOHK⇨DungeonCandidateTeamChangeAvatarRsp
 PKEFLMLKDMJ⇨_gadget_list
@@ -6579,6 +6794,7 @@ PMIKKJKJDJF⇨GearLevelData
 PMJGHCGEAGM⇨MichiaeMatsuriRemoveChestMarkNotify
 PMKBDBGLAPD⇨viewed_chapter_list
 PMKEHJIEFHD⇨_channel_player_info
+PMLEMGPNFBH⇨_BossChestInfoNotify
 PMLKMNACODL⇨bundle_list
 PMLMCNAOLLK⇨evt_rush_move_info
 PMMHILIGEKJ⇨_LanternRiteV6CardInfo
@@ -6631,6 +6847,7 @@ POKNMPDMNAD⇨FurnitureMakeData
 POLNBPCDFNJ⇨_AttachArchetype
 POMEEGABKKN⇨user_center_url
 POMPHAKAPJB⇨_BeyondClientFrogprintParamValueArmy
+POOHEJAAMCL⇨ending_save_point_id
 POPCCGHOPFN⇨qte_range_ratio
 POPGFAAFEBC⇨GetShopRsp
 PPAABBHAMAK⇨_EmptyModel
@@ -6651,7 +6868,9 @@ PPLNHKCIELH⇨CoinCollectTeamInfoData
 PPMAGIHGNJO⇨is_upper_part
 PPNDIMHKFHG⇨finish_id_list
 PPNEEHPKMHK⇨HomeStakeRecord
+PPNGPHJPDAK⇨_BeyondPlayerReportReq
 PPNIKDKBHGA⇨StartEffigyChallengeRsp
 PPNINABFIFJ⇨pre_index
 PPOEHHJMJHP⇨goods_id
+PPPJAHCBEHD⇨NeedBeginTime
 PPPKJDIDJLC⇨_LevelInternalReportInfo
