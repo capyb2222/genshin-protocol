@@ -1,10 +1,12 @@
+// dumped by kitkat033
+// translations by Terax <3
+// discord.gg/nNZXfc2mjH
+// game version: OSRELWin6.5.0
+
 syntax = "proto3";
 
 import "google/protobuf/descriptor.proto";
 
-// dumped by kitkat033
-// discord.gg/nNZXfc2mjH
-// game version: OSRELWin6.5.0
 message YsCustom {
 	optional bool is_masked = 1;
 	optional string value_mask = 2;
