@@ -85,7 +85,7 @@ AEPPAMGJEEC⇨DuelHeartLevelDifficultyInfo
 AEPPOHIAIIO⇨bonus_challenge_list
 AFACNOMIMKH⇨RockBoardExploreDetailInfo
 AFBBJLDHABH⇨ProjectorOptionReq
-AFDEMGLKEBC⇨weapon
+AFDEMGLKEBC⇨_avatar_costume_set
 AFDLKNOAAJN⇨gacha_info_list
 AFGBGDEIJJP⇨_LanternRiteV6DanmakuInfo
 AFGGAEOIBFO⇨open_time
@@ -618,7 +618,7 @@ CGJINDPDIJM⇨gift_num_map
 CGNCCHOPBHO⇨_GCGPveActivitySettle
 CGNEFMDABHF⇨HomeUpdateArrangementInfoReq
 CGOBPEDNJKJ⇨QueryPathReq
-CGOFKNJOKGK⇨equip_guid_list
+CGOFKNJOKGK⇨guid_list
 CGOHCIEMFCD⇨AnchorPointOpRsp
 CGPMIGPBANB⇨_PenumbraAdventureTargetShootingInfo
 CHBCAIPOLEG⇨GetReunionPrivilegeInfoRsp
@@ -1960,7 +1960,7 @@ IAIFFDKEPPE⇨_UgcDungeonChangePublishedSettingRsp
 IAJEDJAHMII⇨SceneEntityMoveNotify
 IAJKEHJNIND⇨PlayerIpRegionNotify
 IAKGCPOBBHO⇨_FleurFairV2DetailInfo
-IALKGHJAIBB⇨_avatar_costume_set
+IALKGHJAIBB⇨weapon
 IAMICHENGGG⇨FleurFairReplayMiniGameReq
 IAOIOBBMHPE⇨QuestRenameAvatarReq
 IAOOHBCABHE⇨material_id
@@ -2051,7 +2051,7 @@ IGDJBPJBDNM⇨trial_level_data_list
 IGEAOPFEBBB⇨is_dungeon
 IGFAGJNLBPO⇨game_uid
 IGGAHGNJCBM⇨ChannellerSlabLoopDungeonChallengeInfoNotify
-IGHOFBCLHII⇨race_info
+IGHOFBCLHII⇨photo_info
 IGHOLGCOIPD⇨SetNameCardRsp
 IGJFNEEPEPC⇨ObstacleInfo
 IGKJAPBHPDP⇨_AutoChessItem
@@ -2654,7 +2654,7 @@ KLGPPDGCEKF⇨total_progress
 KLHLECBLJBC⇨SetOpenStateReq
 KLHLGDBBMLJ⇨snapshot
 KLIFMMELJPM⇨_TakeReunionVideoRewardRsp
-KLIJKNJPONO⇨velocity
+KLIJKNJPONO⇨cur_value
 KLINHFOANDF⇨target_home_module_id
 KLJFEPAMJEC⇨LuminanceStoneChallengeSettleNotify
 KLLECNKAGGO⇨stop_server
@@ -2679,7 +2679,7 @@ KMPHLPGOBJF⇨_AutochessRecordSocialBrief
 KMPLLGCPIIF⇨ChannellerSlabOneOffDungeonInfoNotify
 KMPPALEBCEF⇨RockBoardExploreStageData
 KNENLOMGKCO⇨AISnapshotInfo
-KNFDDCPAPJD⇨photo_info
+KNFDDCPAPJD⇨race_info
 KNHBIEFHDFO⇨PlayerTimeNotify
 KNHKFEPHEDF⇨ClientAbilitiesInitFinishCombineNotify
 KNIPEAMCKDK⇨SeaLampSectionInfo
